@@ -8,6 +8,7 @@ const shortLink = "";
 
 let Recipe = "";
 let totalCount = 0;
+let finalTotal = 0;
 
 //Loop through categories
 for(const item of categories) {
@@ -27,15 +28,17 @@ for(const item of categories) {
                 //URL to image of recipe
                 const imageURL = $(articles).find('.fixed-recipe-card__img, .ng-isolate-scope').attr('data-original-src');
 
-                if(newRecipe !== Recipe) {
+                //Filter out the videos
+                if((newRecipe !== Recipe) && !(newRecipe.includes('video'))) {
                     Recipe = newRecipe;
                     let fullLink = shortLink+Recipe;
                     //Clear failed links
                     console.log('');
                     console.log(recipeName);
                     console.log(fullLink);
-                    console.log(imageURL);
+                    console.log('ImageURL: '+imageURL);
                     totalCount++;
+                    finalTotal++;
                 }
             });
             
@@ -45,5 +48,6 @@ for(const item of categories) {
             console.log('');
             totalCount = 0;
         }
+        console.log(finalTotal);
     })
 }

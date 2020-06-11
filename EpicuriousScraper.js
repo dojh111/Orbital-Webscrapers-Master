@@ -8,6 +8,7 @@ const shortLink = "https://www.epicurious.com";
 
 let Recipe = "";
 let totalCount = 0;
+let finalTotal = 0;
 
 //Loop through categories
 for(const item of categories) {
@@ -34,6 +35,7 @@ for(const item of categories) {
                         console.log(recipeName);
                         console.log(fullLink);
                         totalCount++;
+                        finalTotal++;
                     }
                 }
             });
@@ -43,9 +45,7 @@ for(const item of categories) {
             console.log('-------------------------------'+'END OF SECTION'+'-------------------------------')
             console.log('');
             totalCount = 0;
-
-            //const imageURL = $('article.recipe-content-card > a > div > div > picture > img').map((i, el) => $(el).attr('src')).get();
-            //console.log(imageURL);
         }
+        console.log(finalTotal);
     })
 }
