@@ -19,12 +19,15 @@ for(const item of categories) {
             let categoryName = item.toUpperCase();
 
             console.log('---------------------------------'+categoryName+'---------------------------------');
- 
-            $('.results-group').find('.photo-link').each((i, articles) => {
+
+            $('.recipe-content-card').each((i, articles) => {
                 //URL page to individual recipe
-                const newRecipe = $(articles).attr('href');
+                const newRecipe = $(articles).find('.photo-link').attr('href');
                 //Name of Recipe
-                const recipeName = $(articles).attr('aria-label');
+                const recipeName = $(articles).find('.photo-link').attr('aria-label');
+                //Ratings and Number
+                const rating = $(articles).find('.recipes-ratings-summary').attr('data-reviews-rating');
+                const reviewNumber = $(articles).find('.recipes-ratings-summary').attr('data-reviews-count');
 
                 if(newRecipe !== Recipe) {
                     Recipe = newRecipe;
@@ -34,6 +37,7 @@ for(const item of categories) {
                         console.log('');
                         console.log(recipeName);
                         console.log(fullLink);
+                        console.log('Ratings: ' + rating + '   ' + 'Review Count: ' + reviewNumber);
                         totalCount++;
                         finalTotal++;
                     }
