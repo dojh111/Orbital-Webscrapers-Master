@@ -25,6 +25,7 @@ for(const item of categories) {
                 const newRecipe = $(articles).find('.photo-link').attr('href');
                 //Name of Recipe
                 const recipeName = $(articles).find('.photo-link').attr('aria-label');
+
                 //Ratings and Number
                 const rating = $(articles).find('.recipes-ratings-summary').attr('data-reviews-rating');
                 const reviewNumber = $(articles).find('.recipes-ratings-summary').attr('data-reviews-count');
@@ -50,6 +51,6 @@ for(const item of categories) {
             console.log('');
             totalCount = 0;
         }
-        console.log(finalTotal);
+        console.log('Total: '+finalTotal);
     })
 }
