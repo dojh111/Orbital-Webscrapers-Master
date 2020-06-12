@@ -3,6 +3,7 @@ const cheerio = require('cheerio');
 const fs = require('fs');
 
 const categories = ["western", "mediterranean", "indian", "chinese", "malay", "fish and chips"]
+const cookingUnits = ["teaspoon", "tablespoon", "cup", "quart", "ounce", "pound", "dash", "pinch", "clove", "can"]
 const webLink = "https://www.allrecipes.com/search/results/?wt=";
 const recipeSite = "&sort=re";
 const shortLink = "";
@@ -66,16 +67,20 @@ const webScraper = async () => {
             console.log('-------------------------------' + 'END OF SECTION' + '-------------------------------')
             console.log('');
             totalCount = 0;
-            console.log('Global Total: ' + finalTotal);
         } catch (error) {
             console.log('Error: ', error);
         }
     }
+
+    console.log('Final Total: ' + finalTotal);
     //For Dubugging Purposes
     //console.log(scrapedDataOBJ);
 
     //Initialise and write to JSON file
+    console.log("Write Start")
     let jsonInitialise = JSON.stringify(scrapedDataOBJ);
-    fs.writeFileSync('allRecipesScraped.json', jsonInitialise, 'utf8');
+    fs.writeFile('allRecipesScraped.json', jsonInitialise, () => { console.log("Write Done") });
 }
+
+//Run function with node allrecipesScraper.js
 webScraper();
