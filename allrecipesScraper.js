@@ -3,7 +3,6 @@ const cheerio = require('cheerio');
 const fs = require('fs');
 
 const categories = ["western", "mediterranean", "indian", "chinese", "malay", "fish and chips"]
-const cookingUnits = ["teaspoon", "tablespoon", "cup", "quart", "ounce", "pound", "dash", "pinch", "clove", "can"]
 const webLink = "https://www.allrecipes.com/search/results/?wt=";
 const recipeSite = "&sort=re";
 const shortLink = "";
