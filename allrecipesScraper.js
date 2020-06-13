@@ -2,9 +2,10 @@ const got = require('got');
 const cheerio = require('cheerio');
 const fs = require('fs');
 
-const cookingUnits = ["teaspoon", "tablespoon", "cup", "quart", "ounce", "pound", "lb", "dash", "pinch", "clove", "gram", "kilogram"];
+//Library for all the keyterms
+const cookingUnits = ["teaspoon", "tablespoon", "cup", "quart", "ounce", "pound", "lb", "dash", "pinch", "clove", "gram", "kilogram", "eaches", "slice", "piece"];
 const specificUnits = ["can", "large", "small", "container", "bottle"];
-const extraText = ["of", "to", "taste", "grated", "ground", "grounded", "chopped", "sliced", "diced", "very", "ripe", "fresh"]
+const extraText = ["of", "to", "taste", "grated", "ground", "grounded", "chopped", "sliced", "diced", "very", "ripe", "fresh","freshly","coarse", "coarsely", "for", "deep", "frying", "mince", "minced", "peeled"]
 
 let ingredientArray = [];
 
@@ -81,7 +82,7 @@ const webScraper = async () => {
     console.log('');
     console.log('Starting Ingriedient Scrape');
 
-    let loadCount = 0;
+    let loadCount = 1;
 
     //Scrape Ingriedients
     for (let recipe of scrapedDataOBJ.data) {
@@ -101,21 +102,23 @@ const webScraper = async () => {
                 let recipeUnit = 'No Unit';
                 let recipeQuantity = '';
                 let replacementFlag = false;
-
+    
                 let item = $(article).find('.ingredients-item-name').text();
-
+    
                 //Trim the string
                 item = item.trim();
-
+    
                 //Remove commas, split items and clean up for processing
                 if (item.includes("all-purpose")) {
                     item = item.replace("all-purpose", "APReplace");
                     replacementFlag = true;
                 }
-                item = item.split('-', 1);
-                item = item[0].split(',', 1);
+                if(item.includes("-")) {
+                    item = item.replace("-", "");
+                }
+                item = item.split(',', 1);
                 item = item[0].split(' ');
-
+    
                 //Clean up extra whitespace generated and extra text
                 for (let j = item.length; j >= 0; j--) {
                     if (item[j] === '') {
@@ -128,7 +131,7 @@ const webScraper = async () => {
                         }
                     }
                 }
-
+    
                 //Find index of items with () to remove
                 for (let j = 0; j < item.length; j++) {
                     let newObject = { toDelete: '', startIndex: '' };
@@ -143,14 +146,14 @@ const webScraper = async () => {
                         }
                     }
                 }
-
+    
                 //Remove all items with ()
                 if (indexArray.length > 0) {
                     for (let j = indexArray.length - 1; j >= 0; j--) {
                         item.splice(indexArray[j].startIndex, indexArray[j].toDelete);
                     }
                 }
-
+    
                 //Determine units of ingredient
                 for (let j = 0; j < cookingUnits.length; j++) {
                     if (item[1].includes(cookingUnits[j])) {
@@ -168,7 +171,7 @@ const webScraper = async () => {
                         }
                     }
                 }
-
+    
                 //Get ingredient quantity
                 let numberItem = Number(item[0]);
                 if (Number.isNaN(numberItem)) {
@@ -178,7 +181,7 @@ const webScraper = async () => {
                     recipeQuantity = numberItem;
                     item.splice(0, 1);
                 }
-
+    
                 //Handle Name of Ingredient
                 for (let j = 0; j < item.length; j++) {
                     //Capitalise start of each Name Item
@@ -186,16 +189,17 @@ const webScraper = async () => {
                 }
                 //Combine back into one single Item
                 item = item.join(" ");
-
+    
                 //Replacing all placeholders from earlier
                 if (replacementFlag === true) {
                     item = item.replace("APReplace", "All-Purpose")
                 }
-
+    
                 //Handling items with 'And' statement
                 if (item.includes('And')) {
                     item = item.split('And');
                     for (let j = 0; j < item.length; j++) {
+                        item[j] = item[j].trim();
                         let ingredientObject = { name: item[j], amount: recipeQuantity, unit: recipeUnit }
                         ingredientArray.push(ingredientObject);
                     }
@@ -203,7 +207,7 @@ const webScraper = async () => {
                     let ingredientObject = { name: item, amount: recipeQuantity, unit: recipeUnit };
                     ingredientArray.push(ingredientObject);
                 }
-
+    
                 //For Debugging purposes
                 // console.log(item);
                 // console.log('Quantity: ' + recipeQuantity);
@@ -216,8 +220,10 @@ const webScraper = async () => {
         //Append ingriedients to main file here
         console.log(ingredientArray);
         console.log('---------------------------------' + 'End' + '---------------------------------');
+        recipe.ingredient = ingredientArray;
         //Clear Array
         ingredientArray = [];
+        loadCount++;
     }
 
     console.log('Load count: ' + loadCount);
