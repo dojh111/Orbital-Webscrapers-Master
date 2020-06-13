@@ -7,6 +7,7 @@ const cookingUnits = ["teaspoon", "tablespoon", "cup", "quart", "ounce", "pound"
 const specificUnits = ["can", "large", "small", "container", "bottle"];
 const extraText = ["of", "to", "taste", "grated", "ground", "grounded", "chopped", "sliced", "diced", "very", "ripe", "fresh","freshly","coarse", "coarsely", "for", 
                     "deep", "frying", "mince", "minced", "peeled", "finely"]
+const fractionTable = [{id: 189, value: 1/2}, {id: 188, value: 1/4}, {id: 8539, value: 1/8}, {id: 8531, value: 1/3}, {id: 190, value: 3/4}, {id: 8537, value: 1/6}];
 
 let ingredientArray = [];
 
@@ -102,13 +103,43 @@ const ingredientScraper = async () => {
                         }
                     }
                 }
+
+                console.log(item);
     
                 //Get ingredient quantity
                 let numberItem = Number(item[0]);
                 if (Number.isNaN(numberItem)) {
-                    recipeQuantity = item[0];
-                    item.splice(0, 1);
+                    let quantity = 0;
+                    let fractionFlag = false;
+                    //Handle ingredient with string fractions
+                    for(let j = 0; j < item[0].length; j++) {
+                        //console.log(item[0].charCodeAt(j));
+                        //Special White Space Character
+                        if(item[0].charCodeAt(j) === 8201) {continue};
+                        if(item[0].charCodeAt(j) >= 49 && item[0].charCodeAt(j) <= 58) {
+                            quantity += Number(item[0][j]);
+                        }else{
+                            let indexCode = item[0].charCodeAt(j);
+                            //Converting from HTML element into numbered fraction
+                            for(let k = 0; k < fractionTable.length; k++) {
+                                if(indexCode === fractionTable[k].id) {
+                                    quantity += fractionTable[k].value;
+                                    fractionFlag = true;
+                                    break;
+                                }
+                            }
+                        }
+                    }
+                    if(fractionFlag === true) {
+                        recipeQuantity = quantity;
+                        item.splice(0, 1);
+                    }else {
+                        //No Quantity available
+                        //console.log("Item has no quantities")
+                        recipeQuantity = 0;
+                    }
                 } else {
+                    //Number is available
                     recipeQuantity = numberItem;
                     item.splice(0, 1);
                 }
@@ -160,3 +191,12 @@ ingredientScraper();
 
 // Some Addtional notes
 // 1. HTML index
+// Small blank space === 8201
+// 1/4 === 188
+// 1/2 === 189
+// 1/8 === 8539
+// 1/3 === 8531
+// 3/4 === 190
+// 1/6 === 8537
+
+const fractionIndex = [{id: 189, value: 1/2}, {id: 188, value: 1/4}, {id: 8539, value: 1/8}, {id: 8531, value: 1/3}, {id: 190, value: 3/4}, {id: 8537, value: 1/6},]

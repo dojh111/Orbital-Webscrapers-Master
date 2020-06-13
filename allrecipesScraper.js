@@ -84,7 +84,7 @@ const webScraper = async () => {
 
     let loadCount = 1;
 
-    //Scrape Ingriedients
+    //Scrape Ingredients
     for (let recipe of scrapedDataOBJ.data) {
         let url = recipe.recipeURL;
 
@@ -97,6 +97,7 @@ const webScraper = async () => {
             console.log('Loaded Successfully');
             console.log('---------------------------------' + 'Recipe' + '---------------------------------');
 
+            //Run through all items in list
             $('.ingredients-section li').each((i, article) => {
                 let indexArray = [];
                 let recipeUnit = 'No Unit';
