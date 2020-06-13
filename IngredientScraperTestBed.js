@@ -6,8 +6,8 @@ const fs = require('fs');
 const cookingUnits = ["teaspoon", "tablespoon", "cup", "quart", "ounce", "pound", "lb", "dash", "pinch", "clove", "gram", "kilogram", "eaches", "slice", "piece"];
 const specificUnits = ["can", "large", "small", "container", "bottle"];
 const extraText = ["of", "to", "taste", "grated", "ground", "grounded", "chopped", "sliced", "diced", "very", "ripe", "fresh","freshly","coarse", "coarsely", "for", 
-                    "deep", "frying", "mince", "minced", "peeled", "finely"]
-const fractionTable = [{id: 189, value: 1/2}, {id: 188, value: 1/4}, {id: 8539, value: 1/8}, {id: 8531, value: 1/3}, {id: 190, value: 3/4}, {id: 8537, value: 1/6}];
+                    "deep", "frying", "mince", "minced", "peeled", "finely", "crushed", "roughly"]
+const fractionTable = [{id: 189, value: 1/2}, {id: 188, value: 1/4}, {id: 8539, value: 1/8}, {id: 8531, value: 1/3}, {id: 190, value: 3/4}, {id: 8537, value: 1/6}, {id: 8532, value: 2/3}];
 
 let ingredientArray = [];
 
@@ -22,7 +22,6 @@ const ingredientScraper = async () => {
     //Cleaning up and separation of pulled ingredient
     for (let url of testURL) {
         try {
-            console.log('Loading URL...')
             const response = await got(url);
             const $ = cheerio.load(response.body);
 
@@ -32,7 +31,7 @@ const ingredientScraper = async () => {
             $('.ingredients-section li').each((i, article) => {
                 let indexArray = [];
                 let recipeUnit = 'No Unit';
-                let recipeQuantity = '';
+                let recipeQuantity = 0;
                 let replacementFlag = false;
     
                 let item = $(article).find('.ingredients-item-name').text();
@@ -103,8 +102,6 @@ const ingredientScraper = async () => {
                         }
                     }
                 }
-
-                console.log(item);
     
                 //Get ingredient quantity
                 let numberItem = Number(item[0]);
@@ -113,7 +110,6 @@ const ingredientScraper = async () => {
                     let fractionFlag = false;
                     //Handle ingredient with string fractions
                     for(let j = 0; j < item[0].length; j++) {
-                        //console.log(item[0].charCodeAt(j));
                         //Special White Space Character
                         if(item[0].charCodeAt(j) === 8201) {continue};
                         if(item[0].charCodeAt(j) >= 49 && item[0].charCodeAt(j) <= 58) {
@@ -198,5 +194,3 @@ ingredientScraper();
 // 1/3 === 8531
 // 3/4 === 190
 // 1/6 === 8537
-
-const fractionIndex = [{id: 189, value: 1/2}, {id: 188, value: 1/4}, {id: 8539, value: 1/8}, {id: 8531, value: 1/3}, {id: 190, value: 3/4}, {id: 8537, value: 1/6},]
