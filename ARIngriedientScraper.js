@@ -6,6 +6,8 @@ const cookingUnits = ["teaspoon", "tablespoon", "cup", "quart", "ounce", "pound"
 const specificUnits = ["can", "large", "small", "container", "bottle"];
 const extraText = ["of", "to", "taste", "grated", "ground", "grounded", "chopped", "sliced", "diced", "very", "ripe", "fresh"]
 
+let ingredientArray = [];
+
 const testURL = ["https://www.allrecipes.com/recipe/241553/buckwheat-pancakes/?internalSource=hub%20recipe&referringContentType=Search&clickId=cardslot%204",
     "https://www.allrecipes.com/recipe/258494/chinese-barbeque-pork-char-siu/?internalSource=hub%20recipe&referringContentType=Search&clickId=cardslot%202",
     "https://www.allrecipes.com/recipe/241066/one-skillet-mexican-quinoa/?internalSource=hub%20recipe&referringContentType=Search&clickId=cardslot%201",
@@ -13,8 +15,6 @@ const testURL = ["https://www.allrecipes.com/recipe/241553/buckwheat-pancakes/?i
 
 const ingredientScraper = async () => {
     console.log('Starting Ingredient Scrape');
-
-    //Read JSON file into object
 
     //Cleaning up and separation of pulled ingredient
     for (let url of testURL) {
@@ -30,13 +30,18 @@ const ingredientScraper = async () => {
                 let indexArray = [];
                 let recipeUnit = 'No Unit';
                 let recipeQuantity = '';
+                let replacementFlag = false;
+
                 let item = $(article).find('.ingredients-item-name').text();
 
                 //Trim the string
                 item = item.trim();
 
-                //Remove commas, split item and clean up
-                item = item.replace("all-purpose", "APReplace");
+                //Remove commas, split items and clean up for processing
+                if (item.includes("all-purpose")) {
+                    item = item.replace("all-purpose", "APReplace");
+                    replacementFlag = true;
+                }
                 item = item.split('-', 1);
                 item = item[0].split(',', 1);
                 item = item[0].split(' ');
@@ -53,7 +58,6 @@ const ingredientScraper = async () => {
                         }
                     }
                 }
-                console.log("Cleaned Item: " + item);
 
                 //Find index of items with () to remove
                 for (let j = 0; j < item.length; j++) {
@@ -64,7 +68,6 @@ const ingredientScraper = async () => {
                                 newObject.toDelete = (k - j) + 1;
                                 newObject.startIndex = j;
                                 indexArray.push(newObject);
-                                //console.log("End Index: " +k+ "   "+"Start Index: " + j); TESTING PURPOSES
                                 break;
                             }
                         }
@@ -105,20 +108,46 @@ const ingredientScraper = async () => {
                     recipeQuantity = numberItem;
                     item.splice(0, 1);
                 }
-                console.log(item);
 
                 //Handle Name of Ingredient
+                for (let j = 0; j < item.length; j++) {
+                    //Capitalise start of each Name Item
+                    item[j] = item[j][0].toUpperCase() + item[j].substr(1);
+                }
+                //Combine back into one single Item
+                item = item.join(" ");
 
-                //console.log(item);
-                console.log('Quantity: ' + recipeQuantity);
-                console.log('Unit: ' + recipeUnit);
-                console.log('');
+                //Replacing all placeholders from earlier
+                if (replacementFlag === true) {
+                    item = item.replace("APReplace", "All-Purpose")
+                }
+
+                //Handling items with 'And' statement
+                if (item.includes('And')) {
+                    item = item.split('And');
+                    for (let j = 0; j < item.length; j++) {
+                        let ingredientObject = { name: item[j], amount: recipeQuantity, unit: recipeUnit }
+                        ingredientArray.push(ingredientObject);
+                    }
+                } else {
+                    let ingredientObject = { name: item, amount: recipeQuantity, unit: recipeUnit };
+                    ingredientArray.push(ingredientObject);
+                }
+
+                //For Debugging purposes
+                // console.log(item);
+                // console.log('Quantity: ' + recipeQuantity);
+                // console.log('Unit: ' + recipeUnit);
+                // console.log('');
             })
-
-            console.log('---------------------------------' + 'End' + '---------------------------------');
         } catch (error) {
             console.log('Error: ', error);
         }
+        //Append ingriedients to main file here
+        console.log(ingredientArray);
+        console.log('---------------------------------' + 'End' + '---------------------------------');
+        //Clear Array
+        ingredientArray = [];
     }
 }
 
