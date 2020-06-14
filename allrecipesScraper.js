@@ -8,11 +8,13 @@ const cookingUnits = ["teaspoon", "tablespoon", "cup", "quart", "ounce", "pound"
 const specificUnits = ["can", "cans", "ear", "ears","large", "small", "lb", "lb.", "bag", "bags"];
 //Stores all the text that is to be removed
 const extraText = ["of", "to", "taste", "grated", "ground", "eaches", "grounded", "chopped", "sliced", "diced", "very", "ripe", "fresh", "freshly", "coarse", "coarsely", "for",
-    "deep", "frying", "mince", "minced", "peeled", "finely", "crushed", "roughly", "pitted", "shredded", "uncooked"];
+    "deep", "frying", "mince", "minced", "peeled", "finely", "crushed", "roughly", "pitted", "shredded", "uncooked", "cut", "into", "bite", "sized", "pieces"];
+const specialItems = ["skinless", "boneless", "half and half", "half-and-half"];
 const fractionTable = [{ id: 189, value: 1 / 2 }, { id: 188, value: 1 / 4 }, { id: 8539, value: 1 / 8 }, { id: 8531, value: 1 / 3 }, { id: 190, value: 3 / 4 },
 { id: 8537, value: 1 / 6 }, { id: 8532, value: 2 / 3 }];
 
 let ingredientArray = [];
+let extraInfoArray = [];
 
 const categories = ["western", "mediterranean", "indian", "chinese", "malay", "fish and chips"]
 const webLink = "https://www.allrecipes.com/search/results/?wt=";
@@ -23,10 +25,14 @@ let Recipe = "";
 let totalCount = 0;
 let finalTotal = 0;
 
-//Stored Data
+//Stored Data: ID, Names, URLs, Ingredients
 let scrapedDataOBJ = {
     data: []
 };
+//Stored Data: URL, Prep instructions and Additional Info
+let scrapedAdditional = {
+    data: []
+}
 
 const webScraper = async () => {
     console.log('Starting webscraping');
@@ -55,18 +61,11 @@ const webScraper = async () => {
                 //Filter out the videos
                 if ((newRecipe !== Recipe) && !(newRecipe.includes('video'))) {
                     Recipe = newRecipe;
-
                     //Final URL to recipe page
                     let fullLink = shortLink + Recipe;
-
+                    //Push objects onto temporary Object Arrays
                     scrapedDataOBJ.data.push({ id: finalTotal, name: recipeName, ratings: rating, reviewCount: reviewNumber, recipeURL: fullLink, recipeImageURL: imageURL });
-
-                    //For Debugging Purposes
-                    // console.log('');
-                    // console.log(recipeName);
-                    // console.log(fullLink);
-                    // console.log('ImageURL: ' + imageURL);
-                    // console.log('Ratings: ' + rating + '   ' + 'Review Count: ' + reviewNumber);
+                    scrapedAdditional.data.push({ id: finalTotal, recipeURL: fullLink});
 
                     totalCount++;
                     finalTotal++;
@@ -111,6 +110,20 @@ const webScraper = async () => {
 
                 //Trim the string
                 item = item.trim();
+
+                //Special Items
+                for(let j = 0; j < specialItems.length; j++) {
+                    if(item.includes(specialItems[j])) {
+                        if((specialItems[j] === "skinless") || (specialItems[j] ==="boneless")) {
+                            item = item.replace(",", " ");
+                            break;
+                        }else if(specialItems[j] === "half and half") {
+                            item = item.replace("half and half", "half&half");
+                        }else {
+                            item = item.replace("half-and-half", "half&half");
+                        }
+                    }
+                }
 
                 //Replacing dashes
                 if (item.includes("-")) {
@@ -236,31 +249,40 @@ const webScraper = async () => {
                     let ingredientObject = { name: item, amount: recipeQuantity, unit: recipeUnit };
                     ingredientArray.push(ingredientObject);
                 }
-
-                //For Debugging purposes
-                // console.log(item);
-                // console.log('Quantity: ' + recipeQuantity);
-                // console.log('Unit: ' + recipeUnit);
-                // console.log('');
+            })
+            //Scrape Additional Info
+            $('.recipe-meta-item').each((j, extraInfo) => {
+                let infoHeading = $(extraInfo).find('.recipe-meta-item-header').text();
+                infoHeading = infoHeading.trim();
+                let infoBody = $(extraInfo).find('.recipe-meta-item-body').text();
+                infoBody = infoBody.trim();
+                let infoObject = { heading: infoHeading, body: infoBody};
+                extraInfoArray.push(infoObject);
             })
         } catch (error) {
             console.log('Error: ', error);
         }
-        //Append ingriedients to main file here
         console.log(ingredientArray);
         console.log('---------------------------------' + 'End' + '---------------------------------');
+        //Adding onto object
         recipe.ingredient = ingredientArray;
+        scrapedAdditional.data[recipe.id].additionalInfo = extraInfoArray;
         //Clear Array
         ingredientArray = [];
+        extraInfoArray = [];
         loadCount++;
     }
 
     console.log('Load count: ' + loadCount);
 
-    //Initialise and write to JSON file
-    console.log("Write Start")
+    //Initialise and write to JSON files
+    console.log("Write Start File 1")
     let jsonInitialise = JSON.stringify(scrapedDataOBJ);
     fs.writeFile('allRecipesScraped.json', jsonInitialise, () => { console.log("Write Done") });
+
+    console.log("Write Start File 2")
+    let jsonInitialiseTwo = JSON.stringify(scrapedAdditional);
+    fs.writeFile('allRecipesAdditional.json', jsonInitialiseTwo, () => { console.log("Write Done") });
 }
 
 //Run function with node allrecipesScraper.js
