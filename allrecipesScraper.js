@@ -13,6 +13,7 @@ const specialItems = ["skinless", "boneless", "half and half", "half-and-half"];
 const fractionTable = [{ id: 189, value: 1 / 2 }, { id: 188, value: 1 / 4 }, { id: 8539, value: 1 / 8 }, { id: 8531, value: 1 / 3 }, { id: 190, value: 3 / 4 },
 { id: 8537, value: 1 / 6 }, { id: 8532, value: 2 / 3 }];
 
+let OriginalIngredientArray = [];
 let ingredientArray = [];
 let extraInfoArray = [];
 let prepItemArray = [];
@@ -112,6 +113,8 @@ const webScraper = async () => {
 
                 //Trim the string
                 item = item.trim();
+                //Store original unaltered ingredient list
+                OriginalIngredientArray.push(item);
 
                 //Special Items
                 for(let j = 0; j < specialItems.length; j++) {
@@ -279,9 +282,11 @@ const webScraper = async () => {
         console.log('---------------------------------' + 'End' + '---------------------------------');
         //Adding onto object
         recipe.ingredient = ingredientArray;
+        recipe.originalIngredient = OriginalIngredientArray;
         scrapedAdditional.data[recipe.id].additionalInfo = extraInfoArray;
         scrapedAdditional.data[recipe.id].prepInstructions = prepItemArray;
         //Reset Temp Variables
+        OriginalIngredientArray = [];
         ingredientArray = [];
         extraInfoArray = [];
         prepItemArray = [];
