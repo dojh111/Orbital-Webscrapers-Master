@@ -15,6 +15,7 @@ const fractionTable = [{ id: 189, value: 1 / 2 }, { id: 188, value: 1 / 4 }, { i
 
 let ingredientArray = [];
 let extraInfoArray = [];
+let prepItemArray = [];
 
 const categories = ["western", "mediterranean", "indian", "chinese", "malay", "fish and chips"]
 const webLink = "https://www.allrecipes.com/search/results/?wt=";
@@ -24,6 +25,7 @@ const shortLink = "";
 let Recipe = "";
 let totalCount = 0;
 let finalTotal = 0;
+let recipeIndex = 1;
 
 //Stored Data: ID, Names, URLs, Ingredients
 let scrapedDataOBJ = {
@@ -250,6 +252,7 @@ const webScraper = async () => {
                     ingredientArray.push(ingredientObject);
                 }
             })
+            console.log("Getting Additional Info...");
             //Scrape Additional Info
             $('.recipe-meta-item').each((j, extraInfo) => {
                 let infoHeading = $(extraInfo).find('.recipe-meta-item-header').text();
@@ -259,6 +262,16 @@ const webScraper = async () => {
                 let infoObject = { heading: infoHeading, body: infoBody};
                 extraInfoArray.push(infoObject);
             })
+            console.log("Done");
+            console.log("Getting Prep Instructions...");
+            //Scrape Prep Instructions
+            $('.instructions-section li').each((j, prepItem) => {
+                let instructions = $(prepItem).find('p').text();
+                let prepObject = { step: recipeIndex, instruction: instructions};
+                prepItemArray.push(prepObject);
+                recipeIndex++;
+            })
+            console.log("Done");
         } catch (error) {
             console.log('Error: ', error);
         }
@@ -267,9 +280,12 @@ const webScraper = async () => {
         //Adding onto object
         recipe.ingredient = ingredientArray;
         scrapedAdditional.data[recipe.id].additionalInfo = extraInfoArray;
-        //Clear Array
+        scrapedAdditional.data[recipe.id].prepInstructions = prepItemArray;
+        //Reset Temp Variables
         ingredientArray = [];
         extraInfoArray = [];
+        prepItemArray = [];
+        recipeIndex = 1;
         loadCount++;
     }
 
