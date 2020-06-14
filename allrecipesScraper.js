@@ -3,12 +3,12 @@ const cheerio = require('cheerio');
 const fs = require('fs');
 
 //Library for all the keyterms
-const cookingUnits = ["teaspoon", "tablespoon", "cup", "quart", "ounce", "pound", "dash", "pinch", "clove", "gram", "kilogram", "eaches", "slice", "piece", "head",
-    "container", "bottle", "fillet"];
-const specificUnits = ["can", "cans", "ear", "ears","large", "small", "lb", "lb."];
+const cookingUnits = ["teaspoon", "tablespoon", "cup", "quart", "ounce", "pound", "dash", "pinch", "clove", "gram", "kilogram", "slice", "piece", "head",
+    "container", "bottle", "fillet", "package"];
+const specificUnits = ["can", "cans", "ear", "ears","large", "small", "lb", "lb.", "bag", "bags"];
 //Stores all the text that is to be removed
-const extraText = ["of", "to", "taste", "grated", "ground", "grounded", "chopped", "sliced", "diced", "very", "ripe", "fresh", "freshly", "coarse", "coarsely", "for",
-    "deep", "frying", "mince", "minced", "peeled", "finely", "crushed", "roughly", "pitted"];
+const extraText = ["of", "to", "taste", "grated", "ground", "eaches", "grounded", "chopped", "sliced", "diced", "very", "ripe", "fresh", "freshly", "coarse", "coarsely", "for",
+    "deep", "frying", "mince", "minced", "peeled", "finely", "crushed", "roughly", "pitted", "shredded", "uncooked"];
 const fractionTable = [{ id: 189, value: 1 / 2 }, { id: 188, value: 1 / 4 }, { id: 8539, value: 1 / 8 }, { id: 8531, value: 1 / 3 }, { id: 190, value: 3 / 4 },
 { id: 8537, value: 1 / 6 }, { id: 8532, value: 2 / 3 }];
 
@@ -106,20 +106,15 @@ const webScraper = async () => {
                 let indexArray = [];
                 let recipeUnit = 'No Unit';
                 let recipeQuantity = '';
-                let replacementFlag = false;
 
                 let item = $(article).find('.ingredients-item-name').text();
 
                 //Trim the string
                 item = item.trim();
 
-                //Remove commas, split items and clean up for processing
-                if (item.includes("all-purpose")) {
-                    item = item.replace("all-purpose", "APReplace");
-                    replacementFlag = true;
-                }
+                //Replacing dashes
                 if (item.includes("-")) {
-                    item = item.replace("-", "");
+                    item = item.replace("-", " ");
                 }
                 item = item.split(',', 1);
                 item = item[0].split(' ');
@@ -228,11 +223,6 @@ const webScraper = async () => {
                 }
                 //Combine back into one single Item
                 item = item.join(" ");
-
-                //Replacing all placeholders from earlier
-                if (replacementFlag === true) {
-                    item = item.replace("APReplace", "All-Purpose")
-                }
 
                 //Handling items with 'And' statement
                 if (item.includes('And')) {
