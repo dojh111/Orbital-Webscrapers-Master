@@ -18,7 +18,7 @@ let ingredientArray = [];
 let extraInfoArray = [];
 let prepItemArray = [];
 
-const categories = ["western", "mediterranean", "indian", "chinese", "malay", "fish and chips"]
+const categories = ["western", "mediterranean", "indian", "chinese", "malay", "fish and chips"];
 const webLink = "https://www.allrecipes.com/search/results/?wt=";
 const recipeSite = "&sort=re";
 const shortLink = "";

@@ -1,17 +1,16 @@
 const got = require('got');
 const cheerio = require('cheerio');
 const fs = require('fs');
-const { clear } = require('console');
-const { SSL_OP_SSLEAY_080_CLIENT_DH_BUG } = require('constants');
 
 //Library for all the keyterms
 const cookingUnits = ["teaspoon", "tablespoon", "cup", "quart", "ounce", "pound", "dash", "pinch", "clove", "gram", "kilogram", "slice", "piece", "head",
     "container", "bottle", "fillet", "package", "envelope"];
-const specificUnits = ["can", "cans", "ear", "ears", "large", "small", "medium", "lb", "lb.", "bag", "bags", "Tbsp", "Tbsp.", "tsp", "tsp.", "tbsp", "tbsp.", "Tsp", "tsp.", "oz.", "oz", "g", "kg"];
+const specificUnits = ["can", "cans", "ear", "ears", "large", "small", "medium", "lb", "lbs", "lb.", "lbs.", "bag", "bags", "Tbsp", "Tbsp.", "tsp", "tsp.", "tbsp",
+    "tbsp.", "Tsp", "tsp.", "oz.", "oz", "g", "kg"];
 //Stores all the text that is to be removed
 const extraText = ["of", "to", "taste", "grated", "ground", "eaches", "grounded", "chopped", "sliced", "diced", "very", "ripe", "fresh", "freshly", "coarse", "coarsely", "for",
     "deep", "frying", "mince", "minced", "peeled", "finely", "crushed", "roughly", "pitted", "shredded", "uncooked", "cut", "into", "bite", "sized", "pieces", "thinly",
-    "plus", "seeded", "handful", "a", "A"];
+    "plus", "seeded", "handful", "a", "A", "knob", "thinly"];
 const specialItems = ["skinless", "boneless", "half and half"];
 const fractionTable = [{ id: 189, value: 1 / 2 }, { id: 188, value: 1 / 4 }, { id: 8539, value: 1 / 8 }, { id: 8531, value: 1 / 3 }, { id: 190, value: 3 / 4 },
 { id: 8537, value: 1 / 6 }, { id: 8532, value: 2 / 3 }];
@@ -23,7 +22,7 @@ let ingredientArray = [];
 let extraInfoArray = [];
 let prepItemArray = [];
 
-const categories = ["pizza"]
+const categories = ["western", "mediterranean", "indian", "chinese", "pizza", "fish and chips"]
 const webLink = "https://www.epicurious.com/search/";
 const searchLink = "?content=recipe";
 const shortLink = "https://www.epicurious.com";
@@ -136,22 +135,31 @@ const webScraper = async () => {
                 //GO THROUGH ALL FOR EPICURIOUS
                 item = item.split(',', 1);
                 item = item[0].split('and/or', 1);
+                item = item[0].split('containing', 1);
                 item = item[0].split(' ');
                 for (let i = 0; i < item.length; i++) {
                     item[i] = item[i].replace("–", " ");
                     rangeFlag = true;
                 }
+
                 //Find index of items with () to remove
                 for (let j = 0; j < item.length; j++) {
                     let newObject = { toDelete: '', startIndex: '' };
+                    let foundFlag = false;
                     if (item[j].indexOf('(') !== -1) {
                         for (let k = j; k < item.length; k++) {
                             if (item[k].indexOf(')') !== -1) {
                                 newObject.toDelete = (k - j) + 1;
                                 newObject.startIndex = j;
                                 indexArray.push(newObject);
+                                foundFlag = true;
                                 break;
                             }
+                        }
+                        if(foundFlag === false) {
+                            newObject.toDelete = item.length - j;
+                            newObject.startIndex = j;
+                            indexArray.push(newObject);
                         }
                     }
                 }
@@ -205,7 +213,7 @@ const webScraper = async () => {
                     if (rangeFlag === true && item[0].includes(" ")) {
                         item[0] = item[0].split(" ", 1);
                         recipeQuantity = item[0][0];
-                        deleteValues.push(0);
+                        item[0].splice(0, 1);
                     }
                     for (let j = 0; j < item.length; j++) {
                         let numberFlag = false;
@@ -256,21 +264,18 @@ const webScraper = async () => {
                                     }
                                 }
                             }
-                            if (numberFlag === true) { continue };
-                            let finalCheck = Number(item[j][0])
-                            if (Number.isNaN(finalCheck)) {
-                                //deleteValues.push(j);
-                            }
+                        }
+                        if (numberFlag === true) { continue };
+                        let finalCheck = Number(item[j][0])
+                        if (Number.isNaN(finalCheck) === false) {
+                            deleteValues.push(j);
                         }
                     }
-                    console.log(item);
-                    console.log(deleteValues);
                     //Delete All other values
-                    for (let j = deleteValues.length; j >= 0; j--) {
+                    for (let j = deleteValues.length - 1; j >= 0; j--) {
                         item.splice(deleteValues[j], 1);
                     }
                 }
-
                 //Handle Name of Ingredient
                 for (let j = 0; j < item.length; j++) {
                     //Capitalise start of each Name Item
@@ -317,12 +322,15 @@ const webScraper = async () => {
                 prepItemArray.push(prepObject);
                 recipeIndex++;
             })
+            //Scrape Image URL
+            let imageURL = $('.photo-wrap').find('img').attr('srcset');
             console.log("Done");
             console.log(ingredientArray);
             console.log('---------------------------------' + 'End' + '---------------------------------');
             //Adding onto object
             recipe.ingredient = ingredientArray;
             recipe.originalIngredient = OriginalIngredientArray;
+            recipe.recipeImageURL = imageURL;
             scrapedAdditional.data[recipe.id].additionalInfo = extraInfoArray;
             scrapedAdditional.data[recipe.id].prepInstructions = prepItemArray;
             //Reset Temp Variables
