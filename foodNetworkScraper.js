@@ -166,7 +166,6 @@ const webScraper = async () => {
                 //Ranged values
                 for (let j = item.length; j >= 0; j--) {
                     if (item[j] === 'to' || item[j] === 'plus') {
-                        console.log(item);
                         item.splice(j, 2);
                         rangeFlag = true;
                         break;
@@ -271,10 +270,32 @@ const webScraper = async () => {
                     }
                 }
             })
+            console.log("Getting Additional Info...");
+            //Scrape Additional Info
+            $('.o-RecipeInfo li').each((j, extraInfo) => {
+                let infoHeading = $(extraInfo).find('.o-RecipeInfo__a-Headline').text();
+                infoHeading = infoHeading.trim();
+                let infoBody = $(extraInfo).find('.o-RecipeInfo__a-Description').text();
+                infoBody = infoBody.trim();
+                let infoObject = { heading: infoHeading, body: infoBody};
+                extraInfoArray.push(infoObject);
+            })
+            console.log("Done");
+            console.log("Getting Prep Instructions...");
+            //Scrape Prep Instructions
+            $('.o-Method__m-Body li').each((j, prepItem) => {
+                let instructions = $(prepItem).text();
+                instructions = instructions.trim();
+                let prepObject = { step: recipeIndex, instruction: instructions };
+                prepItemArray.push(prepObject);
+                recipeIndex++;
+            })
         } catch (error) {
             console.log('Error: ', error);
         }
         console.log(ingredientArray);
+        console.log(extraInfoArray);
+
         console.log('---------------------------------' + 'End' + '---------------------------------');
         //Adding onto object
         recipe.ingredient = ingredientArray;
