@@ -1,7 +1,6 @@
 const got = require('got');
 const cheerio = require('cheerio');
 const fs = require('fs');
-const { clear } = require('console');
 
 //Library for all the keyterms
 const cookingUnits = ["teaspoon", "tablespoon", "cup", "quart", "ounce", "pound", "dash", "pinch", "clove", "gram", "kilogram", "slice", "piece", "head",
@@ -9,12 +8,12 @@ const cookingUnits = ["teaspoon", "tablespoon", "cup", "quart", "ounce", "pound"
 const specificUnits = ["can", "cans", "ear", "ears", "large", "small", "medium", "lb", "lbs", "lb.", "lbs.", "bag", "bags", "Tbsp", "Tbsp.", "tsp", "tsp.", "tbsp",
     "tbsp.", "Tsp", "tsp.", "oz.", "oz", "g", "kg"];
 //Stores all the text that is to be removed
-const extraText = ["of", "to", "taste", "grated", "ground", "eaches", "grounded", "chopped", "sliced", "diced", "very", "ripe", "fresh", "freshly", "coarse", "coarsely", "for",
+const extraText = ["of", "taste", "grated", "ground", "eaches", "grounded", "chopped", "sliced", "diced", "very", "ripe", "fresh", "freshly", "coarse", "coarsely", "for",
     "deep", "frying", "mince", "minced", "peeled", "finely", "crushed", "roughly", "pitted", "shredded", "uncooked", "cut", "into", "bite", "sized", "pieces", "thinly",
-    "plus", "seeded", "handful", "a", "A", "knob", "thinly", "handful"];
+    "plus", "seeded", "handful", "a", "A", "knob", "thinly", "handful", "such", "as", "One"];
 const specialItems = ["skinless", "boneless", "half and half"];
-const fractionTable = [{ id: 189, value: 1 / 2 }, { id: 188, value: 1 / 4 }, { id: 8539, value: 1 / 8 }, { id: 8531, value: 1 / 3 }, { id: 190, value: 3 / 4 },
-{ id: 8537, value: 1 / 6 }, { id: 8532, value: 2 / 3 }];
+const wholeFractionTable = [{ id: "1/2", value: 1 / 2 }, { id: "1/4", value: 1 / 4 }, { id: "1/8", value: 1 / 8 }, { id: "1/3", value: 1 / 3 }, { id: "3/4", value: 3 / 4 },
+{ id: "1/6", value: 1 / 6 }, { id: "2/3", value: 2 / 3 }];
 
 let OriginalIngredientArray = [];
 let ingredientArray = [];
@@ -79,12 +78,6 @@ const webScraper = async () => {
                     reviewNumber = rawReview[0];
                 }
 
-                console.log(recipeName);
-                console.log(newRecipe);
-                console.log(imageURL);
-                console.log("Stars: " + rating + " With " + reviewNumber + " reviews");
-                console.log('');
-
                 //Push objects onto temporary Object Arrays
                 scrapedDataOBJ.data.push({ id: finalTotal, name: recipeName, ratings: rating, reviewCount: reviewNumber, recipeURL: newRecipe, recipeImageURL: imageURL });
                 scrapedAdditional.data.push({ id: finalTotal, recipeURL: newRecipe });
@@ -122,8 +115,103 @@ const webScraper = async () => {
             console.log('Loaded Successfully');
             console.log('---------------------------------' + 'Recipe' + '---------------------------------');
             //Scrape Ingredients
-            $('.ingredients-section li').each((i, article) => {
+            $('.o-Ingredients__m-Body p').each((i, article) => {
+                let indexArray = [];
+                let recipeUnit = 'No Unit';
+                let recipeQuantity = '';
+                let rangeFlag = false;
 
+                let item = $(article).text();
+
+                item = item.trim();
+                //Store original unaltered ingredient list
+                OriginalIngredientArray.push(item);
+
+                //Special Items
+                for (let j = 0; j < specialItems.length; j++) {
+                    if (item.includes(specialItems[j])) {
+                        if ((specialItems[j] === "skinless") || (specialItems[j] === "boneless")) {
+                            item = item.replace(",", " ");
+                            break;
+                        } else if (specialItems[j] === "half and half") {
+                            item = item.replace("half and half", "half&half");
+                        } else {
+                            item = item.replace("half-and-half", "half&half");
+                        }
+                    }
+                }
+                //Replacing dashes
+                if (item.includes("-")) {
+                    item = item.replace("-", " ");
+                }
+                item = item.split(',', 1);
+                item = item[0].split(' ');
+
+                //Clean up extra whitespace generated and extra text
+                for (let j = item.length; j >= 0; j--) {
+                    if (item[j] === '') {
+                        item.splice(j, 1);
+                    } else {
+                        for (let k = 0; k < extraText.length; k++) {
+                            if (item[j] === extraText[k]) {
+                                item.splice(j, 1);
+                            }
+                        }
+                    }
+                    //Remove all parts after 'Or'
+                    if (item[j] === 'or') {
+                        item.splice(j, item.length - j);
+                    }
+                }
+                for (let j = item.length; j >= 0; j--) {
+                    if (item[j] === 'to') {
+                        item.splice(j, 1);
+                        rangeFlag = true;
+                        break;
+                    }
+                }
+                //Find index of items with () to remove
+                for (let j = 0; j < item.length; j++) {
+                    let newObject = { toDelete: '', startIndex: '' };
+                    if (item[j].indexOf('(') !== -1) {
+                        for (let k = j; k < item.length; k++) {
+                            if (item[k].indexOf(')') !== -1) {
+                                newObject.toDelete = (k - j) + 1;
+                                newObject.startIndex = j;
+                                indexArray.push(newObject);
+                                break;
+                            }
+                        }
+                    }
+                }
+                //Remove all items with ()
+                if (indexArray.length > 0) {
+                    for (let j = indexArray.length - 1; j >= 0; j--) {
+                        item.splice(indexArray[j].startIndex, indexArray[j].toDelete);
+                    }
+                }
+                console.log(item);
+                //Get units
+                if (item.length > 1) {
+                    //Determine units of ingredient
+                    for (let k = 0; k < item.length; k++) {
+                        for (let j = 0; j < cookingUnits.length; j++) {
+                            if (item[k].includes(cookingUnits[j])) {
+                                recipeUnit = cookingUnits[j];
+                                item.splice(k, 1);
+                                break;
+                            } else {
+                                for (let j = 0; j < specificUnits.length; j++) {
+                                    if (item[k] === specificUnits[j]) {
+                                        recipeUnit = specificUnits[j];
+                                        item.splice(k, 1);
+                                        break;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
             })
         } catch (error) {
             console.log('Error: ', error);
