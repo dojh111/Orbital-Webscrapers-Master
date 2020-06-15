@@ -10,7 +10,7 @@ const specificUnits = ["can", "cans", "ear", "ears", "large", "small", "medium",
 //Stores all the text that is to be removed
 const extraText = ["of", "taste", "grated", "ground", "eaches", "grounded", "chopped", "sliced", "diced", "very", "ripe", "fresh", "freshly", "coarse", "coarsely", "for",
     "deep", "frying", "mince", "minced", "peeled", "finely", "crushed", "roughly", "pitted", "shredded", "uncooked", "cut", "into", "bite", "sized", "pieces", "thinly",
-    "plus", "seeded", "handful", "a", "A", "knob", "thinly", "handful", "such", "as", "One"];
+    "seeded", "handful", "a", "A", "knob", "thinly", "handful", "such", "as", "One", "deli"];
 const specialItems = ["skinless", "boneless", "half and half"];
 const wholeFractionTable = [{ id: "1/2", value: 1 / 2 }, { id: "1/4", value: 1 / 4 }, { id: "1/8", value: 1 / 8 }, { id: "1/3", value: 1 / 3 }, { id: "3/4", value: 3 / 4 },
 { id: "1/6", value: 1 / 6 }, { id: "2/3", value: 2 / 3 }];
@@ -118,7 +118,7 @@ const webScraper = async () => {
             $('.o-Ingredients__m-Body p').each((i, article) => {
                 let indexArray = [];
                 let recipeUnit = 'No Unit';
-                let recipeQuantity = '';
+                let recipeQuantity = 0;
                 let rangeFlag = false;
 
                 let item = $(article).text();
@@ -163,9 +163,11 @@ const webScraper = async () => {
                         item.splice(j, item.length - j);
                     }
                 }
+                //Ranged values
                 for (let j = item.length; j >= 0; j--) {
-                    if (item[j] === 'to') {
-                        item.splice(j, 1);
+                    if (item[j] === 'to' || item[j] === 'plus') {
+                        console.log(item);
+                        item.splice(j, 2);
                         rangeFlag = true;
                         break;
                     }
@@ -190,8 +192,7 @@ const webScraper = async () => {
                         item.splice(indexArray[j].startIndex, indexArray[j].toDelete);
                     }
                 }
-                console.log(item);
-                //Get units
+                //Skip if item length is only 1
                 if (item.length > 1) {
                     //Determine units of ingredient
                     for (let k = 0; k < item.length; k++) {
@@ -211,11 +212,82 @@ const webScraper = async () => {
                             }
                         }
                     }
+                    //Clean any additional units
+                    for (let k = 0; k < item.length; k++) {
+                        for (let j = 0; j < cookingUnits.length; j++) {
+                            if (item[k].includes(cookingUnits[j])) {
+                                item.splice(k, 1);
+                                break;
+                            } else {
+                                for (let j = 0; j < specificUnits.length; j++) {
+                                    if (item[k] === specificUnits[j]) {
+                                        item.splice(k, 1);
+                                        break;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    let deleteArray = [];
+                    //Handle Quantity of ingredients
+                    for (let j = 0; j < item.length; j++) {
+                        let numberItem = Number(item[j]);
+                        if (Number.isNaN(numberItem) === false) {
+                            recipeQuantity += numberItem;
+                            deleteArray.push(j);
+                        } else {
+                            for (let k = 0; k < wholeFractionTable.length; k++) {
+                                if (item[j] === wholeFractionTable[k].id) {
+                                    recipeQuantity += wholeFractionTable[k].value;
+                                    deleteArray.push(j);
+                                }
+                            }
+                        }
+                    }
+                    //Clear all values
+                    for (let j = deleteArray.length - 1; j >= 0; j--) {
+                        item.splice(deleteArray[j], 1);
+                    }
+                    //Handle Name of Ingredient
+                    for (let j = 0; j < item.length; j++) {
+                        //Capitalise start of each Name Item
+                        item[j] = item[j][0].toUpperCase() + item[j].substr(1);
+                    }
+                    //Combine back into one single Item
+                    item = item.join(" ");
+
+                    //Handling items with 'And' statement
+                    if (item.includes('And')) {
+                        item = item.split('And');
+                        for (let j = 0; j < item.length; j++) {
+                            item[j] = item[j].trim();
+                            let ingredientObject = { name: item[j], amount: recipeQuantity, unit: recipeUnit }
+                            ingredientArray.push(ingredientObject);
+                        }
+                    } else {
+                        let ingredientObject = { name: item, amount: recipeQuantity, unit: recipeUnit };
+                        ingredientArray.push(ingredientObject);
+                    }
                 }
             })
         } catch (error) {
             console.log('Error: ', error);
         }
+        console.log(ingredientArray);
+        console.log('---------------------------------' + 'End' + '---------------------------------');
+        //Adding onto object
+        recipe.ingredient = ingredientArray;
+        recipe.originalIngredient = OriginalIngredientArray;
+        scrapedAdditional.data[recipe.id].additionalInfo = extraInfoArray;
+        scrapedAdditional.data[recipe.id].prepInstructions = prepItemArray;
+        //Reset Temp Variables
+        OriginalIngredientArray = [];
+        ingredientArray = [];
+        extraInfoArray = [];
+        prepItemArray = [];
+        recipeIndex = 1;
+        loadCount++;
     }
     //Initialise and write to JSON files
     console.log("Write Start File 1")
