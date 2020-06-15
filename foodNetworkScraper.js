@@ -3,14 +3,14 @@ const cheerio = require('cheerio');
 const fs = require('fs');
 
 //Library for all the keyterms
-const cookingUnits = ["teaspoon", "tablespoon", "cup", "quart", "ounce", "pound", "dash", "pinch", "clove", "gram", "kilogram", "slice", "piece", "head",
+const cookingUnits = ["teaspoon", "tablespoon", "cup", "quart", "ounce", "pound", "dash", "Dash","pinch", "Pinch","clove", "gram", "kilogram", "slice", "piece", "head",
     "container", "bottle", "fillet", "package", "envelope", "sprig", "pint"];
 const specificUnits = ["can", "cans", "ear", "ears", "large", "small", "medium", "lb", "lbs", "lb.", "lbs.", "bag", "bags", "Tbsp", "Tbsp.", "tsp", "tsp.", "tbsp",
     "tbsp.", "Tsp", "tsp.", "oz.", "oz", "g", "kg"];
 //Stores all the text that is to be removed
 const extraText = ["of", "taste", "grated", "ground", "eaches", "grounded", "chopped", "sliced", "diced", "very", "ripe", "fresh", "freshly", "coarse", "coarsely", "for",
     "deep", "frying", "mince", "minced", "peeled", "finely", "crushed", "roughly", "pitted", "shredded", "uncooked", "cut", "into", "bite", "sized", "pieces", "thinly",
-    "seeded", "handful", "a", "A", "knob", "thinly", "handful", "such", "as", "One", "deli"];
+    "seeded", "handful", "a", "A", "knob", "thinly", "handful", "such", "as", "One", "deli", "bunch"];
 const specialItems = ["skinless", "boneless", "half and half"];
 const wholeFractionTable = [{ id: "1/2", value: 1 / 2 }, { id: "1/4", value: 1 / 4 }, { id: "1/8", value: 1 / 8 }, { id: "1/3", value: 1 / 3 }, { id: "3/4", value: 3 / 4 },
 { id: "1/6", value: 1 / 6 }, { id: "2/3", value: 2 / 3 }];
@@ -133,16 +133,18 @@ const webScraper = async () => {
                         if ((specialItems[j] === "skinless") || (specialItems[j] === "boneless")) {
                             item = item.replace(",", " ");
                             break;
-                        } else if (specialItems[j] === "half-and-half") {
-                            item = item.replace("half-and-half", "half&half");
                         }
                     }
+                }
+                if(item.includes("half-and-half")) {
+                    item = item.replace("half-and-half", "half&half")
                 }
                 //Replacing dashes
                 if (item.includes("-")) {
                     item = item.replace("-", " ");
                 }
                 item = item.split(',', 1);
+                item = item[0].split('and/or', 1);
                 item = item[0].split(' ');
 
                 //Clean up extra whitespace generated and extra text
@@ -302,7 +304,6 @@ const webScraper = async () => {
         extraInfoArray.splice(0, arrayLength/2);
 
         console.log(ingredientArray);
-        console.log(extraInfoArray);
 
         console.log('---------------------------------' + 'End' + '---------------------------------');
         //Adding onto object
