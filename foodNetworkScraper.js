@@ -20,7 +20,7 @@ let ingredientArray = [];
 let extraInfoArray = [];
 let prepItemArray = [];
 
-const categories = ["pizza"];
+const categories = ["pizza", "western", "mediterranean", "indian", "chinese", "malay", "fish and chips", "pancakes", "icecream", "pasta", "mac-and-cheese"];
 //["chinese"];
 const webLink = "https://www.foodnetwork.com/search/";
 const shortLink = "https:";
@@ -133,9 +133,7 @@ const webScraper = async () => {
                         if ((specialItems[j] === "skinless") || (specialItems[j] === "boneless")) {
                             item = item.replace(",", " ");
                             break;
-                        } else if (specialItems[j] === "half and half") {
-                            item = item.replace("half and half", "half&half");
-                        } else {
+                        } else if (specialItems[j] === "half-and-half") {
                             item = item.replace("half-and-half", "half&half");
                         }
                     }
@@ -174,14 +172,21 @@ const webScraper = async () => {
                 //Find index of items with () to remove
                 for (let j = 0; j < item.length; j++) {
                     let newObject = { toDelete: '', startIndex: '' };
+                    let foundFlag = false;
                     if (item[j].indexOf('(') !== -1) {
                         for (let k = j; k < item.length; k++) {
                             if (item[k].indexOf(')') !== -1) {
                                 newObject.toDelete = (k - j) + 1;
                                 newObject.startIndex = j;
                                 indexArray.push(newObject);
+                                foundFlag = true;
                                 break;
                             }
+                        }
+                        if (foundFlag === false) {
+                            newObject.toDelete = item.length - j;
+                            newObject.startIndex = j;
+                            indexArray.push(newObject);
                         }
                     }
                 }
@@ -293,6 +298,9 @@ const webScraper = async () => {
         } catch (error) {
             console.log('Error: ', error);
         }
+        let arrayLength = extraInfoArray.length;
+        extraInfoArray.splice(0, arrayLength/2);
+
         console.log(ingredientArray);
         console.log(extraInfoArray);
 

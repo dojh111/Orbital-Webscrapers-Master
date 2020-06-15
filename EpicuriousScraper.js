@@ -166,7 +166,6 @@ const webScraper = async () => {
                         }
                     }
                 }
-
                 //Remove all items with ()
                 if (indexArray.length > 0) {
                     for (let j = indexArray.length - 1; j >= 0; j--) {
