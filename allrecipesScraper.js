@@ -4,12 +4,14 @@ const fs = require('fs');
 
 //Library for all the keyterms
 const cookingUnits = ["teaspoon", "tablespoon", "cup", "quart", "ounce", "pound", "dash", "pinch", "clove", "gram", "kilogram", "slice", "piece", "head",
-    "container", "bottle", "fillet", "package"];
-const specificUnits = ["can", "cans", "ear", "ears","large", "small", "lb", "lb.", "bag", "bags"];
+    "container", "bottle", "fillet", "package", "envelope", "sprig", "pint"];
+const specificUnits = ["can", "cans", "ear", "ears", "large", "small", "medium", "lb", "lbs", "lb.", "lbs.", "bag", "bags", "Tbsp", "Tbsp.", "tsp", "tsp.", "tbsp",
+    "tbsp.", "Tsp", "tsp.", "oz.", "oz", "g", "kg"];
 //Stores all the text that is to be removed
 const extraText = ["of", "to", "taste", "grated", "ground", "eaches", "grounded", "chopped", "sliced", "diced", "very", "ripe", "fresh", "freshly", "coarse", "coarsely", "for",
-    "deep", "frying", "mince", "minced", "peeled", "finely", "crushed", "roughly", "pitted", "shredded", "uncooked", "cut", "into", "bite", "sized", "pieces"];
-const specialItems = ["skinless", "boneless", "half and half", "half-and-half"];
+    "deep", "frying", "mince", "minced", "peeled", "finely", "crushed", "roughly", "pitted", "shredded", "uncooked", "cut", "into", "bite", "sized", "pieces", "thinly",
+    "plus", "seeded", "handful", "a", "A", "knob", "thinly", "handful"];
+const specialItems = ["skinless", "boneless", "half and half"];
 const fractionTable = [{ id: 189, value: 1 / 2 }, { id: 188, value: 1 / 4 }, { id: 8539, value: 1 / 8 }, { id: 8531, value: 1 / 3 }, { id: 190, value: 3 / 4 },
 { id: 8537, value: 1 / 6 }, { id: 8532, value: 2 / 3 }];
 
@@ -50,7 +52,7 @@ const webScraper = async () => {
 
             console.log('---------------------------------' + categoryName + '---------------------------------');
 
-            $('.fixed-recipe-card').each(async (i, articles) => {
+            $('.fixed-recipe-card').each((i, articles) => {
                 //URL page to individual recipe
                 const newRecipe = $(articles).find('.grid-card-image-container').find('a').attr('href');
                 //Name of Recipe

@@ -4,13 +4,13 @@ const fs = require('fs');
 
 //Library for all the keyterms
 const cookingUnits = ["teaspoon", "tablespoon", "cup", "quart", "ounce", "pound", "dash", "pinch", "clove", "gram", "kilogram", "slice", "piece", "head",
-    "container", "bottle", "fillet", "package", "envelope"];
+    "container", "bottle", "fillet", "package", "envelope", "sprig", "pint"];
 const specificUnits = ["can", "cans", "ear", "ears", "large", "small", "medium", "lb", "lbs", "lb.", "lbs.", "bag", "bags", "Tbsp", "Tbsp.", "tsp", "tsp.", "tbsp",
     "tbsp.", "Tsp", "tsp.", "oz.", "oz", "g", "kg"];
 //Stores all the text that is to be removed
 const extraText = ["of", "to", "taste", "grated", "ground", "eaches", "grounded", "chopped", "sliced", "diced", "very", "ripe", "fresh", "freshly", "coarse", "coarsely", "for",
     "deep", "frying", "mince", "minced", "peeled", "finely", "crushed", "roughly", "pitted", "shredded", "uncooked", "cut", "into", "bite", "sized", "pieces", "thinly",
-    "plus", "seeded", "handful", "a", "A", "knob", "thinly"];
+    "plus", "seeded", "handful", "a", "A", "knob", "thinly", "handful"];
 const specialItems = ["skinless", "boneless", "half and half"];
 const fractionTable = [{ id: 189, value: 1 / 2 }, { id: 188, value: 1 / 4 }, { id: 8539, value: 1 / 8 }, { id: 8531, value: 1 / 3 }, { id: 190, value: 3 / 4 },
 { id: 8537, value: 1 / 6 }, { id: 8532, value: 2 / 3 }];
@@ -32,6 +32,9 @@ let totalCount = 0;
 let finalTotal = 0;
 let recipeIndex = 1;
 let objectCount = 0;
+
+let ingredientCheck = 0;
+let failIngredient = 0;
 
 //Stored Data: ID, Names, URLs, Ingredients
 let scrapedDataOBJ = {
@@ -156,7 +159,7 @@ const webScraper = async () => {
                                 break;
                             }
                         }
-                        if(foundFlag === false) {
+                        if (foundFlag === false) {
                             newObject.toDelete = item.length - j;
                             newObject.startIndex = j;
                             indexArray.push(newObject);
@@ -290,10 +293,22 @@ const webScraper = async () => {
                     for (let j = 0; j < item.length; j++) {
                         item[j] = item[j].trim();
                         let ingredientObject = { name: item[j], amount: recipeQuantity, unit: recipeUnit }
+
+                        //Ingredient check
+                        if (ingredientObject.name === '') {
+                            failIngredient++
+                        }
+                        ingredientCheck++;
+
                         ingredientArray.push(ingredientObject);
                     }
                 } else {
                     let ingredientObject = { name: item, amount: recipeQuantity, unit: recipeUnit };
+                    //Ingredient check
+                    if (ingredientObject.name === '') {
+                        failIngredient++
+                    }
+                    ingredientCheck++;
                     ingredientArray.push(ingredientObject);
                 }
             })
@@ -347,7 +362,8 @@ const webScraper = async () => {
         }
     }
 
-    console.log('Load count: ' + loadCount);
+    console.log('Load count: ' + loadCount + 'out of ' + finalTotal);
+    console.log(failIngredient + 'failed out of' + ingredientCheck);
 
     //Initialise and write to JSON files
     console.log("Write Start File 1")
