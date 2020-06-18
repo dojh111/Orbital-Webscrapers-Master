@@ -56,7 +56,9 @@ const webScraper = async () => {
                 //URL page to individual recipe
                 const newRecipe = $(articles).find('.grid-card-image-container').find('a').attr('href');
                 //Name of Recipe
-                const recipeName = $(articles).find('.fixed-recipe-card__img, .ng-isolate-scope').attr('title');
+                let temprecipeName = $(articles).find('.fixed-recipe-card__img, .ng-isolate-scope').attr('title');
+                temprecipeName = temprecipeName.split('Recipe', 1);
+                const recipeName = temprecipeName[0];
                 //URL to image of recipe
                 const imageURL = $(articles).find('.fixed-recipe-card__img, .ng-isolate-scope').attr('data-original-src');
                 //Ratings and Number
@@ -109,7 +111,7 @@ const webScraper = async () => {
             $('.ingredients-section li').each((i, article) => {
                 let indexArray = [];
                 let recipeUnit = 'No Unit';
-                let recipeQuantity = '';
+                let recipeQuantity = 0;
 
                 let item = $(article).find('.ingredients-item-name').text();
 

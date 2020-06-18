@@ -113,7 +113,7 @@ const webScraper = async () => {
             $('.ingredients li').each((i, article) => {
                 let indexArray = [];
                 let recipeUnit = 'No Unit';
-                let recipeQuantity = '';
+                let recipeQuantity = 0;
                 let rangeFlag = false;
 
                 let item = $(article).text();
