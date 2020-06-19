@@ -117,7 +117,7 @@ const webScraper = async () => {
             //Scrape Ingredients
             $('.o-Ingredients__m-Body p').each((i, article) => {
                 let indexArray = [];
-                let recipeUnit = 'No Unit';
+                let recipeUnit = '';
                 let recipeQuantity = 0;
                 let rangeFlag = false;
 

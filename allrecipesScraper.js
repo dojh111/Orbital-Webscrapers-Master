@@ -110,7 +110,7 @@ const webScraper = async () => {
 
             $('.ingredients-section li').each((i, article) => {
                 let indexArray = [];
-                let recipeUnit = 'No Unit';
+                let recipeUnit = '';
                 let recipeQuantity = 0;
 
                 let item = $(article).find('.ingredients-item-name').text();
