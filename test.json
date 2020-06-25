@@ -1,0 +1,164 @@
+{
+  "data": [
+    {
+      "id": 0,
+      "name": "Fluffy Pancakes ",
+      "ratings": "4.82999992370605",
+      "reviewCount": "11729",
+      "recipeURL": "https://www.allrecipes.com/recipe/162760/fluffy-pancakes/",
+      "recipeImageURL": "https://images.media-allrecipes.com/userphotos/300x300/5079227.jpg"
+    },
+    {
+      "id": 1,
+      "name": "Buttermilk Pancakes II ",
+      "ratings": "4.71999979019165",
+      "reviewCount": "2916",
+      "recipeURL": "https://www.allrecipes.com/recipe/24530/buttermilk-pancakes-ii/",
+      "recipeImageURL": "https://images.media-allrecipes.com/userphotos/300x300/439719.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Buckwheat Pancakes ",
+      "ratings": "4.78000020980835",
+      "reviewCount": "127",
+      "recipeURL": "https://www.allrecipes.com/recipe/241553/buckwheat-pancakes/",
+      "recipeImageURL": "https://images.media-allrecipes.com/userphotos/300x300/2211494.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Pumpkin Pancakes ",
+      "ratings": "4.57000017166138",
+      "reviewCount": "2291",
+      "recipeURL": "https://www.allrecipes.com/recipe/17036/pumpkin-pancakes/",
+      "recipeImageURL": "https://images.media-allrecipes.com/userphotos/300x300/705316.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Fluffy and Delicious Pancakes ",
+      "ratings": "4.71999979019165",
+      "reviewCount": "294",
+      "recipeURL": "https://www.allrecipes.com/recipe/236165/fluffy-and-delicious-pancakes/",
+      "recipeImageURL": "https://images.media-allrecipes.com/userphotos/300x300/1090164.jpg"
+    },
+    {
+      "id": 5,
+      "name": "German Pancakes II ",
+      "ratings": "4.51000022888184",
+      "reviewCount": "372",
+      "recipeURL": "https://www.allrecipes.com/recipe/36900/german-pancakes-ii/",
+      "recipeImageURL": "https://images.media-allrecipes.com/userphotos/300x300/4584.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Oatmeal Pancakes II ",
+      "ratings": "4.65000009536743",
+      "reviewCount": "777",
+      "recipeURL": "https://www.allrecipes.com/recipe/21384/oatmeal-pancakes-ii/",
+      "recipeImageURL": "https://images.media-allrecipes.com/userphotos/300x300/1011512.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Lemon-Ricotta Pancakes ",
+      "ratings": "4.80999994277954",
+      "reviewCount": "120",
+      "recipeURL": "https://www.allrecipes.com/recipe/257657/lemon-ricotta-pancakes/",
+      "recipeImageURL": "https://images.media-allrecipes.com/userphotos/300x300/4518440.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Good Old Fashioned Pancakes ",
+      "ratings": "4.57999992370605",
+      "reviewCount": "12803",
+      "recipeURL": "https://www.allrecipes.com/recipe/21014/good-old-fashioned-pancakes/",
+      "recipeImageURL": "https://images.media-allrecipes.com/userphotos/300x300/4948036.jpg"
+    },
+    {
+      "id": 9,
+      "name": "My-Hop Pancakes ",
+      "ratings": "4.67999982833862",
+      "reviewCount": "256",
+      "recipeURL": "https://www.allrecipes.com/recipe/214499/my-hop-pancakes/",
+      "recipeImageURL": "https://images.media-allrecipes.com/userphotos/300x300/1119897.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Easy Banana Nut Pancakes  ",
+      "ratings": "4.82000017166138",
+      "reviewCount": "97",
+      "recipeURL": "https://www.allrecipes.com/recipe/256539/easy-banana-nut-pancakes/",
+      "recipeImageURL": "https://images.media-allrecipes.com/userphotos/300x300/4374583.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Old-Fashioned Pancakes ",
+      "ratings": "4.57999992370605",
+      "reviewCount": "776",
+      "recipeURL": "https://www.allrecipes.com/recipe/220415/old-fashioned-pancakes/",
+      "recipeImageURL": "https://images.media-allrecipes.com/userphotos/300x300/3775574.jpg"
+    },
+    {
+      "id": 12,
+      "name": "Delicious Gluten-Free Pancakes ",
+      "ratings": "4.65000009536743",
+      "reviewCount": "237",
+      "recipeURL": "https://www.allrecipes.com/recipe/33176/delicious-gluten-free-pancakes/",
+      "recipeImageURL": "https://images.media-allrecipes.com/userphotos/300x300/385145.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Pancakes I ",
+      "ratings": "4.46999979019165",
+      "reviewCount": "946",
+      "recipeURL": "https://www.allrecipes.com/recipe/20461/pancakes-i/",
+      "recipeImageURL": "https://images.media-allrecipes.com/userphotos/300x300/539173.jpg"
+    },
+    {
+      "id": 14,
+      "name": "Vegan Pancakes ",
+      "ratings": "4.44999980926514",
+      "reviewCount": "702",
+      "recipeURL": "https://www.allrecipes.com/recipe/191885/vegan-pancakes/",
+      "recipeImageURL": "https://images.media-allrecipes.com/userphotos/300x300/2682199.jpg"
+    },
+    {
+      "id": 15,
+      "name": "Pancake Poppers ",
+      "ratings": "4.32000017166138",
+      "reviewCount": "15",
+      "recipeURL": "https://www.allrecipes.com/recipe/255231/pancake-poppers/",
+      "recipeImageURL": "https://images.media-allrecipes.com/userphotos/300x300/7850793.jpg"
+    },
+    {
+      "id": 16,
+      "name": "Homemade Pancake Mix ",
+      "ratings": "4.76999998092651",
+      "reviewCount": "67",
+      "recipeURL": "https://www.allrecipes.com/recipe/230202/homemade-pancake-mix/",
+      "recipeImageURL": "https://images.media-allrecipes.com/userphotos/300x300/962934.jpg"
+    },
+    {
+      "id": 17,
+      "name": "Banana Pancakes I ",
+      "ratings": "4.48000001907349",
+      "reviewCount": "1882",
+      "recipeURL": "https://www.allrecipes.com/recipe/20334/banana-pancakes-i/",
+      "recipeImageURL": "https://images.media-allrecipes.com/userphotos/300x300/708583.jpg"
+    },
+    {
+      "id": 18,
+      "name": "Skillet Strawberry Pancake ",
+      "ratings": "4.36999988555908",
+      "reviewCount": "90",
+      "recipeURL": "https://www.allrecipes.com/recipe/214433/skillet-strawberry-pancake/",
+      "recipeImageURL": "https://images.media-allrecipes.com/userphotos/300x300/5098038.jpg"
+    },
+    {
+      "id": 19,
+      "name": "Chef John's Pumpkin Pancakes ",
+      "ratings": "4.51999998092651",
+      "reviewCount": "243",
+      "recipeURL": "https://www.allrecipes.com/recipe/219167/chef-johns-pumpkin-pancakes/",
+      "recipeImageURL": "https://images.media-allrecipes.com/userphotos/300x300/744197.jpg"
+    }
+  ]
+}
