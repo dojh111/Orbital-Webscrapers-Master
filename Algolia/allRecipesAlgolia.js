@@ -114,7 +114,7 @@ let ingredientArray = [];
 let extraInfoArray = [];
 let prepItemArray = [];
 
-const webLink = "https://www.allrecipes.com/recipes/";
+const pageLink = "?page=";
 
 let Recipe = "";
 let totalCount = 0;
@@ -122,18 +122,25 @@ let finalTotal = 0;
 let instructionsIndex = 1;
 
 //Stored Data: ID, Names, URLs, Ingredients
-let scrapedDataOBJ = [];
+let scrapedData = [];
 //Stored Data: URL, Prep instructions and Additional Info
 let scrapedAdditional = {
   data: [],
 };
 
-const webScraper = async () => {
-  console.log("Starting webscraping");
+const webScraper = async (pageStart, pageEnd, category, webLink) => {
+  scrapedData.splice(0);
+  console.log("Start scraping pages " + pageStart + " to " + pageEnd);
 
   //Load all pages in parallel
   const loadPage = [];
-  loadPage.push(got(webLink));
+  for (let i = pageStart; i <= pageEnd; i++) {
+    if (i === 1) {
+      loadPage.push(got(webLink));
+    } else {
+      loadPage.push(got(webLink + pageLink + i));
+    }
+  }
 
   //Wait for all pages to be loaded
   const responses = await Promise.all(loadPage);
@@ -143,16 +150,16 @@ const webScraper = async () => {
   // ];
 
   //Loop through categories
+
   for (const page of responses) {
     try {
       const $ = cheerio.load(page.body);
 
-      console.log(
-        "---------------------------------" +
-          `Scraping page 1` +
-          "---------------------------------"
-      );
-      console.log($("head > title").text());
+      // console.log(
+      //   "---------------------------------" +
+      //     `Scraping page 1` +
+      //     "---------------------------------"
+      // );
 
       $(".fixed-recipe-card").each((i, articles) => {
         //URL page to individual recipe
@@ -190,7 +197,7 @@ const webScraper = async () => {
           //Final URL to recipe page
           let fullLink = Recipe;
           //Push objects onto temporary Object Arrays
-          scrapedDataOBJ.push({
+          scrapedData.push({
             id: finalTotal,
             name: recipeName,
             ratings: rating,
@@ -206,55 +213,55 @@ const webScraper = async () => {
         }
       });
 
-      console.log("");
-      console.log("Total Recipes: " + totalCount);
-      console.log(
-        "-------------------------------" +
-          "END OF SECTION" +
-          "-------------------------------"
-      );
-      console.log("");
+      // console.log("");
+      // console.log("Total Recipes: " + totalCount);
+      // console.log(
+      //   "-------------------------------" +
+      //     "END OF SECTION" +
+      //     "-------------------------------"
+      // );
+      // console.log("");
       totalCount = 0;
     } catch (error) {
       console.log("Error: ", error);
     }
   }
 
-  console.log("Final Total: " + finalTotal);
-  console.log("");
-  console.log("Starting Ingriedient Scrape");
+  // console.log("Final Total: " + finalTotal);
+  // console.log("");
+  console.log("Starting Ingredient Scrape");
 
   let loadCount = 1;
 
   //Load all recipe pages in parallel
   const whenRecipeLoad = [];
-  for (let recipeCard of scrapedDataOBJ) {
+  for (let recipeCard of scrapedData) {
     let url = recipeCard.recipeURL;
     whenRecipeLoad.push(got(url));
   }
   const recipePages = await Promise.all(whenRecipeLoad);
 
   //Scrape Ingredients
-  for (let recipe of scrapedDataOBJ) {
+  for (let recipe of scrapedData) {
     let url = recipe.recipeURL;
 
-    console.log("Start ingredient load: " + url);
-    console.log("Scraping Item " + loadCount + " of " + finalTotal);
+    // console.log("Start ingredient load: " + url);
+    // console.log("Scraping Item " + loadCount + " of " + finalTotal);
     try {
       const $ = cheerio.load(recipePages[loadCount - 1].body);
 
-      console.log("Loaded Successfully");
-      console.log(
-        "---------------------------------" +
-          "Recipe" +
-          "---------------------------------"
-      );
+      // console.log("Loaded Successfully");
+      // console.log(
+      //   "---------------------------------" +
+      //     "Recipe" +
+      //     "---------------------------------"
+      // );
 
       $(".ingredients-section li").each((i, article) => {
         let itemText = $(article).find(".ingredients-item-name").text();
         textParser(itemText);
       });
-      console.log("Getting Additional Info...");
+      //console.log("Getting Additional Info...");
       //Scrape Additional Info
       $(".recipe-meta-item").each((j, extraInfo) => {
         let infoHeading = $(extraInfo).find(".recipe-meta-item-header").text();
@@ -264,8 +271,8 @@ const webScraper = async () => {
         let infoObject = { heading: infoHeading, body: infoBody };
         extraInfoArray.push(infoObject);
       });
-      console.log("Done");
-      console.log("Getting Prep Instructions...");
+      // console.log("Done");
+      // console.log("Getting Prep Instructions...");
       //Scrape Prep Instructions
       $(".instructions-section li").each((j, prepItem) => {
         let instructions = $(prepItem).find("p").text();
@@ -273,19 +280,23 @@ const webScraper = async () => {
         prepItemArray.push(prepObject);
         instructionsIndex++;
       });
-      console.log("Done");
-      console.log(ingredientArray);
-      console.log(
-        "---------------------------------" +
-          "End" +
-          "---------------------------------"
-      );
+      // console.log("Done");
+      // console.log(ingredientArray);
+      // console.log(
+      //   "---------------------------------" +
+      //     "End" +
+      //     "---------------------------------"
+      // );
 
       //Adding onto object
       recipe.ingredient = ingredientArray;
       recipe.originalIngredient = OriginalIngredientArray;
       recipe.additionalInfo = extraInfoArray;
       recipe.prepInstructions = prepItemArray;
+
+      if (ingredientArray.length === 0) {
+        scrapedData.splice(loadCount - 1, 1);
+      }
     } catch (error) {
       console.log("Error: ", error);
     }
@@ -298,18 +309,22 @@ const webScraper = async () => {
     loadCount++;
   }
 
-  console.log("Load count: " + loadCount);
+  //console.log("Load count: " + loadCount);
 
   //Initialise and write to JSON files
-  console.log("Write Start File 1");
-  let jsonInitialise = JSON.stringify(scrapedDataOBJ);
-  fs.writeFile("allRecipesScraped.json", jsonInitialise, () => {
-    console.log("Write Done");
-  });
+  console.log(`Start file write for pages ${pageStart} to ${pageEnd}`);
+  let jsonStringToWrite = JSON.stringify(scrapedData);
+  fs.writeFile(
+    `./${category}/${category}_${pageStart}_to_${pageEnd}.json`,
+    jsonStringToWrite,
+    () => {
+      console.log("Write Done");
+    }
+  );
 
   // console.log("Write Start File 2");
-  // let jsonInitialiseTwo = JSON.stringify(scrapedAdditional);
-  // fs.writeFile("allRecipesAdditional.json", jsonInitialiseTwo, () => {
+  // let jsonStringToWriteTwo = JSON.stringify(scrapedAdditional);
+  // fs.writeFile("allRecipesAdditional.json", jsonStringToWriteTwo, () => {
   //   console.log("Write Done");
   // });
 };
@@ -471,5 +486,26 @@ const textParser = (item) => {
     ingredientArray.push(ingredientObject);
   }
 };
+
 //Run function with node allrecipesScraper.js
-webScraper();
+const scraperInitialize = async (args) => {
+  let pageStart = Number(args[2]);
+  let pageInterval = Number(args[3]);
+  let numPagesToScrape = Number(args[4]);
+  let category = args[5];
+  let baseLink = args[6]
+  for (let i = pageStart; i < pageStart + numPagesToScrape; i += pageInterval) {
+    await webScraper(i, i + pageInterval - 1, category, baseLink);
+    await timeout(5000);
+    //console.log("Pagestart " + i + ", pageend " + (i + pageInterval - 1));
+  }
+  //console.log(args)
+};
+
+const timeout = (ms) => {
+  return new Promise((resolve) => {
+    setTimeout(resolve, ms);
+  });
+};
+
+scraperInitialize(process.argv);

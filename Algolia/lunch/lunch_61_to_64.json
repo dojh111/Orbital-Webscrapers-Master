@@ -1,0 +1,3872 @@
+[
+  {
+    "id": 0,
+    "name": "Deception Pass Curried Lentil Soup ",
+    "ratings": "4.67000007629395",
+    "ratingsClass": 10,
+    "reviewCount": "8",
+    "recipeURL": "https://www.allrecipes.com/recipe/222663/deception-pass-curried-lentil-soup/",
+    "recipeImageURL": "https://images.media-allrecipes.com/userphotos/300x300/2188089.jpg",
+    "ingredient": [
+      { "name": "Olive Oil", "amount": 2, "unit": "tablespoon" },
+      { "name": "Mild Curry Paste", "amount": 1.5, "unit": "tablespoon" },
+      { "name": "Small Red Onion", "amount": 1, "unit": "" },
+      { "name": "Carrot", "amount": 1, "unit": "" },
+      { "name": "Celery Stalk", "amount": 1, "unit": "" },
+      { "name": "Small Red Bell Pepper", "amount": 1, "unit": "" },
+      { "name": "Red Pepper Flakes", "amount": 0.5, "unit": "teaspoon" },
+      { "name": "Cubes Vegetable Bouillon", "amount": 2, "unit": "" },
+      { "name": "Lentils", "amount": 0.5, "unit": "pound" },
+      { "name": "Water", "amount": 3, "unit": "cup" },
+      { "name": "Spaghetti Sauce", "amount": 0.75, "unit": "cup" },
+      { "name": "Cilantro", "amount": 0.5, "unit": "cup" },
+      { "name": "Black Pepper", "amount": 1, "unit": "pinch" }
+    ],
+    "originalIngredient": [
+      "2 tablespoons olive oil",
+      "1 ½ tablespoons mild curry paste",
+      "1 small red onion, chopped",
+      "1   carrot, chopped",
+      "1  celery stalk, chopped",
+      "1 small red bell pepper, chopped",
+      "½ teaspoon red pepper flakes",
+      "2 cubes  vegetable bouillon",
+      "½ pound lentils",
+      "3 cups water, more if needed",
+      "¾ cup spaghetti sauce",
+      "½ cup chopped fresh cilantro",
+      "1 pinch ground black pepper to taste"
+    ],
+    "additionalInfo": [
+      { "heading": "prep:", "body": "15 mins" },
+      { "heading": "cook:", "body": "50 mins" },
+      { "heading": "total:", "body": "1 hr 5 mins" },
+      { "heading": "Servings:", "body": "4" },
+      { "heading": "Yield:", "body": "4 servings" }
+    ],
+    "prepInstructions": [
+      {
+        "step": 1,
+        "instruction": "Heat olive oil and curry paste in a large pot over medium heat; cook and stir onion, carrot, celery, red bell pepper, and red pepper flakes until onion is softened and translucent, 5 to 10 minutes. Break the bouillon cubes into onion mixture; add lentils and stir."
+      },
+      {
+        "step": 2,
+        "instruction": "Pour enough water into the pot, so the water line is 1 inch above the lentil and onion mixture; bring to a boil, reduce heat to low, and simmer until lentils are fully cooked, about 40 minutes. Stir spaghetti sauce into the soup and simmer 5 minutes. Stir cilantro and black pepper into soup right before serving."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "name": "Mushroom and Swiss Burger ",
+    "ratings": "4.42000007629395",
+    "ratingsClass": 9,
+    "reviewCount": "11",
+    "recipeURL": "https://www.allrecipes.com/recipe/222781/mushroom-and-swiss-burger/",
+    "recipeImageURL": "https://images.media-allrecipes.com/userphotos/300x300/841212.jpg",
+    "ingredient": [
+      { "name": "Can Condensed Golden Mushroom Soup", "amount": 1, "unit": "" },
+      { "name": "Can Mushrooms", "amount": 1, "unit": "" },
+      { "name": "Worcestershire Sauce", "amount": 1, "unit": "teaspoon" },
+      { "name": "Beef", "amount": 1, "unit": "pound" },
+      { "name": "Monosodium Glutamate", "amount": 0.5, "unit": "teaspoon" },
+      { "name": "Seasoned Salt", "amount": 0.5, "unit": "teaspoon" },
+      { "name": "Black Pepper", "amount": 0.25, "unit": "teaspoon" },
+      { "name": "Hamburger Buns", "amount": 4, "unit": "" },
+      { "name": "Swiss Style Processed Cheese", "amount": 4, "unit": "slice" }
+    ],
+    "originalIngredient": [
+      "1 (10.75 ounce) can  condensed golden mushroom soup",
+      "1 (4.5 ounce) can sliced mushrooms, drained",
+      "1 teaspoon Worcestershire sauce",
+      "1 pound ground beef",
+      "½ teaspoon monosodium glutamate (MSG)",
+      "½ teaspoon seasoned salt",
+      "¼ teaspoon ground black pepper",
+      "4 eaches hamburger buns, split",
+      "4   slices of Swiss-style processed cheese"
+    ],
+    "additionalInfo": [
+      { "heading": "prep:", "body": "15 mins" },
+      { "heading": "cook:", "body": "15 mins" },
+      { "heading": "total:", "body": "30 mins" },
+      { "heading": "Servings:", "body": "4" },
+      { "heading": "Yield:", "body": "4 sandwiches" }
+    ],
+    "prepInstructions": [
+      {
+        "step": 1,
+        "instruction": "Mix golden mushroom soup, sliced mushrooms, and Worcestershire sauce in a saucepan over low heat and simmer while you complete the remaining steps. Stir sauce occasionally."
+      },
+      {
+        "step": 2,
+        "instruction": "Mix ground beef with monosodium glutamate, seasoned salt, and black pepper in a bowl; form 4 patties from the ground beef and pan-fry in a skillet over medium heat until browned, about 5 minutes per side."
+      },
+      {
+        "step": 3,
+        "instruction": "Place each burger onto the bottom of a hamburger bun and top each with a slice Swiss-style processed cheese. Spoon 1 to 2 tablespoons of sauce over the cheese, place the bun tops onto the sandwiches, and serve."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Lasagna Muffins ",
+    "ratings": "4.32999992370605",
+    "ratingsClass": 9,
+    "reviewCount": "10",
+    "recipeURL": "https://www.allrecipes.com/recipe/223315/lasagna-muffins/",
+    "recipeImageURL": "https://images.media-allrecipes.com/userphotos/300x300/3507778.jpg",
+    "ingredient": [
+      { "name": "Serving Cooking Spray", "amount": 1, "unit": "" },
+      { "name": "Mozzarella Cheese", "amount": 1, "unit": "cup" },
+      { "name": "Asiago Cheese", "amount": 1, "unit": "cup" },
+      { "name": "Prepared Pasta Sauce", "amount": 2, "unit": "cup" },
+      { "name": "Wonton Wrappers", "amount": 0.5, "unit": "package" }
+    ],
+    "originalIngredient": [
+      "1  serving cooking spray",
+      "1 cup shredded mozzarella cheese",
+      "1 cup grated Asiago cheese",
+      "2 cups prepared pasta sauce",
+      "½ (16 ounce) package wonton wrappers"
+    ],
+    "additionalInfo": [
+      { "heading": "prep:", "body": "15 mins" },
+      { "heading": "cook:", "body": "20 mins" },
+      { "heading": "total:", "body": "35 mins" },
+      { "heading": "Servings:", "body": "12" },
+      { "heading": "Yield:", "body": "1 dozen muffins" }
+    ],
+    "prepInstructions": [
+      {
+        "step": 1,
+        "instruction": "Preheat oven to 375 degrees F (190 degrees C). Spray 12 muffin cups with cooking spray."
+      },
+      {
+        "step": 2,
+        "instruction": "Combine mozzarella cheese and Asiago cheese together in a bowl. Press a wonton wrapper into the bottom of each muffin cup. Spoon pasta sauce about halfway full in each muffin cup; sprinkle with 2 to 3 tablespoons cheese mixture. Press another wonton wrapper on top of cheese layer. Add another spoonful of sauce; sprinkle with cheese. Repeat to fill all the muffin cups."
+      },
+      {
+        "step": 3,
+        "instruction": "Bake in the preheated oven until sauce is bubbling and cheese is melted, 20 to 25 minutes."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Easy Dorito(R) Taco Salad ",
+    "ratings": "4.32999992370605",
+    "ratingsClass": 9,
+    "reviewCount": "9",
+    "recipeURL": "https://www.allrecipes.com/recipe/223008/easy-dorito-taco-salad/",
+    "recipeImageURL": "https://images.media-allrecipes.com/userphotos/300x300/856724.jpg",
+    "ingredient": [
+      { "name": "Beef", "amount": 1, "unit": "pound" },
+      { "name": "Taco Seasoning Mix", "amount": 1, "unit": "envelope" },
+      { "name": "Cheddar Cheese", "amount": 2, "unit": "cup" },
+      { "name": "Ranch Dressing", "amount": 2, "unit": "cup" },
+      { "name": "Italian Style Salad Dressing", "amount": 0.5, "unit": "cup" },
+      { "name": "Red Onion", "amount": 1, "unit": "" },
+      { "name": "Lettuce", "amount": 1, "unit": "head" },
+      { "name": "Nacho Flavor Tortilla Chips", "amount": 1, "unit": "package" }
+    ],
+    "originalIngredient": [
+      "1 pound ground beef",
+      "1 envelope taco seasoning mix",
+      "2 cups shredded Cheddar cheese",
+      "2 cups ranch dressing",
+      "½ cup Italian-style salad dressing",
+      "1  red onion, diced",
+      "1 head lettuce, shredded",
+      "1 (17 ounce) package nacho-flavor tortilla chips, crushed into bite-size pieces"
+    ],
+    "additionalInfo": [
+      { "heading": "prep:", "body": "15 mins" },
+      { "heading": "cook:", "body": "10 mins" },
+      { "heading": "additional:", "body": "1 hr" },
+      { "heading": "total:", "body": "1 hr 25 mins" },
+      { "heading": "Servings:", "body": "15" },
+      { "heading": "Yield:", "body": "15 servings" }
+    ],
+    "prepInstructions": [
+      {
+        "step": 1,
+        "instruction": "Cook ground beef in a skillet over medium heat, breaking the meat up as it cooks, until beef is browned and crumbly, about 10 minutes. Drain excess grease and stir in taco seasoning mix. Remove from heat and let stand until beef mixture is cool."
+      },
+      {
+        "step": 2,
+        "instruction": "Mix ground beef with Cheddar cheese, ranch dressing, Italian dressing, and red onion in a large salad bowl. Chill the beef mixture until cold, at least 30 minutes. Lightly mix in lettuce and tortilla chips just before serving."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Quinoa, Couscous, and Farro Salad with Summer Vegetables ",
+    "ratings": "4.67000007629395",
+    "ratingsClass": 10,
+    "reviewCount": "10",
+    "recipeURL": "https://www.allrecipes.com/recipe/236440/quinoa-couscous-and-farro-salad-with-summer-vegetables/",
+    "recipeImageURL": "https://images.media-allrecipes.com/userphotos/300x300/1101162.jpg",
+    "ingredient": [
+      { "name": "Water", "amount": 6.5, "unit": "cup" },
+      { "name": "Red Quinoa", "amount": 1, "unit": "cup" },
+      { "name": "Pearl Couscous", "amount": 1, "unit": "cup" },
+      { "name": "Farro", "amount": 1, "unit": "cup" },
+      { "name": "Cucumber", "amount": 1, "unit": "" },
+      { "name": "Red Onion", "amount": 0.5, "unit": "" },
+      { "name": "Orange Bell Pepper", "amount": 1, "unit": "" },
+      { "name": "Yellow Squash", "amount": 1, "unit": "" },
+      { "name": "Extra Virgin Olive Oil", "amount": 0.5, "unit": "cup" },
+      { "name": "Lemon", "amount": 1, "unit": "" },
+      { "name": "Kosher Salt", "amount": 0.5, "unit": "teaspoon" },
+      { "name": "Crumbled Feta Cheese", "amount": 1, "unit": "container" }
+    ],
+    "originalIngredient": [
+      "6 ½ cups water, divided",
+      "1 cup red quinoa",
+      "1 cup pearl (Israeli) couscous",
+      "1 cup farro",
+      "1   cucumber, seeded and chopped",
+      "½   red onion, chopped",
+      "1   orange bell pepper, seeded and chopped",
+      "1   yellow squash, seeded and chopped",
+      "½ cup extra-virgin olive oil",
+      "1  lemon, juiced",
+      "½ teaspoon kosher salt",
+      "1 (6 ounce) container crumbled feta cheese"
+    ],
+    "additionalInfo": [
+      { "heading": "prep:", "body": "20 mins" },
+      { "heading": "cook:", "body": "30 mins" },
+      { "heading": "additional:", "body": "2 hrs" },
+      { "heading": "total:", "body": "2 hrs 50 mins" },
+      { "heading": "Servings:", "body": "8" },
+      { "heading": "Yield:", "body": "8 servings" }
+    ],
+    "prepInstructions": [
+      {
+        "step": 1,
+        "instruction": "Bring 2 cups water and quinoa to a boil in a saucepan. Reduce heat to medium-low, cover, and simmer until quinoa is tender and water has been absorbed, 15 to 20 minutes."
+      },
+      {
+        "step": 2,
+        "instruction": "Bring 1 1/2 cup water and couscous to a boil in a separate saucepan. Reduce heat to medium-low, cover, and simmer until couscous is tender yet firm to the bite, about 10 minutes."
+      },
+      {
+        "step": 3,
+        "instruction": "Bring 3 cups water and farro to a boil in a separate saucepan. Reduce heat to medium-low, cover, and simmer until farro is tender and water has been absorbed, about 25 minutes."
+      },
+      {
+        "step": 4,
+        "instruction": "Combine quinoa, couscous, farro, cucumber, red onion, orange bell pepper, and yellow squash together in a bowl."
+      },
+      {
+        "step": 5,
+        "instruction": "Whisk olive oil, lemon juice, and salt together in a bowl. Pour dressing over grain-vegetable mixture; toss to coat. Sprinkle feta cheese over salad. Refrigerate until chilled, at least 2 hours."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Authentic Russian Salad 'Olivye' ",
+    "ratings": "4.92000007629395",
+    "ratingsClass": 10,
+    "reviewCount": "9",
+    "recipeURL": "https://www.allrecipes.com/recipe/234949/authentic-russian-salad-olivye/",
+    "recipeImageURL": "https://images.media-allrecipes.com/userphotos/300x300/4562202.jpg",
+    "ingredient": [
+      { "name": "Medium (2 1/4\" 3\" Dia", "amount": 6, "unit": "" },
+      { "name": "Carrot", "amount": 1, "unit": "" },
+      { "name": "Eggs", "amount": 4, "unit": "" },
+      { "name": "Large Pickles", "amount": 6, "unit": "" },
+      { "name": "Can Peas", "amount": 1, "unit": "" },
+      { "name": "Cubed Fully Cooked Ham", "amount": 0.5, "unit": "cup" },
+      { "name": "Parsley", "amount": 1, "unit": "tablespoon" },
+      { "name": "Mayonnaise", "amount": 0.5, "unit": "cup" }
+    ],
+    "originalIngredient": [
+      "6 medium (2-1/4\" to 3\" dia, raw)s potatoes, peeled",
+      "1   carrot, or more to taste",
+      "4   eggs",
+      "6 large pickles, cut into cubes",
+      "1 (15 ounce) can peas, drained",
+      "½ cup cubed fully cooked ham, or to taste",
+      "1 tablespoon chopped fresh parsley, or to taste",
+      "½ cup mayonnaise, or to taste"
+    ],
+    "additionalInfo": [
+      { "heading": "prep:", "body": "30 mins" },
+      { "heading": "cook:", "body": "20 mins" },
+      { "heading": "total:", "body": "50 mins" },
+      { "heading": "Servings:", "body": "10" },
+      { "heading": "Yield:", "body": "10 servings" }
+    ],
+    "prepInstructions": [
+      {
+        "step": 1,
+        "instruction": "Bring a large pot of water to a boil; add potatoes and carrot. Return mixture to a boil and add eggs; cook until potatoes are tender, 20 to 30 minutes. Drain and slightly cool mixture. Chop potatoes and carrot; peel and chop eggs."
+      },
+      {
+        "step": 2,
+        "instruction": "Mix potatoes, carrot, eggs, pickles, peas, ham, and parsley together in a large bowl; stir in mayonnaise until salad is evenly coated."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Spicy Curried Sweet Potato Soup (Paleo and GF Approved) ",
+    "ratings": "4.67000007629395",
+    "ratingsClass": 10,
+    "reviewCount": "9",
+    "recipeURL": "https://www.allrecipes.com/recipe/237450/spicy-curried-sweet-potato-soup-paleo-and-gf-approved/",
+    "recipeImageURL": "https://images.media-allrecipes.com/userphotos/300x300/1132376.jpg",
+    "ingredient": [
+      { "name": "Sweet Potatoes", "amount": 3, "unit": "" },
+      { "name": "Beef Broth", "amount": 2, "unit": "cup" },
+      { "name": "Unsweetened Coconut Milk", "amount": 1, "unit": "cup" },
+      { "name": "Small Shallot", "amount": 1, "unit": "" },
+      { "name": "Grade B Maple Syrup", "amount": 2, "unit": "tablespoon" },
+      { "name": "Curry Powder", "amount": 2, "unit": "teaspoon" },
+      { "name": "Sea Salt", "amount": 1, "unit": "teaspoon" },
+      { "name": "Chili Powder", "amount": 1, "unit": "teaspoon" },
+      { "name": "Spanish Smoked Paprika", "amount": 1, "unit": "teaspoon" }
+    ],
+    "originalIngredient": [
+      "3 eaches sweet potatoes, peeled and chopped",
+      "2 cups beef broth",
+      "1 cup unsweetened coconut milk",
+      "1 small shallot, minced",
+      "2 tablespoons grade B maple syrup",
+      "2 teaspoons curry powder",
+      "1 teaspoon sea salt",
+      "1 teaspoon chili powder",
+      "1 teaspoon Spanish smoked paprika"
+    ],
+    "additionalInfo": [
+      { "heading": "prep:", "body": "10 mins" },
+      { "heading": "cook:", "body": "10 mins" },
+      { "heading": "total:", "body": "20 mins" },
+      { "heading": "Servings:", "body": "4" },
+      { "heading": "Yield:", "body": "4 servings" }
+    ],
+    "prepInstructions": [
+      {
+        "step": 1,
+        "instruction": "Combine sweet potatoes and beef broth in a pot; cook over medium-high heat until tender, 5 to 10 minutes. Mash sweet potatoes into the broth using a potato masher."
+      },
+      {
+        "step": 2,
+        "instruction": "Mix coconut milk, shallot, maple syrup, curry powder, sea salt, chili powder, and paprika into sweet potato mixture; cook and stir until heated through, 5 to 10 minutes. Reduce heat to low and blend soup with a hand blender until smooth."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Creamy and Crunchy Tuna Salad Supreme ",
+    "ratings": "4.92000007629395",
+    "ratingsClass": 10,
+    "reviewCount": "12",
+    "recipeURL": "https://www.allrecipes.com/recipe/237259/creamy-and-crunchy-tuna-salad-supreme/",
+    "recipeImageURL": "https://images.media-allrecipes.com/userphotos/300x300/1178116.jpg",
+    "ingredient": [
+      { "name": "Mayonnaise", "amount": 2, "unit": "tablespoon" },
+      { "name": "Cream Cheese", "amount": 2, "unit": "ounce" },
+      {
+        "name": "Cans Solid White Tuna Packed In Water",
+        "amount": 2,
+        "unit": ""
+      },
+      { "name": "Carrot", "amount": 0.5, "unit": "" },
+      { "name": "Red Bell Pepper", "amount": 0.25, "unit": "cup" },
+      { "name": "Black Pepper", "amount": 1, "unit": "pinch" }
+    ],
+    "originalIngredient": [
+      "2 tablespoons mayonnaise",
+      "2 ounces cream cheese, softened, or as needed",
+      "2 (5 ounce) cans solid white tuna packed in water, drained and flaked",
+      "½   carrot, finely chopped",
+      "¼ cup diced red bell pepper",
+      "1 pinch freshly ground black pepper to taste"
+    ],
+    "additionalInfo": [
+      { "heading": "prep:", "body": "10 mins" },
+      { "heading": "total:", "body": "10 mins" },
+      { "heading": "Servings:", "body": "4" },
+      { "heading": "Yield:", "body": "4 servings" }
+    ],
+    "prepInstructions": [
+      {
+        "step": 1,
+        "instruction": "Stir mayonnaise and cream cheese together in a bowl until smooth. Add tuna, carrot, and red pepper; season with pepper."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Breaded Chicken Tenders ",
+    "ratings": "4.75",
+    "ratingsClass": 10,
+    "reviewCount": "9",
+    "recipeURL": "https://www.allrecipes.com/recipe/237200/breaded-chicken-tenders/",
+    "recipeImageURL": "https://images.media-allrecipes.com/userphotos/300x300/3612169.jpg",
+    "ingredient": [
+      { "name": "Vegetable Oil", "amount": 2, "unit": "cup" },
+      { "name": "Buttery Crackers", "amount": 6, "unit": "ounce" },
+      { "name": "Garlic Salt", "amount": 1, "unit": "tablespoon" },
+      { "name": "Ranch Dressing Mix", "amount": 1, "unit": "package" },
+      {
+        "name": "All Purpose Flour",
+        "amount": 0.6666666666666666,
+        "unit": "cup"
+      },
+      { "name": "Eggs", "amount": 2, "unit": "" },
+      {
+        "name": "Medium Skinless Boneless Chicken Breast Halves",
+        "amount": 2,
+        "unit": ""
+      }
+    ],
+    "originalIngredient": [
+      "2 cups vegetable oil for frying",
+      "6 ounces buttery crackers (such as Town House®)",
+      "1 tablespoon garlic salt",
+      "1 (1 ounce) package ranch dressing mix",
+      "⅔ cup all-purpose flour",
+      "2   eggs, beaten",
+      "2 medium skinless, boneless chicken breast halves, cut into 1-inch pieces"
+    ],
+    "additionalInfo": [
+      { "heading": "prep:", "body": "15 mins" },
+      { "heading": "cook:", "body": "10 mins" },
+      { "heading": "total:", "body": "25 mins" },
+      { "heading": "Servings:", "body": "4" },
+      { "heading": "Yield:", "body": "4 servings" }
+    ],
+    "prepInstructions": [
+      {
+        "step": 1,
+        "instruction": "Heat oil in a deep-fryer or large saucepan to 350 degrees F (175 degrees C)."
+      },
+      {
+        "step": 2,
+        "instruction": "Combine crackers, garlic salt, and ranch dressing mix in a resealable plastic bag; squeeze out excess air and seal the bag. Finely crush crackers with a rolling pin or heavy skillet. Pour 1/3 the crumbs mixture into a large bowl."
+      },
+      {
+        "step": 3,
+        "instruction": "Pour flour into a bowl. Pour eggs into another bowl."
+      },
+      {
+        "step": 4,
+        "instruction": "Gently press chicken pieces into flour to coat and shake off excess flour. Dip into beaten egg and press into cracker crumbs. Place the breaded chicken pieces onto a plate while breading the rest."
+      },
+      {
+        "step": 5,
+        "instruction": "Working in batches, cook breaded chicken in hot oil, turning once, until golden brown, no longer pink in the center, and the juices run clear, about 5 to 7 minutes. An instant-read thermometer inserted into the center should read at least 165 degrees F (74 degrees C)."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Avocado Chicken Spread ",
+    "ratings": "4.32999992370605",
+    "ratingsClass": 9,
+    "reviewCount": "7",
+    "recipeURL": "https://www.allrecipes.com/recipe/239242/avocado-chicken-spread/",
+    "recipeImageURL": "https://images.media-allrecipes.com/userphotos/300x300/1419216.jpg",
+    "ingredient": [
+      { "name": "Avocado", "amount": 1, "unit": "" },
+      { "name": "Onion", "amount": 0.5, "unit": "" },
+      { "name": "Cooked Chicken", "amount": 0.5, "unit": "cup" },
+      { "name": "Lime Juice", "amount": 1, "unit": "tablespoon" },
+      { "name": "Garlic Powder", "amount": 0.25, "unit": "teaspoon" },
+      { "name": "Salt", "amount": 1, "unit": "pinch" },
+      { "name": "Black Pepper", "amount": 1, "unit": "pinch" }
+    ],
+    "originalIngredient": [
+      "1   avocado - peeled, pitted, and mashed",
+      "½  onion, diced",
+      "½ cup chopped cooked chicken",
+      "1 tablespoon lime juice",
+      "¼ teaspoon garlic powder",
+      "1 pinch salt and ground black pepper to taste"
+    ],
+    "additionalInfo": [
+      { "heading": "prep:", "body": "15 mins" },
+      { "heading": "total:", "body": "15 mins" },
+      { "heading": "Servings:", "body": "6" },
+      { "heading": "Yield:", "body": "6 servings" }
+    ],
+    "prepInstructions": [
+      {
+        "step": 1,
+        "instruction": "Mix avocado, onion, chicken, lime juice, garlic powder, salt, and pepper together in a bowl."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Nanny's Grape Salad ",
+    "ratings": "4.67000007629395",
+    "ratingsClass": 10,
+    "reviewCount": "11",
+    "recipeURL": "https://www.allrecipes.com/recipe/229935/nannys-grape-salad/",
+    "recipeImageURL": "https://images.media-allrecipes.com/userphotos/300x300/2493558.jpg",
+    "ingredient": [
+      { "name": "Pecans", "amount": 1, "unit": "cup" },
+      { "name": "White Sugar", "amount": 0.3333333333333333, "unit": "cup" },
+      { "name": "Cream Cheese", "amount": 1, "unit": "package" },
+      { "name": "Vanilla Extract", "amount": 1, "unit": "teaspoon" },
+      { "name": "Red Seedless Grapes", "amount": 2, "unit": "pound" }
+    ],
+    "originalIngredient": [
+      "1 cup chopped pecans",
+      "⅓ cup white sugar",
+      "1 (8 ounce) package cream cheese, softened",
+      "1 teaspoon vanilla extract",
+      "2 pounds red seedless grapes"
+    ],
+    "additionalInfo": [
+      { "heading": "prep:", "body": "15 mins" },
+      { "heading": "cook:", "body": "5 mins" },
+      { "heading": "total:", "body": "20 mins" },
+      { "heading": "Servings:", "body": "8" },
+      { "heading": "Yield:", "body": "8 servings" }
+    ],
+    "prepInstructions": [
+      {
+        "step": 1,
+        "instruction": "Place pecans in a skillet over medium-low heat; cook and stir until pecans are toasted and fragrant, 3 to 5 minutes. Remove from heat and pour into a heatproof bowl; stir to prevent nuts from overcooking."
+      },
+      {
+        "step": 2,
+        "instruction": "Beat sugar, cream cheese, and vanilla extract together with an electric mixer in a bowl until smooth. Fold in pecans and grapes. Stir gently until grapes are coated."
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Spiced Tomato Soup ",
+    "ratings": "4.32999992370605",
+    "ratingsClass": 9,
+    "reviewCount": "9",
+    "recipeURL": "https://www.allrecipes.com/recipe/229937/spiced-tomato-soup/",
+    "recipeImageURL": "https://images.media-allrecipes.com/userphotos/300x300/938641.jpg",
+    "ingredient": [
+      { "name": "Olive Oil", "amount": 2, "unit": "tablespoon" },
+      { "name": "Onion", "amount": 0.25, "unit": "cup" },
+      { "name": "Cumin", "amount": 1, "unit": "teaspoon" },
+      { "name": "Ginger", "amount": 1, "unit": "teaspoon" },
+      { "name": "Cinnamon", "amount": 0.25, "unit": "teaspoon" },
+      { "name": "Can Condensed Tomato Soup", "amount": 1, "unit": "" },
+      { "name": "Can Light Coconut Milk", "amount": 1, "unit": "" },
+      { "name": "Can Tomatoes", "amount": 1, "unit": "" }
+    ],
+    "originalIngredient": [
+      "2 tablespoons olive oil",
+      "¼ cup minced onion",
+      "1 teaspoon ground cumin",
+      "1 teaspoon ground ginger",
+      "¼ teaspoon ground cinnamon",
+      "1 (10.75 ounce) can  condensed tomato soup",
+      "1 (13.5 ounce) can light coconut milk",
+      "1 (14.5 ounce) can diced tomatoes"
+    ],
+    "additionalInfo": [
+      { "heading": "prep:", "body": "10 mins" },
+      { "heading": "cook:", "body": "15 mins" },
+      { "heading": "total:", "body": "25 mins" },
+      { "heading": "Servings:", "body": "4" },
+      { "heading": "Yield:", "body": "4 servings" }
+    ],
+    "prepInstructions": [
+      {
+        "step": 1,
+        "instruction": "Heat olive oil in a saucepan over medium heat. Cook and stir onion in the hot oil until softened, about 5 minutes. Stir in cumin, ginger, and cinnamon and cook until fragrant, about 30 seconds."
+      },
+      {
+        "step": 2,
+        "instruction": "Stir tomato soup, coconut milk, and diced tomatoes into the onion mixture and cook until soup is heated through, about 10 minutes."
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Bacon Dijon Egg Salad Sandwich ",
+    "ratings": "4.57999992370605",
+    "ratingsClass": 10,
+    "reviewCount": "12",
+    "recipeURL": "https://www.allrecipes.com/recipe/230186/bacon-dijon-egg-salad-sandwich/",
+    "recipeImageURL": "https://images.media-allrecipes.com/userphotos/300x300/931987.jpg",
+    "ingredient": [
+      { "name": "Hard Cooked Eggs", "amount": 10, "unit": "" },
+      { "name": "Crispy Cooked Bacon", "amount": 6, "unit": "slice" },
+      {
+        "name": "Creamy Salad Dressing",
+        "amount": 0.3333333333333333,
+        "unit": "cup"
+      },
+      { "name": "Red Onion", "amount": 0.25, "unit": "cup" },
+      { "name": "Dijon Mustard", "amount": 2, "unit": "tablespoon" },
+      { "name": "Honey Mustard", "amount": 1, "unit": "tablespoon" },
+      { "name": "Chives", "amount": 1, "unit": "tablespoon" },
+      { "name": "Lemon Juice", "amount": 1, "unit": "teaspoon" },
+      { "name": "Dill", "amount": 0.5, "unit": "teaspoon" },
+      { "name": "Seasoned Salt", "amount": 0.5, "unit": "teaspoon" },
+      { "name": "Kaiser Rolls", "amount": 6, "unit": "" }
+    ],
+    "originalIngredient": [
+      "10 eaches hard-cooked eggs, chopped",
+      "6 slices crispy cooked bacon, chopped",
+      "⅓ cup creamy salad dressing (such as Miracle Whip®), or more to taste",
+      "¼ cup chopped red onion",
+      "2 tablespoons Dijon mustard",
+      "1 tablespoon honey mustard",
+      "1 tablespoon chopped fresh chives",
+      "1 teaspoon lemon juice",
+      "½ teaspoon dill",
+      "½ teaspoon seasoned salt",
+      "6 eaches Kaiser rolls, split"
+    ],
+    "additionalInfo": [
+      { "heading": "prep:", "body": "10 mins" },
+      { "heading": "total:", "body": "10 mins" },
+      { "heading": "Servings:", "body": "6" },
+      { "heading": "Yield:", "body": "6 servings" }
+    ],
+    "prepInstructions": [
+      {
+        "step": 1,
+        "instruction": "Mix eggs, bacon, salad dressing, red onion, Dijon mustard, honey mustard, chives, lemon juice, dill, and seasoned salt in a bowl; spread onto Kaiser rolls to serve."
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Hearty Caesar Salad ",
+    "ratings": "4.5",
+    "ratingsClass": 9,
+    "reviewCount": "11",
+    "recipeURL": "https://www.allrecipes.com/recipe/231633/hearty-caesar-salad/",
+    "recipeImageURL": "https://images.media-allrecipes.com/userphotos/300x300/975385.jpg",
+    "ingredient": [
+      { "name": "Mayonnaise", "amount": 0.75, "unit": "cup" },
+      { "name": "Olive Oil", "amount": 2, "unit": "tablespoon" },
+      { "name": "Lemon Juice", "amount": 1, "unit": "tablespoon" },
+      { "name": "Garlic", "amount": 1, "unit": "clove" },
+      { "name": "Pasteurized Egg", "amount": 1, "unit": "" },
+      { "name": "Black Pepper", "amount": 1, "unit": "teaspoon" },
+      { "name": "Seasoned Salt", "amount": 1, "unit": "teaspoon" },
+      { "name": "Bacon", "amount": 1, "unit": "pound" },
+      { "name": "Romaine Lettuce", "amount": 1, "unit": "head" },
+      { "name": "Red Onion", "amount": 0.5, "unit": "" },
+      { "name": "Mushrooms", "amount": 6, "unit": "" },
+      { "name": "Croutons", "amount": 1, "unit": "package" }
+    ],
+    "originalIngredient": [
+      "¾ cup mayonnaise",
+      "2 tablespoons olive oil",
+      "1 tablespoon lemon juice",
+      "1 clove garlic, coarsely chopped, or more to taste",
+      "1   pasteurized egg",
+      "1 teaspoon ground black pepper",
+      "1 teaspoon seasoned salt",
+      "1 pound bacon",
+      "1 head romaine lettuce, torn",
+      "½  red onion, sliced",
+      "6   fresh mushrooms, sliced",
+      "1 (6 ounce) package croutons"
+    ],
+    "additionalInfo": [
+      { "heading": "prep:", "body": "20 mins" },
+      { "heading": "cook:", "body": "10 mins" },
+      { "heading": "total:", "body": "30 mins" },
+      { "heading": "Servings:", "body": "4" },
+      { "heading": "Yield:", "body": "4 servings" }
+    ],
+    "prepInstructions": [
+      {
+        "step": 1,
+        "instruction": "Blend mayonnaise, olive oil, lemon juice, garlic, egg, black pepper, and seasoned salt in a blender until smooth. Refrigerate for flavors to blend."
+      },
+      {
+        "step": 2,
+        "instruction": "Place the bacon in a large skillet and cook over medium-high heat, turning occasionally, until evenly browned, about 10 minutes. Drain the bacon slices on paper towels and crumble."
+      },
+      {
+        "step": 3,
+        "instruction": "Mix romaine lettuce, bacon, onion, mushrooms, and croutons in a large bowl. Pour dressing over salad; toss to coat."
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Colorful Broccoli Salad ",
+    "ratings": "4.5",
+    "ratingsClass": 9,
+    "reviewCount": "12",
+    "recipeURL": "https://www.allrecipes.com/recipe/231636/colorful-broccoli-salad/",
+    "recipeImageURL": "https://images.media-allrecipes.com/userphotos/300x300/2292337.jpg",
+    "ingredient": [
+      { "name": "Mayonnaise", "amount": 0.5, "unit": "cup" },
+      { "name": "White Sugar", "amount": 0.25, "unit": "cup" },
+      { "name": "Vinegar", "amount": 1, "unit": "teaspoon" },
+      { "name": "Bacon", "amount": 0.5, "unit": "pound" },
+      { "name": "Bunch Broccoli", "amount": 1, "unit": "" },
+      { "name": "Red Onion", "amount": 1, "unit": "" },
+      { "name": "Sharp Cheddar Cheese", "amount": 1, "unit": "cup" }
+    ],
+    "originalIngredient": [
+      "½ cup mayonnaise",
+      "¼ cup white sugar",
+      "1 teaspoon vinegar",
+      "½ pound bacon, cut into 1-inch square pieces",
+      "1 bunch broccoli, cut into florets",
+      "1   red onion, chopped",
+      "1 cup shredded sharp Cheddar cheese"
+    ],
+    "additionalInfo": [
+      { "heading": "prep:", "body": "15 mins" },
+      { "heading": "cook:", "body": "10 mins" },
+      { "heading": "total:", "body": "25 mins" },
+      { "heading": "Servings:", "body": "6" },
+      { "heading": "Yield:", "body": "6 servings" }
+    ],
+    "prepInstructions": [
+      {
+        "step": 1,
+        "instruction": "Whisk mayonnaise, sugar, and vinegar together in a bowl."
+      },
+      {
+        "step": 2,
+        "instruction": "Place bacon in a large skillet; cook and stir over medium-high heat until evenly browned, about 10 minutes. Drain bacon on paper towels."
+      },
+      {
+        "step": 3,
+        "instruction": "Mix broccoli, bacon, onion, and Cheddar cheese in a large bowl. Pour dressing over broccoli mixture; toss to coat."
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Simple Greek Couscous ",
+    "ratings": "4.75",
+    "ratingsClass": 10,
+    "reviewCount": "9",
+    "recipeURL": "https://www.allrecipes.com/recipe/231642/simple-greek-couscous/",
+    "recipeImageURL": "https://images.media-allrecipes.com/userphotos/300x300/1094924.jpg",
+    "ingredient": [
+      { "name": "Water", "amount": 1, "unit": "cup" },
+      { "name": "Couscous", "amount": 1, "unit": "cup" },
+      {
+        "name": "Kalamata Olives",
+        "amount": 0.6666666666666666,
+        "unit": "cup"
+      },
+      {
+        "name": "Red Bell Pepper",
+        "amount": 0.6666666666666666,
+        "unit": "cup"
+      },
+      { "name": "Sun Dried Tomatoes", "amount": 0.5, "unit": "cup" },
+      { "name": "Crumbled Feta Cheese", "amount": 1, "unit": "package" },
+      { "name": "Dried Parsley", "amount": 1, "unit": "tablespoon" }
+    ],
+    "originalIngredient": [
+      "1 cup water",
+      "1 cup couscous",
+      "⅔ cup chopped kalamata olives, liquid reserved",
+      "⅔ cup diced red bell pepper",
+      "½ cup diced sun-dried tomatoes, oil reserved",
+      "1 (4 ounce) package crumbled feta cheese",
+      "1 tablespoon dried parsley, or to taste"
+    ],
+    "additionalInfo": [
+      { "heading": "prep:", "body": "15 mins" },
+      { "heading": "additional:", "body": "10 mins" },
+      { "heading": "total:", "body": "25 mins" },
+      { "heading": "Servings:", "body": "6" },
+      { "heading": "Yield:", "body": "6 servings" }
+    ],
+    "prepInstructions": [
+      {
+        "step": 1,
+        "instruction": "Bring water to a boil in a saucepan. Remove from the heat, and stir in couscous. Cover and let stand for 10 minutes, then fluff with a fork. Set aside to cool slightly."
+      },
+      {
+        "step": 2,
+        "instruction": "Mix olives, red bell pepper, sun-dried tomatoes, and couscous together in a bowl. Stir about 1 tablespoon liquid  from olives and 1 tablespoon oil from sun-dried tomatoes into the couscous mixture until moistened. Add more oil as needed. Fold in feta cheese; sprinkle with parsley."
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Honey Dijon Mustard and Poppy Seed Coleslaw with Cranberries and Toasted Almonds ",
+    "ratings": "4.82999992370605",
+    "ratingsClass": 10,
+    "reviewCount": "8",
+    "recipeURL": "https://www.allrecipes.com/recipe/232306/honey-dijon-mustard-and-poppy-seed-coleslaw-with-cranberries-and-toasted-almonds/",
+    "recipeImageURL": "https://images.media-allrecipes.com/userphotos/300x300/1109567.jpg",
+    "ingredient": [
+      { "name": "Serving Olive Oil Cooking Spray", "amount": 1, "unit": "" },
+      { "name": "Slivered Almonds", "amount": 0.5, "unit": "cup" },
+      { "name": "Cabbage", "amount": 5, "unit": "cup" },
+      { "name": "Dried Cranberries", "amount": 1.5, "unit": "cup" },
+      { "name": "Green Bell Pepper", "amount": 0.5, "unit": "cup" },
+      { "name": "Celery", "amount": 0.5, "unit": "cup" },
+      { "name": "Chives", "amount": 2, "unit": "tablespoon" },
+      { "name": "Mayonnaise", "amount": 1, "unit": "cup" },
+      { "name": "Honey Dijon Mustard", "amount": 3, "unit": "tablespoon" },
+      { "name": "Honey", "amount": 2, "unit": "tablespoon" },
+      { "name": "Poppy Seeds", "amount": 1, "unit": "tablespoon" },
+      { "name": "Salt", "amount": 1, "unit": "pinch" },
+      { "name": "Black Pepper", "amount": 1, "unit": "pinch" }
+    ],
+    "originalIngredient": [
+      "1  serving olive oil cooking spray",
+      "½ cup slivered almonds",
+      "5 cups shredded cabbage",
+      "1 ½ cups dried cranberries",
+      "½ cup finely diced green bell pepper",
+      "½ cup finely diced celery",
+      "2 tablespoons minced chives",
+      "1 cup mayonnaise",
+      "3 tablespoons honey-Dijon mustard",
+      "2 tablespoons honey",
+      "1 tablespoon poppy seeds",
+      "1 pinch salt and ground black pepper to taste"
+    ],
+    "additionalInfo": [
+      { "heading": "prep:", "body": "25 mins" },
+      { "heading": "cook:", "body": "5 mins" },
+      { "heading": "total:", "body": "30 mins" },
+      { "heading": "Servings:", "body": "12" },
+      { "heading": "Yield:", "body": "12 servings" }
+    ],
+    "prepInstructions": [
+      {
+        "step": 1,
+        "instruction": "Spray a small skillet lightly with olive oil cooking spray and place over medium-low heat. Cook and stir almonds in the skillet until lightly golden brown and fragrant, 2 to 3 minutes. Remove from heat and transfer to a bowl to cool."
+      },
+      {
+        "step": 2,
+        "instruction": "Stir cabbage, cranberries, green bell pepper, celery, and chives in a salad bowl. Toss toasted almonds with cabbage mixture. Whisk mayonnaise, honey-Dijon mustard, honey, and poppy seeds together in a small bowl. Stir dressing into slaw until coated. Season with salt and black pepper."
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Fresh Fruit Salad with Honey Lime Dressing ",
+    "ratings": "4.57999992370605",
+    "ratingsClass": 10,
+    "reviewCount": "10",
+    "recipeURL": "https://www.allrecipes.com/recipe/233890/fresh-fruit-salad-with-honey-lime-dressing/",
+    "recipeImageURL": "https://images.media-allrecipes.com/userphotos/300x300/1061217.jpg",
+    "ingredient": [
+      { "name": "Pineapple Chunks", "amount": 1, "unit": "cup" },
+      { "name": "Orange Segments", "amount": 1, "unit": "cup" },
+      { "name": "Halved Strawberries", "amount": 1, "unit": "cup" },
+      { "name": "Cantaloupe Chunks", "amount": 1, "unit": "cup" },
+      { "name": "Watermelon Chunks", "amount": 1, "unit": "cup" },
+      { "name": "Grapefruit Chunks", "amount": 1, "unit": "cup" },
+      { "name": "Halved Seedless Grapes", "amount": 1, "unit": "cup" },
+      { "name": "Salad Oil", "amount": 6, "unit": "tablespoon" },
+      { "name": "Lime Juice", "amount": 3, "unit": "tablespoon" },
+      { "name": "Honey", "amount": 3, "unit": "tablespoon" },
+      { "name": "Vinegar", "amount": 0.25, "unit": "teaspoon" },
+      { "name": "Ginger", "amount": 1, "unit": "pinch" }
+    ],
+    "originalIngredient": [
+      "1 cup fresh pineapple chunks",
+      "1 cup orange segments",
+      "1 cup halved fresh strawberries",
+      "1 cup cantaloupe chunks",
+      "1 cup watermelon chunks",
+      "1 cup grapefruit chunks",
+      "1 cup halved seedless grapes",
+      "6 tablespoons salad oil",
+      "3 tablespoons lime juice",
+      "3 tablespoons honey",
+      "¼ teaspoon vinegar, or to taste",
+      "1 pinch ground ginger"
+    ],
+    "additionalInfo": [
+      { "heading": "prep:", "body": "10 mins" },
+      { "heading": "additional:", "body": "40 mins" },
+      { "heading": "total:", "body": "50 mins" },
+      { "heading": "Servings:", "body": "14" },
+      { "heading": "Yield:", "body": "14 servings" }
+    ],
+    "prepInstructions": [
+      {
+        "step": 1,
+        "instruction": "Mix pineapple, oranges, strawberries, cantaloupe, watermelon, grapefruit, and grapes together in a bowl; refrigerate until chilled, at least 30 minutes."
+      },
+      {
+        "step": 2,
+        "instruction": "Combine oil, lime juice, honey, vinegar, and ginger in a bottle with a lid; cover and shake until dressing is mixed. Refrigerate until chilled, at least 30 minutes. Shake dressing again; drizzle over fruit and toss to coat."
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Authentic Thai Steak Salad ",
+    "ratings": "4.42000007629395",
+    "ratingsClass": 9,
+    "reviewCount": "9",
+    "recipeURL": "https://www.allrecipes.com/recipe/233938/authentic-thai-steak-salad/",
+    "recipeImageURL": "https://images.media-allrecipes.com/userphotos/300x300/2209964.jpg",
+    "ingredient": [
+      { "name": "Black Pepper", "amount": 0.5, "unit": "teaspoon" },
+      { "name": "Kosher Salt", "amount": 0.25, "unit": "teaspoon" },
+      { "name": "Flank Steak", "amount": 1, "unit": "" },
+      { "name": "Lime Juice", "amount": 0.25, "unit": "cup" },
+      { "name": "Soy Sauce", "amount": 2, "unit": "tablespoon" },
+      { "name": "Brown Sugar", "amount": 1, "unit": "tablespoon" },
+      { "name": "Fish Sauce", "amount": 1, "unit": "tablespoon" },
+      { "name": "Garlic", "amount": 2, "unit": "teaspoon" },
+      { "name": "Chile Garlic Sauce", "amount": 1, "unit": "teaspoon" },
+      { "name": "Romaine Lettuce", "amount": 2, "unit": "head" },
+      { "name": "Mint Leaves", "amount": 0.3333333333333333, "unit": "cup" },
+      {
+        "name": "Cilantro Leaves",
+        "amount": 0.3333333333333333,
+        "unit": "cup"
+      },
+      {
+        "name": "Thai Basil Leaves",
+        "amount": 0.3333333333333333,
+        "unit": "cup"
+      }
+    ],
+    "originalIngredient": [
+      "½ teaspoon ground black pepper",
+      "¼ teaspoon kosher salt",
+      "1 (1 1/2-pound) flank steak",
+      "¼ cup fresh lime juice",
+      "2 tablespoons soy sauce",
+      "1 tablespoon brown sugar",
+      "1 tablespoon fish sauce",
+      "2 teaspoons minced garlic",
+      "1 teaspoon chile-garlic sauce (such as Sriracha®)",
+      "2 heads romaine lettuce",
+      "⅓ cup fresh mint leaves",
+      "⅓ cup fresh cilantro leaves",
+      "⅓ cup fresh Thai basil leaves"
+    ],
+    "additionalInfo": [
+      { "heading": "prep:", "body": "15 mins" },
+      { "heading": "cook:", "body": "10 mins" },
+      { "heading": "total:", "body": "25 mins" },
+      { "heading": "Servings:", "body": "6" },
+      { "heading": "Yield:", "body": "6 servings" }
+    ],
+    "prepInstructions": [
+      {
+        "step": 1,
+        "instruction": "Preheat an outdoor grill for medium-high heat and lightly oil the grate. Sprinkle pepper and salt onto flank steak."
+      },
+      {
+        "step": 2,
+        "instruction": "Cook steak on preheated grill until desired doneness is reached, 5 to 6 minutes per side. An instant-read thermometer inserted into the center should read 140 degrees F (60 degrees C)."
+      },
+      {
+        "step": 3,
+        "instruction": "Whisk lime juice, soy sauce, brown sugar, fish sauce, garlic, and chile-garlic sauce together in a bowl."
+      },
+      {
+        "step": 4,
+        "instruction": "Mix romaine lettuce, mint, cilantro, and basil together in a bowl; spoon about 6 tablespoons lime juice mixture over romaine mixture. Toss to coat."
+      },
+      {
+        "step": 5,
+        "instruction": "Cut steak into strips and place strips into remaining lime juice mixture; let sit for steak to marinate, 1 to 2 minutes. Place steak on romaine mixture."
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Cold Rice Salad ",
+    "ratings": "4.57999992370605",
+    "ratingsClass": 10,
+    "reviewCount": "10",
+    "recipeURL": "https://www.allrecipes.com/recipe/34577/cold-rice-salad/",
+    "recipeImageURL": "https://images.media-allrecipes.com/userphotos/300x300/1598736.jpg",
+    "ingredient": [
+      { "name": "Water", "amount": 2, "unit": "cup" },
+      { "name": "White Rice", "amount": 1, "unit": "cup" },
+      { "name": "Eggs", "amount": 3, "unit": "" },
+      { "name": "Olive Oil", "amount": 1, "unit": "tablespoon" },
+      {
+        "name": "Boneless Skinless Chicken Breasts Size",
+        "amount": 2,
+        "unit": ""
+      },
+      { "name": "Olive Oil", "amount": 3, "unit": "tablespoon" },
+      { "name": "Vinegar", "amount": 1, "unit": "teaspoon" },
+      { "name": "Salt", "amount": 1, "unit": "teaspoon" },
+      { "name": "Pepper", "amount": 0.25, "unit": "teaspoon" },
+      { "name": "Tomatoes", "amount": 1, "unit": "cup" },
+      { "name": "Bunch Raw Broccoli", "amount": 1, "unit": "" },
+      { "name": "Frozen Peas", "amount": 1, "unit": "cup" },
+      { "name": "Frozen Corn Kernels", "amount": 1, "unit": "cup" }
+    ],
+    "originalIngredient": [
+      "2 cups water",
+      "1 cup uncooked white rice",
+      "3   eggs",
+      "1 tablespoon olive oil",
+      "2   boneless skinless chicken breasts, bite-size pieces",
+      "3 tablespoons olive oil",
+      "1 teaspoon vinegar",
+      "1 teaspoon salt",
+      "¼ teaspoon pepper",
+      "1 cup tomatoes, diced",
+      "1 bunch raw broccoli, with stalk, chopped",
+      "1 cup frozen peas, thawed",
+      "1 cup frozen corn kernels, thawed"
+    ],
+    "additionalInfo": [
+      { "heading": "prep:", "body": "30 mins" },
+      { "heading": "cook:", "body": "30 mins" },
+      { "heading": "additional:", "body": "1 hr" },
+      { "heading": "total:", "body": "2 hrs" },
+      { "heading": "Servings:", "body": "8" },
+      { "heading": "Yield:", "body": "8 servings" }
+    ],
+    "prepInstructions": [
+      {
+        "step": 1,
+        "instruction": "Bring water to a boil in a medium saucepan. Add rice and stir. Reduce heat, cover and simmer for 20 minutes. Remove from heat, and set aside to cool."
+      },
+      {
+        "step": 2,
+        "instruction": "Place eggs in a saucepan and cover with cold water. Bring water to a boil and immediately remove from heat. Cover and let eggs stand in hot water for 10 to 12 minutes. Cool, peel, and slice."
+      },
+      {
+        "step": 3,
+        "instruction": "Heat 1 tablespoon of oil in a skillet over medium-high heat. Cook chicken, stirring occasionally, until no longer pink and juices run clear."
+      },
+      {
+        "step": 4,
+        "instruction": "Whisk remaining oil, vinegar, salt, and pepper together in a small bowl until lightly emulsified; set aside. Place tomatoes, broccoli, peas, and corn together in a large mixing bowl; toss to combine. Add chicken, eggs and rice, and toss again. Cover, and refrigerate for at least 1 hour before serving. Toss with dressing to coat just before serving."
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "name": "My Favorite Chicken and Wild Rice Soup ",
+    "ratings": "4.32999992370605",
+    "ratingsClass": 9,
+    "reviewCount": "11",
+    "recipeURL": "https://www.allrecipes.com/recipe/192524/my-favorite-chicken-and-wild-rice-soup/",
+    "recipeImageURL": "https://images.media-allrecipes.com/userphotos/300x300/1921677.jpg",
+    "ingredient": [
+      { "name": "Vegetable Oil", "amount": 1, "unit": "tablespoon" },
+      { "name": "Chicken", "amount": 3, "unit": "pound" },
+      { "name": "Whole Carrots", "amount": 2, "unit": "" },
+      { "name": "Stalks Celery", "amount": 2, "unit": "" },
+      { "name": "Large Whole Onion", "amount": 1, "unit": "" },
+      { "name": "Salt", "amount": 1, "unit": "pinch" },
+      { "name": "Pepper", "amount": 1, "unit": "pinch" },
+      { "name": "Garlic", "amount": 5, "unit": "clove" },
+      { "name": "Long Grain", "amount": 1, "unit": "package" },
+      { "name": "Wild Rice Mix", "amount": 1, "unit": "package" },
+      { "name": "Carrots", "amount": 3, "unit": "" },
+      { "name": "Lemon Juice", "amount": 1.5, "unit": "tablespoon" },
+      { "name": "Parsley", "amount": 2, "unit": "tablespoon" }
+    ],
+    "originalIngredient": [
+      "1 tablespoon vegetable oil",
+      "3 pounds chicken pieces",
+      "2   whole carrots",
+      "2 stalks celery, cut in half",
+      "1 large whole onion, peeled",
+      "1 pinch salt and pepper, to taste",
+      "5 cloves garlic, crushed",
+      "1 (6 ounce) package long grain and wild rice mix (such as Uncle Ben's ® Original)",
+      "3   carrots, chopped",
+      "1 ½ tablespoons lemon juice",
+      "2 tablespoons chopped fresh parsley"
+    ],
+    "additionalInfo": [
+      { "heading": "prep:", "body": "20 mins" },
+      { "heading": "cook:", "body": "3 hrs 17 mins" },
+      { "heading": "total:", "body": "3 hrs 37 mins" },
+      { "heading": "Servings:", "body": "6" },
+      { "heading": "Yield:", "body": "6 servings" }
+    ],
+    "prepInstructions": [
+      {
+        "step": 1,
+        "instruction": "Heat oil in a large pot over medium heat; add the chicken, whole carrots, celery, and whole onion.  Cook until the chicken is browned, about 10 minutes. Season with salt and pepper. Stir in the crushed garlic cloves, and cook until soft, about 1 to 2 minutes. Pour enough water into the pot to cover the chicken and vegetables. Simmer for 2 to 3 hours.  Add water as necessary."
+      },
+      {
+        "step": 2,
+        "instruction": "While the soup is simmering, cook the rice according to package instructions. Refrigerate when done."
+      },
+      {
+        "step": 3,
+        "instruction": "Removed cooked chicken from the pot to cool. Strain the broth, discarding cooked vegetables.  Shred chicken and return to the pot along with the broth; stir in chopped carrots and lemon juice. Bring soup to a simmer, and cook until the carrots are soft, about 10 minutes. Stir in the cooked rice and chopped parsley. Heat until hot, about 5 minutes. Season with additional salt and pepper, if needed."
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Fried Monte Cristo Sandwich ",
+    "ratings": "4.57999992370605",
+    "ratingsClass": 10,
+    "reviewCount": "9",
+    "recipeURL": "https://www.allrecipes.com/recipe/214175/fried-monte-cristo-sandwich/",
+    "recipeImageURL": "https://images.media-allrecipes.com/userphotos/300x300/981901.jpg",
+    "ingredient": [
+      { "name": "Sandwich Bread", "amount": 12, "unit": "slice" },
+      { "name": "Swiss Cheese", "amount": 8, "unit": "slice" },
+      { "name": "Cooked Deli Ham", "amount": 8, "unit": "slice" },
+      { "name": "Deli Turkey", "amount": 8, "unit": "slice" },
+      { "name": "Flour", "amount": 0.75, "unit": "cup" },
+      { "name": "Eggs", "amount": 3, "unit": "" },
+      { "name": "Kikkoman Panko Bread Crumbs", "amount": 3, "unit": "cup" },
+      { "name": "Vegetable Oil", "amount": 0, "unit": "" },
+      { "name": "Confectioners' Sugar Dusting", "amount": 0, "unit": "" }
+    ],
+    "originalIngredient": [
+      "12 slices sandwich bread, crusts removed",
+      "8 slices Swiss cheese",
+      "8 slices cooked deli ham",
+      "8 slices deli turkey",
+      "¾ cup flour",
+      "3  eggs, beaten well",
+      "3 cups Kikkoman Panko Bread Crumbs",
+      "Vegetable oil for deep-frying",
+      "Confectioners' sugar for dusting, if desired"
+    ],
+    "additionalInfo": [{ "heading": "Servings:", "body": "4" }],
+    "prepInstructions": [
+      {
+        "step": 1,
+        "instruction": "Assemble sandwiches starting with one slice of bread, then 1 slice of ham, a slice of cheese and then a slice of turkey; place one slice of bread and repeat with ham, cheese and turkey, top with a slice of bread. Cut into quarters and secure with toothpicks. Cover sandwiches with plastic wrap and refrigerate overnight."
+      },
+      { "step": 2, "instruction": "Heat oil in  deep fryer to 365 degrees." },
+      {
+        "step": 3,
+        "instruction": "Dust each quarter sandwich with flour until all sides are coated; dip into beaten egg and toss into panko and cover completely."
+      },
+      {
+        "step": 4,
+        "instruction": "Carefully lower sandwich quarters one at a time into deep hot oil; fry until golden brown on all sides. Drain; remove toothpicks before serving."
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Turkey Sandwiches with Cranberry Sauce ",
+    "ratings": "4.42000007629395",
+    "ratingsClass": 9,
+    "reviewCount": "9",
+    "recipeURL": "https://www.allrecipes.com/recipe/152661/turkey-sandwiches-with-cranberry-sauce/",
+    "recipeImageURL": "https://images.media-allrecipes.com/userphotos/300x300/708428.jpg",
+    "ingredient": [
+      { "name": "Loaf French Bread", "amount": 1, "unit": "" },
+      { "name": "Margarine", "amount": 4, "unit": "tablespoon" },
+      { "name": "Deli Turkey Meat", "amount": 8, "unit": "ounce" },
+      { "name": "Provolone Cheese", "amount": 8, "unit": "slice" },
+      { "name": "Precooked Bacon", "amount": 8, "unit": "slice" },
+      { "name": "Mayonnaise", "amount": 4, "unit": "tablespoon" },
+      { "name": "Jellied Cranberry Sauce", "amount": 4, "unit": "tablespoon" },
+      { "name": "Tomatoes", "amount": 8, "unit": "slice" },
+      { "name": "Lettuce Leaves", "amount": 4, "unit": "" }
+    ],
+    "originalIngredient": [
+      "1 loaf French bread",
+      "4 tablespoons margarine",
+      "8 ounces sliced deli turkey meat",
+      "8 slices provolone cheese",
+      "8 slices precooked bacon",
+      "4 tablespoons mayonnaise",
+      "4 tablespoons jellied cranberry sauce",
+      "8 slices fresh tomatoes",
+      "4   lettuce leaves"
+    ],
+    "additionalInfo": [
+      { "heading": "prep:", "body": "15 mins" },
+      { "heading": "cook:", "body": "2 mins" },
+      { "heading": "total:", "body": "17 mins" },
+      { "heading": "Servings:", "body": "4" },
+      { "heading": "Yield:", "body": "4 servings" }
+    ],
+    "prepInstructions": [
+      { "step": 1, "instruction": "Preheat the oven broiler." },
+      {
+        "step": 2,
+        "instruction": "Cut the bread into four pieces, and split lengthwise almost all the way through for four sandwiches. Spread margarine on the inside of each piece. Place on a baking sheet, cut side up."
+      },
+      {
+        "step": 3,
+        "instruction": "Toast bread under preheated broiler until lightly browned, 1 to 2 minutes. Remove pan from the oven."
+      },
+      {
+        "step": 4,
+        "instruction": "Layer 4 pieces of bread with 2 slices each of the turkey, cheese, and bacon. Remove the remaining 4 slices of bread from the baking sheet and reserve for sandwich tops. Cool bread slightly, and spread mayonnaise onto the cut side of each of the 4 top slices."
+      },
+      {
+        "step": 5,
+        "instruction": "Place the bread with turkey and cheese under the broiler just until the cheese melts, about 1 minute. Remove from the broiler, and spread 1 tablespoon cranberry sauce over each sandwich. Layer with the tomatoes and lettuce. Place a top bread slice over each half, and serve."
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Not Your Everyday Green Beans ",
+    "ratings": "4.44999980926514",
+    "ratingsClass": 9,
+    "reviewCount": "10",
+    "recipeURL": "https://www.allrecipes.com/recipe/152213/not-your-everyday-green-beans/",
+    "recipeImageURL": "https://images.media-allrecipes.com/userphotos/300x300/825743.jpg",
+    "ingredient": [
+      { "name": "Green Beans", "amount": 0.5, "unit": "pound" },
+      { "name": "Butter", "amount": 2, "unit": "tablespoon" },
+      { "name": "Crimini Mushrooms", "amount": 0.5, "unit": "pound" },
+      { "name": "Salt", "amount": 1, "unit": "pinch" },
+      { "name": "Pepper", "amount": 1, "unit": "pinch" },
+      { "name": "Seasoned Almond Slices", "amount": 0.25, "unit": "cup" }
+    ],
+    "originalIngredient": [
+      "½ pound fresh green beans, trimmed",
+      "2 tablespoons butter",
+      "½ pound crimini mushrooms, chopped",
+      "1 pinch salt and pepper to taste",
+      "¼ cup seasoned almond slices"
+    ],
+    "additionalInfo": [
+      { "heading": "prep:", "body": "10 mins" },
+      { "heading": "cook:", "body": "10 mins" },
+      { "heading": "total:", "body": "20 mins" },
+      { "heading": "Servings:", "body": "4" },
+      { "heading": "Yield:", "body": "4 servings" }
+    ],
+    "prepInstructions": [
+      {
+        "step": 1,
+        "instruction": "Melt the butter in a large skillet over medium heat. Cook and stir the green beans in the butter for 5 minutes. Stir in the mushrooms. Season with salt and pepper; continue to cook until the beans are tender, about 5 minutes. Stir in the almonds just before serving."
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Cape Cod Turkey Salad ",
+    "ratings": "4.55000019073486",
+    "ratingsClass": 10,
+    "reviewCount": "10",
+    "recipeURL": "https://www.allrecipes.com/recipe/146728/cape-cod-turkey-salad/",
+    "recipeImageURL": "https://images.media-allrecipes.com/userphotos/300x300/884084.jpg",
+    "ingredient": [
+      { "name": "Cooked Turkey", "amount": 3, "unit": "cup" },
+      { "name": "Celery", "amount": 1, "unit": "cup" },
+      { "name": "Dried Cranberries", "amount": 0.5, "unit": "cup" },
+      { "name": "Walnuts", "amount": 0.5, "unit": "cup" },
+      { "name": "Mayonnaise", "amount": 1, "unit": "cup" },
+      { "name": "Sour Cream", "amount": 0.5, "unit": "cup" },
+      { "name": "Parsley", "amount": 2, "unit": "tablespoon" },
+      { "name": "Rosemary", "amount": 1, "unit": "tablespoon" },
+      { "name": "Salt", "amount": 0.25, "unit": "teaspoon" },
+      { "name": "Black Pepper", "amount": 0.125, "unit": "teaspoon" }
+    ],
+    "originalIngredient": [
+      "3 cups diced cooked turkey",
+      "1 cup diced celery",
+      "½ cup dried cranberries",
+      "½ cup coarsely chopped walnuts",
+      "1 cup mayonnaise",
+      "½ cup sour cream",
+      "2 tablespoons chopped fresh parsley",
+      "1 tablespoon chopped fresh rosemary",
+      "¼ teaspoon salt",
+      "⅛ teaspoon black pepper"
+    ],
+    "additionalInfo": [
+      { "heading": "prep:", "body": "25 mins" },
+      { "heading": "additional:", "body": "1 hr" },
+      { "heading": "total:", "body": "1 hr 25 mins" },
+      { "heading": "Servings:", "body": "6" },
+      { "heading": "Yield:", "body": "6 servings" }
+    ],
+    "prepInstructions": [
+      {
+        "step": 1,
+        "instruction": "Mix the turkey, celery, cranberries, and walnuts together in a bowl."
+      },
+      {
+        "step": 2,
+        "instruction": "To make the dressing, whisk the mayonnaise, sour cream, parsley, rosemary, salt, and pepper together in a bowl. Pour over the turkey mixture, and toss to coat evenly. Refrigerate the salad for at least 1 hour. Serve cold."
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Chicken Salad Fit for a Dragon ",
+    "ratings": "4.55000019073486",
+    "ratingsClass": 10,
+    "reviewCount": "10",
+    "recipeURL": "https://www.allrecipes.com/recipe/214631/chicken-salad-fit-for-a-dragon/",
+    "recipeImageURL": "https://images.media-allrecipes.com/userphotos/300x300/1031244.jpg",
+    "ingredient": [
+      { "name": "Cooked Chicken", "amount": 2, "unit": "cup" },
+      { "name": "Mayonnaise", "amount": 0.5, "unit": "cup" },
+      { "name": "Large Stalk Celery", "amount": 1, "unit": "" },
+      { "name": "Pine Nuts", "amount": 0.5, "unit": "cup" },
+      { "name": "Lemon Juice", "amount": 1, "unit": "tablespoon" },
+      { "name": "Sweet Pickle Relish", "amount": 1.5, "unit": "tablespoon" },
+      { "name": "Small Jalapeno Pepper", "amount": 1, "unit": "" },
+      { "name": "Cracked Black Pepper", "amount": 0.25, "unit": "teaspoon" }
+    ],
+    "originalIngredient": [
+      "2 cups cooked chicken, diced",
+      "½ cup mayonnaise",
+      "1 large stalk celery, diced",
+      "½ cup pine nuts",
+      "1 tablespoon lemon juice",
+      "1 ½ tablespoons sweet pickle relish",
+      "1 small jalapeno pepper, seeded and minced",
+      "¼ teaspoon cracked black pepper, or to taste"
+    ],
+    "additionalInfo": [
+      { "heading": "prep:", "body": "10 mins" },
+      { "heading": "additional:", "body": "20 mins" },
+      { "heading": "total:", "body": "30 mins" },
+      { "heading": "Servings:", "body": "4" },
+      { "heading": "Yield:", "body": "4 servings" }
+    ],
+    "prepInstructions": [
+      {
+        "step": 1,
+        "instruction": "Stir the chicken, mayonnaise, celery, pine nuts, lemon juice, relish, jalapeno pepper, and black pepper together in a mixing bowl until evenly blended. Cover, and refrigerate 20 to 30 minutes to allow the flavors to blend."
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "name": "Pesto Shrimp Sandwich ",
+    "ratings": "4.55000019073486",
+    "ratingsClass": 10,
+    "reviewCount": "7",
+    "recipeURL": "https://www.allrecipes.com/recipe/188746/pesto-shrimp-sandwich/",
+    "recipeImageURL": "https://images.media-allrecipes.com/userphotos/300x300/430527.jpg",
+    "ingredient": [
+      { "name": "French Baguette", "amount": 1, "unit": "" },
+      { "name": "Softened Butter", "amount": 1, "unit": "tablespoon" },
+      { "name": "Romaine Lettuce Leaves", "amount": 4, "unit": "" },
+      { "name": "Cooked Salad Shrimp", "amount": 1, "unit": "pound" },
+      { "name": "Prepared Pesto Sauce", "amount": 6, "unit": "tablespoon" }
+    ],
+    "originalIngredient": [
+      "1 (16 inch) French baguette",
+      "1 tablespoon softened butter, divided",
+      "4   romaine lettuce leaves",
+      "1 pound cooked salad shrimp",
+      "6 tablespoons prepared pesto sauce"
+    ],
+    "additionalInfo": [
+      { "heading": "prep:", "body": "5 mins" },
+      { "heading": "cook:", "body": "10 mins" },
+      { "heading": "total:", "body": "15 mins" },
+      { "heading": "Servings:", "body": "4" },
+      { "heading": "Yield:", "body": "4 sandwiches" }
+    ],
+    "prepInstructions": [
+      {
+        "step": 1,
+        "instruction": "Preheat an oven to 200 degrees F (95 degrees C)."
+      },
+      {
+        "step": 2,
+        "instruction": "Cut the baguette in 4 equal pieces, and place in the oven to warm."
+      },
+      {
+        "step": 3,
+        "instruction": "Mix the cooked shrimp and pesto sauce together in a bowl."
+      },
+      {
+        "step": 4,
+        "instruction": "To assemble the sandwiches, cut each piece of warmed bread in half and spread the cut sides with butter. Fill each sandwich with one lettuce leaf and equal amounts shrimp and pesto to serve."
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "name": "Summer's Best Salad ",
+    "ratings": "4.44999980926514",
+    "ratingsClass": 9,
+    "reviewCount": "11",
+    "recipeURL": "https://www.allrecipes.com/recipe/174342/summers-best-salad/",
+    "recipeImageURL": "https://images.media-allrecipes.com/userphotos/300x300/212439.jpg",
+    "ingredient": [
+      { "name": "Tomatoes", "amount": 4, "unit": "" },
+      { "name": "Large Bell Pepper", "amount": 1, "unit": "" },
+      { "name": "Olive Oil", "amount": 2, "unit": "tablespoon" },
+      { "name": "Dried Oregano", "amount": 0.5, "unit": "teaspoon" },
+      { "name": "Garlic Salt", "amount": 1, "unit": "pinch" }
+    ],
+    "originalIngredient": [
+      "4   tomatoes, cut into bite-sized pieces",
+      "1 large bell pepper, cut into bite-sized pieces",
+      "2 tablespoons olive oil",
+      "½ teaspoon dried oregano to taste",
+      "1 pinch garlic salt to taste"
+    ],
+    "additionalInfo": [
+      { "heading": "prep:", "body": "15 mins" },
+      { "heading": "additional:", "body": "4 hrs" },
+      { "heading": "total:", "body": "4 hrs 15 mins" },
+      { "heading": "Servings:", "body": "4" },
+      { "heading": "Yield:", "body": "4 servings" }
+    ],
+    "prepInstructions": [
+      {
+        "step": 1,
+        "instruction": "Combine tomatoes and bell pepper in a large bowl. Pour in the olive oil; stir gently to coat the vegetables.  Sprinkle with the oregano and garlic salt to taste. Cover, and refrigerate before serving."
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "name": "Date-Marshmallow Waldorf Salad ",
+    "ratings": "4.82000017166138",
+    "ratingsClass": 10,
+    "reviewCount": "8",
+    "recipeURL": "https://www.allrecipes.com/recipe/141935/date-marshmallow-waldorf-salad/",
+    "recipeImageURL": "https://images.media-allrecipes.com/userphotos/300x300/998238.jpg",
+    "ingredient": [
+      { "name": "", "amount": 2, "unit": "cup" },
+      { "name": "White Sugar", "amount": 1, "unit": "tablespoon" },
+      { "name": "Lemon Juice", "amount": 1, "unit": "teaspoon" },
+      { "name": "Salt", "amount": 1, "unit": "pinch" },
+      { "name": "Celery", "amount": 0.5, "unit": "cup" },
+      { "name": "Dates", "amount": 0.5, "unit": "cup" },
+      { "name": "Walnuts", "amount": 0.5, "unit": "cup" },
+      { "name": "Mayonnaise", "amount": 0.25, "unit": "cup" },
+      { "name": "Heavy Cream", "amount": 0.5, "unit": "cup" },
+      { "name": "Miniature Marshmallows", "amount": 0.25, "unit": "cup" }
+    ],
+    "originalIngredient": [
+      "2 cups peeled, diced tart apples",
+      "1 tablespoon white sugar",
+      "1 teaspoon lemon juice",
+      "1 pinch salt",
+      "½ cup chopped celery",
+      "½ cup chopped pitted dates",
+      "½ cup chopped walnuts",
+      "¼ cup mayonnaise",
+      "½ cup heavy cream",
+      "¼ cup miniature marshmallows"
+    ],
+    "additionalInfo": [
+      { "heading": "prep:", "body": "20 mins" },
+      { "heading": "additional:", "body": "1 hr" },
+      { "heading": "total:", "body": "1 hr 20 mins" },
+      { "heading": "Servings:", "body": "4" },
+      { "heading": "Yield:", "body": "4 servings" }
+    ],
+    "prepInstructions": [
+      {
+        "step": 1,
+        "instruction": "Place the apples in a medium serving bowl and sprinkle with sugar, lemon juice and salt. Stir in the celery, dates and walnuts. In a separate bowl, whip the cream with an electric mixer until it can hold a peak. Mix in mayonnaise and gently fold into the apple mixture along with the marshmallows. Refrigerate for at least 1 hour before serving."
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "name": "Traditional Three Bean Salad ",
+    "ratings": "4.82000017166138",
+    "ratingsClass": 10,
+    "reviewCount": "10",
+    "recipeURL": "https://www.allrecipes.com/recipe/233373/traditional-three-bean-salad/",
+    "recipeImageURL": "https://images.media-allrecipes.com/userphotos/300x300/1060528.jpg",
+    "ingredient": [
+      { "name": "Can Green Beans", "amount": 1, "unit": "" },
+      { "name": "Can Yellow Wax Beans", "amount": 1, "unit": "" },
+      { "name": "Can Red Kidney Beans", "amount": 1, "unit": "" },
+      { "name": "Onion", "amount": 1, "unit": "cup" },
+      { "name": "Celery", "amount": 1, "unit": "cup" },
+      { "name": "Green Bell Pepper", "amount": 1, "unit": "cup" },
+      { "name": "Jar Pimento Peppers", "amount": 1, "unit": "" },
+      { "name": "Vinegar", "amount": 0.5, "unit": "cup" },
+      { "name": "Vegetable Oil", "amount": 0.5, "unit": "cup" },
+      { "name": "White Sugar", "amount": 0.25, "unit": "cup" },
+      { "name": "Salt", "amount": 0.25, "unit": "teaspoon" },
+      { "name": "Black Pepper", "amount": 0.25, "unit": "teaspoon" }
+    ],
+    "originalIngredient": [
+      "1 (16 ounce) can green beans, drained",
+      "1 (16 ounce) can yellow wax beans, drained",
+      "1 (16 ounce) can red kidney beans, drained",
+      "1 cup chopped onion",
+      "1 cup chopped celery",
+      "1 cup chopped green bell pepper",
+      "1 (4 ounce) jar chopped pimento peppers, drained",
+      "½ cup vinegar",
+      "½ cup vegetable oil",
+      "¼ cup white sugar",
+      "¼ teaspoon salt, or to taste",
+      "¼ teaspoon ground black pepper, or to taste"
+    ],
+    "additionalInfo": [
+      { "heading": "prep:", "body": "50 mins" },
+      { "heading": "cook:", "body": "5 mins" },
+      { "heading": "additional:", "body": "8 hrs" },
+      { "heading": "total:", "body": "8 hrs 55 mins" },
+      { "heading": "Servings:", "body": "6" },
+      { "heading": "Yield:", "body": "6 servings" }
+    ],
+    "prepInstructions": [
+      {
+        "step": 1,
+        "instruction": "Mix green beans, yellow wax beans, kidney beans, onion, celery, green bell pepper, and pimento peppers in a bowl."
+      },
+      {
+        "step": 2,
+        "instruction": "Combine vinegar, oil, sugar, salt, and pepper in a saucepan; bring to a boil. Cook and stir until sugar is dissolved, about 5 minutes. Remove saucepan from burner and pour dressing over bean mixture; toss to coat. Refrigerate until flavors blend, 8 hours to overnight."
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "name": "Bob's Sweet Pepper Skillet ",
+    "ratings": "4.6399998664856",
+    "ratingsClass": 10,
+    "reviewCount": "8",
+    "recipeURL": "https://www.allrecipes.com/recipe/232886/bobs-sweet-pepper-skillet/",
+    "recipeImageURL": "https://images.media-allrecipes.com/userphotos/300x300/1061273.jpg",
+    "ingredient": [
+      { "name": "Extra Virgin Olive Oil", "amount": 2, "unit": "teaspoon" },
+      { "name": "Sesame Oil", "amount": 2, "unit": "teaspoon" },
+      { "name": "Green Bell Peppers", "amount": 3, "unit": "" },
+      { "name": "Yellow Bell Pepper", "amount": 1, "unit": "" },
+      { "name": "Red Bell Pepper", "amount": 1, "unit": "" },
+      { "name": "Red Onion", "amount": 1, "unit": "" },
+      { "name": "Garlic", "amount": 2, "unit": "teaspoon" },
+      { "name": "Salt", "amount": 0.25, "unit": "teaspoon" },
+      { "name": "Black Pepper", "amount": 0.25, "unit": "teaspoon" }
+    ],
+    "originalIngredient": [
+      "2 teaspoons extra-virgin olive oil",
+      "2 teaspoons sesame oil",
+      "3 eaches green bell peppers, thinly sliced",
+      "1   yellow bell pepper, chopped",
+      "1  red bell pepper, chopped",
+      "1  red onion, chopped",
+      "2 teaspoons minced garlic",
+      "¼ teaspoon salt",
+      "¼ teaspoon ground black pepper"
+    ],
+    "additionalInfo": [
+      { "heading": "prep:", "body": "15 mins" },
+      { "heading": "cook:", "body": "10 mins" },
+      { "heading": "total:", "body": "25 mins" },
+      { "heading": "Servings:", "body": "4" },
+      { "heading": "Yield:", "body": "4 servings" }
+    ],
+    "prepInstructions": [
+      {
+        "step": 1,
+        "instruction": "Heat olive oil and sesame oil in a large skillet over medium heat; add green bell peppers, yellow bell pepper, red bell pepper, red onion, garlic, salt, and pepper. Cook and stir the pepper mixture until the onion is translucent and the peppers are cooked through, 7 to 10 minutes."
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "name": "Patriotic Pasta ",
+    "ratings": "4.3600001335144",
+    "ratingsClass": 9,
+    "reviewCount": "10",
+    "recipeURL": "https://www.allrecipes.com/recipe/232236/patriotic-pasta/",
+    "recipeImageURL": "https://images.media-allrecipes.com/userphotos/300x300/1006638.jpg",
+    "ingredient": [
+      { "name": "Mayonnaise", "amount": 0.25, "unit": "cup" },
+      { "name": "Sour Cream", "amount": 0.25, "unit": "cup" },
+      { "name": "Crumbled Blue Cheese", "amount": 0.25, "unit": "cup" },
+      { "name": "Milk", "amount": 1.5, "unit": "teaspoon" },
+      { "name": "Honey Mustard", "amount": 0.5, "unit": "teaspoon" },
+      { "name": "White Vinegar", "amount": 0.5, "unit": "teaspoon" },
+      { "name": "Salt", "amount": 0.5, "unit": "teaspoon" },
+      { "name": "Garlic Powder", "amount": 0.25, "unit": "teaspoon" },
+      { "name": "Black Pepper", "amount": 0.25, "unit": "teaspoon" },
+      { "name": "Cayenne Pepper", "amount": 0.125, "unit": "teaspoon" },
+      { "name": "Penne Pasta", "amount": 2.5, "unit": "cup" },
+      { "name": "Olive Oil", "amount": 2, "unit": "tablespoon" },
+      { "name": "Garlic", "amount": 1, "unit": "clove" },
+      { "name": "Basil", "amount": 0.75, "unit": "teaspoon" },
+      { "name": "Cauliflower Florets", "amount": 2.5, "unit": "cup" },
+      { "name": "Halved Cherry Tomatoes", "amount": 2, "unit": "cup" },
+      { "name": "Red Bell Pepper", "amount": 0.5, "unit": "cup" },
+      { "name": "Mozzarella Cheese", "amount": 4, "unit": "ounce" },
+      { "name": "Green Onions", "amount": 3, "unit": "" },
+      { "name": "Parmesan Cheese", "amount": 2, "unit": "tablespoon" }
+    ],
+    "originalIngredient": [
+      "¼ cup mayonnaise",
+      "¼ cup sour cream",
+      "¼ cup crumbled blue cheese",
+      "1 ½ teaspoons milk",
+      "½ teaspoon honey mustard",
+      "½ teaspoon white vinegar",
+      "½ teaspoon salt",
+      "¼ teaspoon garlic powder",
+      "¼ teaspoon ground black pepper",
+      "⅛ teaspoon cayenne pepper",
+      "2 ½ cups penne pasta",
+      "2 tablespoons olive oil",
+      "1 clove garlic, minced",
+      "¾ teaspoon minced fresh basil",
+      "2 ½ cups cauliflower florets",
+      "2 cups halved cherry tomatoes",
+      "½ cup chopped red bell pepper",
+      "4 ounces mozzarella cheese, cut into 1-inch strips",
+      "3   green onions, chopped",
+      "2 tablespoons grated Parmesan cheese"
+    ],
+    "additionalInfo": [
+      { "heading": "prep:", "body": "30 mins" },
+      { "heading": "cook:", "body": "15 mins" },
+      { "heading": "additional:", "body": "1 hr" },
+      { "heading": "total:", "body": "1 hr 45 mins" },
+      { "heading": "Servings:", "body": "12" },
+      { "heading": "Yield:", "body": "12 servings" }
+    ],
+    "prepInstructions": [
+      {
+        "step": 1,
+        "instruction": "Whisk mayonnaise, sour cream, blue cheese, milk, honey mustard, vinegar, salt, garlic powder, black pepper, and cayenne pepper together in a bowl."
+      },
+      {
+        "step": 2,
+        "instruction": "Fill a large pot with lightly salted water and bring to a boil. Stir in penne and return to a boil. Cook pasta uncovered, stirring occasionally, until cooked through but still firm to the bite, about 11 minutes; drain and transfer to a bowl."
+      },
+      {
+        "step": 3,
+        "instruction": "Heat olive oil in a skillet over medium heat; cook and stir garlic and basil until fragrant, 3 to 4 minutes. Pour garlic mixture over penne. Mix cauliflower, tomatoes, red bell pepper, mozzarella cheese, green onion, and Parmesan cheese into penne mixture; toss to coat. Cover and refrigerate to blend flavors, about 1 hour."
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "name": "Whole Wheat Couscous Tabbouleh ",
+    "ratings": "4.55000019073486",
+    "ratingsClass": 10,
+    "reviewCount": "11",
+    "recipeURL": "https://www.allrecipes.com/recipe/232205/whole-wheat-couscous-tabbouleh/",
+    "recipeImageURL": "https://images.media-allrecipes.com/userphotos/300x300/4519391.jpg",
+    "ingredient": [
+      { "name": "Water", "amount": 1, "unit": "cup" },
+      { "name": "Whole Wheat Couscous", "amount": 0.75, "unit": "cup" },
+      { "name": "Salt", "amount": 0.5, "unit": "teaspoon" },
+      { "name": "Halved Grape Tomatoes", "amount": 2, "unit": "cup" },
+      { "name": "Cucumber", "amount": 1.75, "unit": "cup" },
+      { "name": "Red Onion", "amount": 1, "unit": "cup" },
+      { "name": "Flat Leaf Parsley", "amount": 0.5, "unit": "cup" },
+      { "name": "Mint", "amount": 0.5, "unit": "cup" },
+      { "name": "Lemon Juice", "amount": 0.25, "unit": "cup" },
+      { "name": "Extra Virgin Olive Oil", "amount": 2, "unit": "tablespoon" },
+      { "name": "Black Pepper", "amount": 0.25, "unit": "teaspoon" }
+    ],
+    "originalIngredient": [
+      "1 cup water",
+      "¾ cup whole wheat couscous",
+      "½ teaspoon salt",
+      "2 cups halved grape tomatoes",
+      "1 ¾ cups chopped peeled cucumber",
+      "1 cup chopped red onion",
+      "½ cup chopped fresh flat-leaf parsley",
+      "½ cup chopped fresh mint",
+      "¼ cup fresh lemon juice",
+      "2 tablespoons extra-virgin olive oil",
+      "¼ teaspoon freshly ground black pepper"
+    ],
+    "additionalInfo": [
+      { "heading": "prep:", "body": "25 mins" },
+      { "heading": "cook:", "body": "5 mins" },
+      { "heading": "total:", "body": "30 mins" },
+      { "heading": "Servings:", "body": "6" },
+      { "heading": "Yield:", "body": "6 servings" }
+    ],
+    "prepInstructions": [
+      {
+        "step": 1,
+        "instruction": "Bring water to a boil in a saucepan; stir in couscous and salt. Remove from heat, cover saucepan, and let stand until water is absorbed, about 5 minutes. Transfer couscous to a bowl and fluff with a fork."
+      },
+      {
+        "step": 2,
+        "instruction": "Mix tomatoes, cucumber, onion, parsley, mint, lemon juice, olive oil, and black pepper into couscous. Serve immediately or refrigerate for 1 hour for flavors to blend."
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "name": "Tortellini and Artichoke Salad ",
+    "ratings": "4.6399998664856",
+    "ratingsClass": 10,
+    "reviewCount": "10",
+    "recipeURL": "https://www.allrecipes.com/recipe/232689/tortellini-and-artichoke-salad/",
+    "recipeImageURL": "https://images.media-allrecipes.com/userphotos/300x300/1016247.jpg",
+    "ingredient": [
+      {
+        "name": "Refrigerated 3 Cheese Tortellini",
+        "amount": 1,
+        "unit": "package"
+      },
+      { "name": "Can Marinated Artichoke Hearts", "amount": 1, "unit": "" },
+      { "name": "Reduced Fat Mayonnaise", "amount": 0.25, "unit": "cup" },
+      { "name": "Pimento Peppers", "amount": 3, "unit": "tablespoon" },
+      { "name": "Parsley", "amount": 2, "unit": "tablespoon" },
+      { "name": "Basil", "amount": 2, "unit": "tablespoon" },
+      {
+        "name": "Reduced Fat Parmesan Cheese",
+        "amount": 1,
+        "unit": "tablespoon"
+      },
+      { "name": "Dijon Mustard", "amount": 1, "unit": "tablespoon" },
+      { "name": "Black Pepper", "amount": 0.5, "unit": "teaspoon" },
+      { "name": "Salt", "amount": 0.25, "unit": "teaspoon" }
+    ],
+    "originalIngredient": [
+      "1 (9 ounce) package refrigerated 3-cheese tortellini",
+      "1 (14 ounce) can marinated artichoke hearts, quartered and liquid reserved",
+      "¼ cup reduced-fat mayonnaise",
+      "3 tablespoons chopped pimento peppers",
+      "2 tablespoons chopped fresh parsley",
+      "2 tablespoons chopped fresh basil",
+      "1 tablespoon grated reduced-fat Parmesan cheese",
+      "1 tablespoon Dijon mustard",
+      "½ teaspoon ground black pepper",
+      "¼ teaspoon salt"
+    ],
+    "additionalInfo": [
+      { "heading": "prep:", "body": "15 mins" },
+      { "heading": "cook:", "body": "10 mins" },
+      { "heading": "total:", "body": "25 mins" },
+      { "heading": "Servings:", "body": "4" },
+      { "heading": "Yield:", "body": "4 servings" }
+    ],
+    "prepInstructions": [
+      {
+        "step": 1,
+        "instruction": "Bring a large pot of lightly salted water to a boil. Cook tortellini in the boiling water until tender, 8 to 10 minutes; drain and transfer to a bowl. Toss tortellini with 1 tablespoon artichoke heart liquid; add artichoke hearts."
+      },
+      {
+        "step": 2,
+        "instruction": "Whisk mayonnaise, pimento peppers, parsley, basil, Parmesan cheese, Dijon mustard, black pepper, and salt together in a bowl; gently stir mixture into tortellini mixture. Toss to coat. Add more artichoke heart liquid if desired."
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "name": "Creamy Cauliflower Egg Salad ",
+    "ratings": "4.6399998664856",
+    "ratingsClass": 10,
+    "reviewCount": "9",
+    "recipeURL": "https://www.allrecipes.com/recipe/231283/creamy-cauliflower-egg-salad/",
+    "recipeImageURL": "https://images.media-allrecipes.com/userphotos/300x300/1079616.jpg",
+    "ingredient": [
+      { "name": "Large Head Cauliflower", "amount": 1, "unit": "" },
+      { "name": "Hard Cooked Eggs", "amount": 4, "unit": "" },
+      { "name": "Creamy Salad Dressing", "amount": 1, "unit": "cup" },
+      { "name": "Stalks Celery", "amount": 2, "unit": "" },
+      { "name": "Green Onions", "amount": 4, "unit": "" },
+      { "name": "Sour Cream", "amount": 0.25, "unit": "cup" },
+      { "name": "Apple Cider Vinegar", "amount": 2, "unit": "tablespoon" },
+      { "name": "White Sugar", "amount": 1, "unit": "teaspoon" },
+      { "name": "Salt", "amount": 1, "unit": "pinch" },
+      { "name": "Black Pepper", "amount": 1, "unit": "pinch" }
+    ],
+    "originalIngredient": [
+      "1 large head cauliflower, cut into small chunks",
+      "4 eaches hard-cooked eggs, or more to taste - chopped",
+      "1 cup creamy salad dressing (such as Miracle Whip®)",
+      "2 stalks celery, diced",
+      "4 eaches green onions, chopped",
+      "¼ cup sour cream",
+      "2 tablespoons apple cider vinegar",
+      "1 teaspoon white sugar",
+      "1 pinch salt and ground black pepper to taste"
+    ],
+    "additionalInfo": [
+      { "heading": "prep:", "body": "20 mins" },
+      { "heading": "cook:", "body": "10 mins" },
+      { "heading": "additional:", "body": "1 hr" },
+      { "heading": "total:", "body": "1 hr 30 mins" },
+      { "heading": "Servings:", "body": "6" },
+      { "heading": "Yield:", "body": "6 servings" }
+    ],
+    "prepInstructions": [
+      {
+        "step": 1,
+        "instruction": "Place cauliflower into a microwave-safe bowl, cover, and cook in microwave oven until tender, about 7 minutes. Uncover and cool for 5 minutes."
+      },
+      {
+        "step": 2,
+        "instruction": "Stir eggs, creamy salad dressing, celery, green onions, sour cream, apple cider vinegar, sugar, salt, and black pepper in a bowl until thoroughly combined. Mix cauliflower into dressing. Chill at least 1 hour before serving."
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "name": "Roasted Beet, Avocado and Pistachio Salad ",
+    "ratings": "4.90999984741211",
+    "ratingsClass": 10,
+    "reviewCount": "7",
+    "recipeURL": "https://www.allrecipes.com/recipe/230871/roasted-beet-avocado-and-pistachio-salad/",
+    "recipeImageURL": "https://images.media-allrecipes.com/userphotos/300x300/968164.jpg",
+    "ingredient": [
+      { "name": "Large Beets", "amount": 3, "unit": "" },
+      { "name": "Extra Virgin Olive Oil", "amount": 1, "unit": "tablespoon" },
+      { "name": "Balsamic Vinegar", "amount": 1, "unit": "tablespoon" },
+      { "name": "Salt", "amount": 1, "unit": "pinch" },
+      { "name": "Black Pepper", "amount": 1, "unit": "pinch" },
+      { "name": "Avocado", "amount": 1, "unit": "" },
+      { "name": "Extra Virgin Olive Oil", "amount": 2, "unit": "tablespoon" },
+      { "name": "Mixed Salad Greens", "amount": 1, "unit": "package" },
+      { "name": "Shelled Pistachio Nuts", "amount": 0.25, "unit": "cup" },
+      { "name": "Dried Cherries", "amount": 0.25, "unit": "cup" },
+      { "name": "Parmesan Cheese", "amount": 0.25, "unit": "cup" },
+      { "name": "Extra Virgin Olive Oil", "amount": 1, "unit": "tablespoon" },
+      { "name": "Balsamic Vinegar", "amount": 1, "unit": "tablespoon" }
+    ],
+    "originalIngredient": [
+      "3 large beets",
+      "1 tablespoon extra-virgin olive oil",
+      "1 tablespoon balsamic vinegar",
+      "1 pinch salt and ground black pepper to taste",
+      "1   avocado -  peeled, pitted, and cut into bite-size pieces",
+      "2 tablespoons extra-virgin olive oil",
+      "1 (10 ounce) package mixed salad greens",
+      "¼ cup shelled pistachio nuts",
+      "¼ cup  dried cherries",
+      "¼ cup shredded Parmesan cheese",
+      "1 tablespoon extra-virgin olive oil",
+      "1 tablespoon balsamic vinegar"
+    ],
+    "additionalInfo": [
+      { "heading": "prep:", "body": "15 mins" },
+      { "heading": "cook:", "body": "45 mins" },
+      { "heading": "total:", "body": "1 hr" },
+      { "heading": "Servings:", "body": "4" },
+      { "heading": "Yield:", "body": "4 servings" }
+    ],
+    "prepInstructions": [
+      {
+        "step": 1,
+        "instruction": "Preheat oven to 375 degrees F (190 degrees C)."
+      },
+      {
+        "step": 2,
+        "instruction": "Cut stems off beets and place whole on a baking sheet. Roast until fork tender, about 45 minutes. Allow to cool; peel and dice beets into large bite-sized pieces. Toss with 1 tablespoon olive oil and 1 tablespoon balsamic vinegar in a bowl; season with salt and black pepper."
+      },
+      {
+        "step": 3,
+        "instruction": "Toss diced avocado with 2 tablespoons olive oil in a separate bowl; season with salt."
+      },
+      {
+        "step": 4,
+        "instruction": "To serve, divide salad greens between serving plates. Top each serving with 1/4 of the beets and avocado. Sprinkle each serving with shelled pistachios, dried cherries, and shredded Parmesan cheese. Drizzle with remaining 1 tablespoon olive oil and 1 tablespoon balsamic vinegar. Season with salt and ground black pepper to taste."
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "name": "New England Razor Clam Chowder ",
+    "ratings": "4.55000019073486",
+    "ratingsClass": 10,
+    "reviewCount": "9",
+    "recipeURL": "https://www.allrecipes.com/recipe/230681/new-england-razor-clam-chowder/",
+    "recipeImageURL": "https://images.media-allrecipes.com/userphotos/300x300/1916133.jpg",
+    "ingredient": [
+      { "name": "Thick Bacon Strips", "amount": 1, "unit": "pound" },
+      { "name": "Potatoes", "amount": 2, "unit": "pound" },
+      { "name": "Onion", "amount": 1, "unit": "" },
+      { "name": "Garlic", "amount": 2, "unit": "clove" },
+      { "name": "All Purpose Flour", "amount": 2, "unit": "tablespoon" },
+      { "name": "Can Evaporated Milk", "amount": 1, "unit": "" },
+      { "name": "Heavy Cream", "amount": 1, "unit": "cup" },
+      { "name": "Frozen Razor Clams", "amount": 1, "unit": "pound" },
+      { "name": "Bay Leaf", "amount": 1, "unit": "" },
+      { "name": "Salt", "amount": 1, "unit": "pinch" },
+      { "name": "Black Pepper", "amount": 1, "unit": "pinch" }
+    ],
+    "originalIngredient": [
+      "1 pound thick-cut bacon strips, diced",
+      "2 pounds potatoes, diced",
+      "1  onion, minced",
+      "2 cloves garlic, minced",
+      "2 tablespoons all-purpose flour",
+      "1 (12 fluid ounce) can evaporated milk",
+      "1 cup heavy cream",
+      "1 pound frozen razor clams, thawed with liquid reserved",
+      "1  bay leaf",
+      "1 pinch salt and ground black pepper to taste"
+    ],
+    "additionalInfo": [
+      { "heading": "prep:", "body": "20 mins" },
+      { "heading": "cook:", "body": "55 mins" },
+      { "heading": "total:", "body": "1 hr 15 mins" },
+      { "heading": "Servings:", "body": "8" },
+      { "heading": "Yield:", "body": "8 servings" }
+    ],
+    "prepInstructions": [
+      {
+        "step": 1,
+        "instruction": "Cook and stir bacon in a large pot over medium-high heat until browned, about 10 minutes. Remove bacon with a slotted spoon to a plate lined with paper towel, reserving drippings in the pot."
+      },
+      {
+        "step": 2,
+        "instruction": "Cook and stir potatoes, onion, and garlic in the hot bacon drippings until onions are translucent, 7 to 10 minutes. Stir flour into the potato mixture; cook together for about 1 minute. Add evaporated milk, heavy cream, liquid from clams, and bay leaf to the potato mixture; stir."
+      },
+      {
+        "step": 3,
+        "instruction": "Bring the mixture to a simmer, reduce heat to medium, and cook until the potatoes are soft, about 15 minutes. Add clams to the soup; cook until the clams are hot, about 5 minutes. Sprinkle bacon atop the soup. Season with salt and pepper to serve."
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "name": "Chicken Pesto Sandwich ",
+    "ratings": "4.90999984741211",
+    "ratingsClass": 10,
+    "reviewCount": "8",
+    "recipeURL": "https://www.allrecipes.com/recipe/230486/chicken-pesto-sandwich/",
+    "recipeImageURL": "https://images.media-allrecipes.com/userphotos/300x300/954753.jpg",
+    "ingredient": [
+      {
+        "name": "Skinless Boneless Chicken Breast Halves",
+        "amount": 4,
+        "unit": ""
+      },
+      { "name": "Olive Oil", "amount": 1, "unit": "tablespoon" },
+      { "name": "Garlic", "amount": 1, "unit": "tablespoon" },
+      { "name": "Red Pepper Flakes", "amount": 1, "unit": "teaspoon" },
+      { "name": "Salt", "amount": 1, "unit": "pinch" },
+      { "name": "Black Pepper", "amount": 1, "unit": "pinch" },
+      { "name": "Yellow Bell Pepper", "amount": 1, "unit": "" },
+      { "name": "Onion", "amount": 1, "unit": "" },
+      { "name": "Zucchini", "amount": 1, "unit": "cup" },
+      { "name": "Balsamic Vinegar", "amount": 1, "unit": "teaspoon" },
+      { "name": "Mushrooms", "amount": 1, "unit": "cup" },
+      { "name": "Basil", "amount": 1, "unit": "tablespoon" },
+      { "name": "Mozzarella Cheese", "amount": 1, "unit": "cup" },
+      { "name": "Prepared Pesto Sauce", "amount": 1, "unit": "cup" },
+      { "name": "Halved Cherry Tomatoes", "amount": 0.5, "unit": "cup" },
+      { "name": "Italian Style Hoagie Buns", "amount": 4, "unit": "" },
+      { "name": "Crumbled Feta Cheese", "amount": 1, "unit": "cup" },
+      { "name": "Basil", "amount": 2, "unit": "tablespoon" }
+    ],
+    "originalIngredient": [
+      "4 eaches skinless, boneless chicken breast halves, cut into chunks",
+      "1 tablespoon olive oil",
+      "1 tablespoon minced garlic",
+      "1 teaspoon red pepper flakes",
+      "1 pinch salt and freshly ground black pepper to taste",
+      "1   yellow bell pepper, sliced",
+      "1   onion, sliced",
+      "1 cup diced zucchini",
+      "1 teaspoon balsamic vinegar",
+      "1 cup sliced mushrooms",
+      "1 tablespoon chopped fresh basil",
+      "1 cup shredded mozzarella cheese",
+      "1 cup prepared pesto sauce",
+      "½ cup halved cherry tomatoes",
+      "4 eaches Italian-style hoagie buns, split lengthwise and toasted",
+      "1 cup crumbled feta cheese, divided",
+      "2 tablespoons chopped fresh basil, divided"
+    ],
+    "additionalInfo": [
+      { "heading": "prep:", "body": "30 mins" },
+      { "heading": "cook:", "body": "20 mins" },
+      { "heading": "total:", "body": "50 mins" },
+      { "heading": "Servings:", "body": "8" },
+      { "heading": "Yield:", "body": "4 sandwiches" }
+    ],
+    "prepInstructions": [
+      {
+        "step": 1,
+        "instruction": "Combine chicken, olive oil, garlic, red pepper flakes, salt, and black pepper in a large bowl; toss to coat."
+      },
+      {
+        "step": 2,
+        "instruction": "Heat a large pot or Dutch oven over medium-high heat. Add chicken mixture and cook, stirring frequently, until chicken begins to brown, about 5 minutes. Add yellow bell pepper, onion, zucchini, and balsamic vinegar and cook until onion begins to soften, about 5 minutes."
+      },
+      {
+        "step": 3,
+        "instruction": "Stir mushrooms and 1 tablespoon basil into chicken mixture and cook until mushrooms have softened, about 5 minutes. Add mozzarella cheese and pesto sauce; toss to coat. Stir in cherry tomatoes and cook until warmed through, 2 to 3 minutes."
+      },
+      {
+        "step": 4,
+        "instruction": "Spoon chicken mixture into toasted buns and top each sandwich with 1/4 cup feta cheese and 1 1/2 teaspoons basil."
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "name": "Most Amazing Salad! Tomato, Mozzarella, Avocado, and Bliss ",
+    "ratings": "4.73000001907349",
+    "ratingsClass": 10,
+    "reviewCount": "10",
+    "recipeURL": "https://www.allrecipes.com/recipe/229606/most-amazing-salad-tomato-mozzarella-avocado-and-bliss/",
+    "recipeImageURL": "https://images.media-allrecipes.com/userphotos/300x300/2552638.jpg",
+    "ingredient": [
+      { "name": "Tomatoes", "amount": 4, "unit": "" },
+      { "name": "Balls Mozzarella Cheese", "amount": 3, "unit": "" },
+      { "name": "Avocados", "amount": 2, "unit": "" },
+      { "name": "Balsamic Vinegar", "amount": 3, "unit": "tablespoon" },
+      { "name": "Red Wine Vinegar", "amount": 3, "unit": "tablespoon" },
+      { "name": "Dried Basil", "amount": 0.5, "unit": "teaspoon" },
+      { "name": "White Sugar", "amount": 1, "unit": "teaspoon" },
+      { "name": "Salt", "amount": 1, "unit": "pinch" },
+      { "name": "Black Pepper", "amount": 1, "unit": "pinch" }
+    ],
+    "originalIngredient": [
+      "4 eaches ripe tomatoes, cubed",
+      "3 (4 ounce) balls of fresh mozzarella cheese, cubed",
+      "2   avocados - peeled, pitted, and cubed",
+      "3 tablespoons balsamic vinegar",
+      "3 tablespoons red wine vinegar",
+      "½ teaspoon dried basil",
+      "1 teaspoon white sugar",
+      "1 pinch salt and ground black pepper to taste"
+    ],
+    "additionalInfo": [
+      { "heading": "prep:", "body": "15 mins" },
+      { "heading": "total:", "body": "15 mins" },
+      { "heading": "Servings:", "body": "6" },
+      { "heading": "Yield:", "body": "6 servings" }
+    ],
+    "prepInstructions": [
+      {
+        "step": 1,
+        "instruction": "Lightly toss tomato, mozzarella cheese, and avocado cubes in a salad bowl. Mix balsamic vinegar, red wine vinegar, dried basil, sugar, salt, and black pepper in a separate bowl. Pour dressing over salad and mix again to coat."
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "name": "Kale Quinoa Salad ",
+    "ratings": "4.73000001907349",
+    "ratingsClass": 10,
+    "reviewCount": "10",
+    "recipeURL": "https://www.allrecipes.com/recipe/238337/kale-quinoa-salad/",
+    "recipeImageURL": "https://images.media-allrecipes.com/userphotos/300x300/4517285.jpg",
+    "ingredient": [
+      { "name": "Water", "amount": 0.5, "unit": "cup" },
+      { "name": "Quinoa", "amount": 0.25, "unit": "cup" },
+      { "name": "Leaves Kale", "amount": 4, "unit": "" },
+      { "name": "Avocado", "amount": 0.5, "unit": "" },
+      { "name": "Tomato", "amount": 0.5, "unit": "" },
+      { "name": "Cucumber", "amount": 0.25, "unit": "" },
+      { "name": "Crumbled Feta Cheese", "amount": 0.25, "unit": "cup" },
+      {
+        "name": "Italian Style Salad Dressing",
+        "amount": 2,
+        "unit": "tablespoon"
+      }
+    ],
+    "originalIngredient": [
+      "½ cup water",
+      "¼ cup quinoa",
+      "4 leaves kale, chopped, or more to taste",
+      "½   avocado - peeled, pitted, and cut into cubes",
+      "½   tomato, cut into cubes",
+      "¼   cucumber, peeled and cut into cubes",
+      "¼ cup crumbled feta cheese",
+      "2 tablespoons Italian-style salad dressing"
+    ],
+    "additionalInfo": [
+      { "heading": "prep:", "body": "15 mins" },
+      { "heading": "cook:", "body": "20 mins" },
+      { "heading": "additional:", "body": "5 mins" },
+      { "heading": "total:", "body": "40 mins" },
+      { "heading": "Servings:", "body": "2" },
+      { "heading": "Yield:", "body": "2 servings" }
+    ],
+    "prepInstructions": [
+      {
+        "step": 1,
+        "instruction": "Bring water and quinoa to a boil in a saucepan. Reduce heat to medium-low, cover, and simmer until quinoa is tender, 15 to 20 minutes. Drain water and run quinoa under cold water to cool."
+      },
+      {
+        "step": 2,
+        "instruction": "Place a steamer insert into a saucepan and fill with water to just below the bottom of the steamer. Bring water to a boil. Add kale, cover, and steam until tender, 2 to 3 minutes. Place chopped kale in a bowl and refrigerate until chilled, 3 to 5 minutes."
+      },
+      {
+        "step": 3,
+        "instruction": "Mix avocado, tomato, and cucumber together in a bowl; add quinoa and kale. Sprinkle feta cheese over quinoa mixture; add Italian dressing and stir."
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "name": "Jan's Carrot Soup - Vegan and Dairy-Free ",
+    "ratings": "4.3600001335144",
+    "ratingsClass": 9,
+    "reviewCount": "7",
+    "recipeURL": "https://www.allrecipes.com/recipe/237261/jans-carrot-soup-vegan-and-dairy-free/",
+    "recipeImageURL": "https://images.media-allrecipes.com/userphotos/300x300/1439612.jpg",
+    "ingredient": [
+      { "name": "Carrots", "amount": 3, "unit": "pound" },
+      { "name": "Large Onions", "amount": 2, "unit": "" },
+      { "name": "Large Sweet Potato", "amount": 1, "unit": "" },
+      { "name": "Garlic", "amount": 2, "unit": "clove" },
+      { "name": "Parsley", "amount": 0.25, "unit": "cup" },
+      { "name": "Water Cover", "amount": 4, "unit": "cup" },
+      { "name": "Vegetable Broth", "amount": 1, "unit": "container" },
+      { "name": "Can Tomato Paste", "amount": 1, "unit": "" },
+      { "name": "Hot Pepper Sauce", "amount": 1, "unit": "teaspoon" },
+      { "name": "Salt", "amount": 1, "unit": "teaspoon" },
+      { "name": "Black Pepper", "amount": 1, "unit": "teaspoon" },
+      { "name": "Paprika", "amount": 0.5, "unit": "teaspoon" }
+    ],
+    "originalIngredient": [
+      "3 pounds carrots, peeled and diced",
+      "2 large onions, diced",
+      "1 large sweet potato, peeled and diced",
+      "2 cloves garlic, chopped",
+      "¼ cup minced fresh parsley",
+      "4 cups water to cover",
+      "1 (32 fluid ounce) container vegetable broth",
+      "1 (6 ounce) can tomato paste",
+      "1 teaspoon hot pepper sauce (such as Tabasco®), or to taste",
+      "1 teaspoon salt",
+      "1 teaspoon ground black pepper",
+      "½ teaspoon paprika"
+    ],
+    "additionalInfo": [
+      { "heading": "prep:", "body": "25 mins" },
+      { "heading": "cook:", "body": "20 mins" },
+      { "heading": "additional:", "body": "10 mins" },
+      { "heading": "total:", "body": "55 mins" },
+      { "heading": "Servings:", "body": "10" },
+      { "heading": "Yield:", "body": "10 servings" }
+    ],
+    "prepInstructions": [
+      {
+        "step": 1,
+        "instruction": "Put carrots, onions, sweet potato, garlic, and parsley in a large stock pot; add enough water to cover."
+      },
+      {
+        "step": 2,
+        "instruction": "Cook over medium-high heat until vegetables are tender, about 15 minutes. Stir vegetable broth, tomato paste, hot sauce, salt, black pepper, and paprika into vegetable mixture; bring to a boil. Remove from heat and let cool for 10 minutes."
+      },
+      {
+        "step": 3,
+        "instruction": "Blend soup with a stick blender until smooth. Or pour soup into a blender no more than half full. Cover and hold lid down; pulse a few times before leaving on to blend. Puree in batches until smooth."
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "name": "Spring Rolls with Coconut Peanut Sauce ",
+    "ratings": "4.44999980926514",
+    "ratingsClass": 9,
+    "reviewCount": "8",
+    "recipeURL": "https://www.allrecipes.com/recipe/237585/spring-rolls-with-coconut-peanut-sauce/",
+    "recipeImageURL": "https://images.media-allrecipes.com/userphotos/300x300/1126606.jpg",
+    "ingredient": [
+      { "name": "Carrots", "amount": 2, "unit": "" },
+      { "name": "Red Bell Pepper", "amount": 1, "unit": "" },
+      { "name": "English Cucumber", "amount": 1, "unit": "" },
+      { "name": "Red Cabbage", "amount": 1, "unit": "cup" },
+      { "name": "Scallions", "amount": 4, "unit": "" },
+      { "name": "Avocados", "amount": 2, "unit": "" },
+      { "name": "Basil Leaves", "amount": 16, "unit": "" },
+      { "name": "Mint Leaves", "amount": 16, "unit": "" },
+      { "name": "Dry Rice Noodles", "amount": 4, "unit": "ounce" },
+      { "name": "Sheets Rice Paper", "amount": 16, "unit": "" },
+      { "name": "Creamy Peanut Butter", "amount": 0.5, "unit": "cup" },
+      { "name": "Silk® Unsweetened Coconutmilk", "amount": 0.5, "unit": "cup" },
+      { "name": "Soy", "amount": 2, "unit": "tablespoon" },
+      { "name": "Lime Juice", "amount": 2, "unit": "tablespoon" },
+      { "name": "Garlic", "amount": 1, "unit": "clove" },
+      { "name": "Toasted Sesame Oil", "amount": 0.5, "unit": "teaspoon" },
+      { "name": "Hot Sauce", "amount": 2, "unit": "teaspoon" }
+    ],
+    "originalIngredient": [
+      "2  carrots, julienned",
+      "1  red bell pepper, julienned",
+      "1  English cucumber, peeled and julienned",
+      "1 cup shredded red cabbage",
+      "4  scallions, white parts thinly sliced lengthwise",
+      "2  avocados, halved and sliced",
+      "16  basil leaves",
+      "16  mint leaves",
+      "4 ounces dry rice noodles",
+      "16  sheets rice paper",
+      "½ cup creamy peanut butter",
+      "½ cup Silk® Unsweetened Coconutmilk",
+      "2 tablespoons soy or tamari sauce",
+      "2 tablespoons fresh lime juice",
+      "1 clove garlic, minced",
+      "½ teaspoon toasted sesame oil",
+      "2 teaspoons hot sauce (such as Sriracha), or more to taste"
+    ],
+    "additionalInfo": [{ "heading": "Servings:", "body": "8" }],
+    "prepInstructions": [
+      {
+        "step": 1,
+        "instruction": "Chop all vegetables to 2-inch length and cook rice noodles according to instructions on pack."
+      },
+      {
+        "step": 2,
+        "instruction": "Working one at a time, soak a sheet of rice paper in a shallow dish of warm water until soft, about 10 seconds."
+      },
+      {
+        "step": 3,
+        "instruction": "Lay softened sheet gently on a flat surface, then mound vegetables, noodles and avocado or tofu in the center of sheet."
+      },
+      {
+        "step": 4,
+        "instruction": "Gently fold bottom and top of rice paper to cover filling and then roll up like a burrito. Repeat with remaining rice paper and fillings."
+      },
+      {
+        "step": 5,
+        "instruction": "To serve, mix peanut sauce ingredients in a small bowl and serve with spring rolls."
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "name": "Simple and Yummy Pulled Pork ",
+    "ratings": "4.73000001907349",
+    "ratingsClass": 10,
+    "reviewCount": "10",
+    "recipeURL": "https://www.allrecipes.com/recipe/238001/simple-and-yummy-pulled-pork/",
+    "recipeImageURL": "https://images.media-allrecipes.com/userphotos/300x300/2804049.jpg",
+    "ingredient": [
+      { "name": "Pork Shoulder Roast", "amount": 1, "unit": "" },
+      { "name": "Cans", "amount": 3, "unit": "" },
+      { "name": "Barbeque Sauce", "amount": 1, "unit": "bottle" }
+    ],
+    "originalIngredient": [
+      "1 (7 pound) pork shoulder roast, trimmed and cut into chunks",
+      "3 (12 fluid ounce) cans or bottles root beer",
+      "1 (18 ounce) bottle barbeque sauce"
+    ],
+    "additionalInfo": [
+      { "heading": "prep:", "body": "10 mins" },
+      { "heading": "cook:", "body": "45 mins" },
+      { "heading": "total:", "body": "55 mins" },
+      { "heading": "Servings:", "body": "16" },
+      { "heading": "Yield:", "body": "1 7-pound roast" }
+    ],
+    "prepInstructions": [
+      {
+        "step": 1,
+        "instruction": "Put pork in the bottom of a pressure cooker. Pour root beer over the pork."
+      },
+      {
+        "step": 2,
+        "instruction": "Lock the lid onto the pressure cooker and place over a burner on high."
+      },
+      {
+        "step": 3,
+        "instruction": "Cook pork for 45 minutes. Release pressure from the pressure cooker according to manufacturer's directions before checking meat for tenderness; it should be tender enough to easily pull apart. If the pork is not yet done enough, again lock the lid on the cooker and continue cooking over high heat another 30 minutes."
+      },
+      {
+        "step": 4,
+        "instruction": "Release pressure from the cooker; drain liquid and transfer meat to a large bowl. Pull pork into strands using two forks. Pour barbeque sauce over the pork; stir to coat."
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "name": "Persimmon and Pomegranate Salad ",
+    "ratings": "4.73000001907349",
+    "ratingsClass": 10,
+    "reviewCount": "8",
+    "recipeURL": "https://www.allrecipes.com/recipe/235229/persimmon-and-pomegranate-salad/",
+    "recipeImageURL": "https://images.media-allrecipes.com/userphotos/300x300/1065978.jpg",
+    "ingredient": [
+      { "name": "Pecan Halves", "amount": 0.5, "unit": "cup" },
+      { "name": "Orange Juice", "amount": 0.75, "unit": "cup" },
+      { "name": "Cornstarch", "amount": 2, "unit": "teaspoon" },
+      { "name": "Honey", "amount": 1.5, "unit": "tablespoon" },
+      { "name": "Extra Virgin Olive Oil", "amount": 0.25, "unit": "cup" },
+      { "name": "Lime", "amount": 0.5, "unit": "" },
+      { "name": "Tarragon Leaves", "amount": 7, "unit": "" },
+      { "name": "Salt", "amount": 1, "unit": "pinch" },
+      { "name": "Black Pepper", "amount": 1, "unit": "pinch" },
+      { "name": "Herb Salad Mix", "amount": 1, "unit": "package" },
+      { "name": "Fuyu Persimmons", "amount": 2, "unit": "" },
+      { "name": "Large Pomegranate", "amount": 1, "unit": "" }
+    ],
+    "originalIngredient": [
+      "½ cup pecan halves",
+      "¾ cup orange juice, divided",
+      "2 teaspoons cornstarch",
+      "1 ½ tablespoons honey",
+      "¼ cup extra-virgin olive oil",
+      "½   lime, juiced",
+      "7   fresh tarragon leaves, thinly sliced crosswise, or more to taste",
+      "1 pinch salt and ground black pepper to taste",
+      "1 (8 ounce) package herb salad mix",
+      "2   Fuyu persimmons, peeled and each cut into 8 pieces",
+      "1 large pomegranate, peeled and seeds separated"
+    ],
+    "additionalInfo": [
+      { "heading": "prep:", "body": "15 mins" },
+      { "heading": "cook:", "body": "10 mins" },
+      { "heading": "additional:", "body": "30 mins" },
+      { "heading": "total:", "body": "55 mins" },
+      { "heading": "Servings:", "body": "4" },
+      { "heading": "Yield:", "body": "4 servings" }
+    ],
+    "prepInstructions": [
+      {
+        "step": 1,
+        "instruction": "Preheat oven to 375 degrees F (190 degrees C)."
+      },
+      { "step": 2, "instruction": "Spread pecans onto a baking sheet." },
+      {
+        "step": 3,
+        "instruction": "Bake pecans in the preheated oven until toasted and fragrant, 5 to 7 minutes. Set aside to cool."
+      },
+      {
+        "step": 4,
+        "instruction": "Whisk 1/2 cup orange juice and cornstarch together in a small saucepan; cook and stir over medium heat until mixture thickens, 3 to 5 minutes. Remove saucepan from heat and stir in honey until dissolved. Stir remaining 1/4 cup orange juice, olive oil, lime juice, tarragon leaves, salt, and pepper into orange juice mixture. Chill dressing in refrigerator, at least 30 minutes."
+      },
+      {
+        "step": 5,
+        "instruction": "Spread herb salad mix into a serving bowl or on individual plates; top with persimmon slices, pomegranate seeds, and pecans. Drizzle cooled dressing over salad."
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "name": "Papa Dar's Green Chile and Chicken Corn Chowder ",
+    "ratings": "4.90999984741211",
+    "ratingsClass": 10,
+    "reviewCount": "10",
+    "recipeURL": "https://www.allrecipes.com/recipe/235659/papa-dars-green-chile-and-chicken-corn-chowder/",
+    "recipeImageURL": "https://images.media-allrecipes.com/userphotos/300x300/1080127.jpg",
+    "ingredient": [
+      { "name": "Smoked Bacon", "amount": 0.5, "unit": "pound" },
+      { "name": "Onion", "amount": 1, "unit": "" },
+      { "name": "Garlic", "amount": 4, "unit": "clove" },
+      { "name": "Cans Mild Green Chile Peppers", "amount": 6, "unit": "" },
+      {
+        "name": "Skinless Boneless Chicken Breast Halves",
+        "amount": 2.5,
+        "unit": "pound"
+      },
+      { "name": "Russet Potatoes", "amount": 1.5, "unit": "pound" },
+      { "name": "Butter", "amount": 0.25, "unit": "cup" },
+      { "name": "Cans Cream Style Corn", "amount": 2, "unit": "" },
+      { "name": "Heavy Whipping Cream", "amount": 1, "unit": "pint" },
+      { "name": "Salt", "amount": 1, "unit": "pinch" },
+      { "name": "Black Pepper", "amount": 1, "unit": "pinch" }
+    ],
+    "originalIngredient": [
+      "½ pound smoked bacon, chopped",
+      "1  onion, chopped",
+      "4 cloves garlic, chopped",
+      "6 (4 ounce) cans chopped mild green chile peppers",
+      "2 ½ pounds skinless, boneless chicken breast halves, cubed",
+      "1 ½ pounds russet potatoes, cubed",
+      "¼ cup butter",
+      "2 (16 ounce) cans cream-style corn",
+      "1 pint heavy whipping cream",
+      "1 pinch salt and ground black pepper to taste"
+    ],
+    "additionalInfo": [
+      { "heading": "prep:", "body": "20 mins" },
+      { "heading": "cook:", "body": "55 mins" },
+      { "heading": "total:", "body": "1 hr 15 mins" },
+      { "heading": "Servings:", "body": "15" },
+      { "heading": "Yield:", "body": "15 servings" }
+    ],
+    "prepInstructions": [
+      {
+        "step": 1,
+        "instruction": "Place bacon in a large stockpot; cook and stir over medium-high heat until lightly browned, about 10 minutes. Add onion and saute until onion is tender, about 10 minutes. Add garlic and cook until fragrant, about 2 minutes."
+      },
+      {
+        "step": 2,
+        "instruction": "Stir green chiles into bacon-onion mixture and bring to a simmer; add chicken. Simmer mixture until chicken is almost fully cooked, about 10 minutes. Add potatoes and butter to green chilies-chicken mixture and reduce heat to medium; cook until potatoes are almost tender, 10 to 15 minutes."
+      },
+      {
+        "step": 3,
+        "instruction": "Stir corn and cream into mixture and reduce heat to medium-low; cook, stirring frequently and scraping bottom of pot with a wooden spoon, until potatoes are tender, about 10 more minutes. Season with salt and pepper."
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "name": "Sunset Soup ",
+    "ratings": "4.6399998664856",
+    "ratingsClass": 10,
+    "reviewCount": "8",
+    "recipeURL": "https://www.allrecipes.com/recipe/235965/sunset-soup/",
+    "recipeImageURL": "https://images.media-allrecipes.com/userphotos/300x300/1105774.jpg",
+    "ingredient": [
+      { "name": "Butternut Squash", "amount": 1, "unit": "" },
+      { "name": "Carrots", "amount": 3, "unit": "" },
+      { "name": "Sweet Potatoes", "amount": 2, "unit": "" },
+      { "name": "Green Apple Cored", "amount": 1, "unit": "" },
+      { "name": "Onion", "amount": 0.5, "unit": "" },
+      { "name": "Olive Oil", "amount": 0.25, "unit": "cup" },
+      { "name": "Vegetable Broth", "amount": 2, "unit": "cup" },
+      { "name": "Coriander", "amount": 1, "unit": "teaspoon" },
+      { "name": "Turmeric", "amount": 1, "unit": "teaspoon" },
+      { "name": "Nutmeg", "amount": 0.5, "unit": "teaspoon" },
+      { "name": "Salt", "amount": 1, "unit": "pinch" },
+      { "name": "Black Pepper", "amount": 1, "unit": "pinch" }
+    ],
+    "originalIngredient": [
+      "1  butternut squash - peeled, seeded, and chopped",
+      "3   carrots, peeled and chopped",
+      "2 eaches sweet potatoes, peeled and chopped",
+      "1   green apple - cored, peeled, and chopped",
+      "½   onion, chopped",
+      "¼ cup olive oil",
+      "2 cups vegetable broth",
+      "1 teaspoon ground coriander",
+      "1 teaspoon ground turmeric",
+      "½ teaspoon ground nutmeg",
+      "1 pinch salt and ground black pepper to taste"
+    ],
+    "additionalInfo": [
+      { "heading": "prep:", "body": "20 mins" },
+      { "heading": "cook:", "body": "55 mins" },
+      { "heading": "total:", "body": "1 hr 15 mins" },
+      { "heading": "Servings:", "body": "12" },
+      { "heading": "Yield:", "body": "12 servings" }
+    ],
+    "prepInstructions": [
+      {
+        "step": 1,
+        "instruction": "Preheat oven to 375 degrees F (190 degrees C)."
+      },
+      {
+        "step": 2,
+        "instruction": "Place butternut squash, carrots, sweet potatoes, apple, and onion on a baking sheet. Drizzle olive oil over vegetable mixture."
+      },
+      {
+        "step": 3,
+        "instruction": "Bake in the preheated oven until golden and soft, about 45 minutes. Blend vegetable mixture in a blender or food processor until smooth; transfer to a large saucepan."
+      },
+      {
+        "step": 4,
+        "instruction": "Pour vegetable broth into pureed vegetables and season with coriander, turmeric, nutmeg, salt, and pepper. Cook soup over low heat until heated through, 10 to 15 minutes."
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "name": "Chicken Long Rice (Hawaiian-Style Chicken Soup) ",
+    "ratings": "4.55000019073486",
+    "ratingsClass": 10,
+    "reviewCount": "8",
+    "recipeURL": "https://www.allrecipes.com/recipe/236916/chicken-long-rice-hawaiian-style-chicken-soup/",
+    "recipeImageURL": "https://images.media-allrecipes.com/userphotos/300x300/3561172.jpg",
+    "ingredient": [
+      {
+        "name": "Bean Thread Vermicelli Noodles",
+        "amount": 1,
+        "unit": "package"
+      },
+      { "name": "Warm Water", "amount": 3, "unit": "cup" },
+      { "name": "Chicken Breasts", "amount": 3, "unit": "" },
+      { "name": "Water", "amount": 7, "unit": "cup" },
+      { "name": "Chicken Broth", "amount": 1, "unit": "quart" },
+      { "name": "Small Onion", "amount": 1, "unit": "" },
+      { "name": "Garlic", "amount": 3, "unit": "clove" },
+      { "name": "Ginger", "amount": 3, "unit": "slice" },
+      { "name": "Patis", "amount": 1, "unit": "tablespoon" },
+      { "name": "Soy Sauce", "amount": 1, "unit": "tablespoon" },
+      { "name": "Bay Leaves", "amount": 3, "unit": "" },
+      { "name": "Salt", "amount": 1, "unit": "pinch" },
+      { "name": "Black Pepper", "amount": 1, "unit": "pinch" },
+      { "name": "Bok Choy", "amount": 2, "unit": "cup" }
+    ],
+    "originalIngredient": [
+      "1 (16 ounce) package bean thread vermicelli noodles",
+      "3 cups warm water, as needed",
+      "3   chicken breasts, or more to taste",
+      "7 cups water, to cover",
+      "1 quart chicken broth",
+      "1 small onion, sliced thin",
+      "3 cloves garlic, chopped",
+      "3 slices fresh ginger, chopped",
+      "1 tablespoon patis (Philippine-style fish sauce)",
+      "1 tablespoon soy sauce",
+      "3 eaches bay leaves",
+      "1 pinch salt and ground black pepper to taste",
+      "2 cups chopped bok choy"
+    ],
+    "additionalInfo": [
+      { "heading": "prep:", "body": "15 mins" },
+      { "heading": "cook:", "body": "30 mins" },
+      { "heading": "additional:", "body": "15 mins" },
+      { "heading": "total:", "body": "1 hr" },
+      { "heading": "Servings:", "body": "4" },
+      { "heading": "Yield:", "body": "4 servings" }
+    ],
+    "prepInstructions": [
+      {
+        "step": 1,
+        "instruction": "Put bean thread noodles in a large bowl. Pour enough warm water over the noodles to cover by an inch. Soak noodles until softened, about 15 minutes; drain. Cut noodles into shorter lengths as desired."
+      },
+      {
+        "step": 2,
+        "instruction": "Put chicken breasts in a large pot with enough water to cover by a few inches; bring to a boil and cook chicken until until no longer pink in the center and the juices run clear, 7 to 10 minutes. An instant-read thermometer inserted into the center should read at least 165 degrees F (74 degrees C)."
+      },
+      {
+        "step": 3,
+        "instruction": "Remove chicken breasts to a cutting board and shred into strands with 2 forks; return shredded chicken to the pot of boiling water."
+      },
+      {
+        "step": 4,
+        "instruction": "Pour chicken broth into the pot and reduce heat to medium-high; add onion, garlic, ginger, fish sauce, soy sauce, and bay leaves; season with salt and pepper. Bring liquid again to a boil and add the bean thread noodles; cook at a boil until the noodles are translucent, about 5 minutes."
+      },
+      {
+        "step": 5,
+        "instruction": "Stir bok choy into the liquid; cook just until the leaves wilt slightly, 1 to 2 minutes."
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "name": "Potato and Mustard Greens Salad ",
+    "ratings": "4.82000017166138",
+    "ratingsClass": 10,
+    "reviewCount": "8",
+    "recipeURL": "https://www.allrecipes.com/recipe/223198/potato-and-mustard-greens-salad/",
+    "recipeImageURL": "https://images.media-allrecipes.com/userphotos/300x300/3570964.jpg",
+    "ingredient": [
+      { "name": "Yukon Gold Potatoes", "amount": 2.5, "unit": "pound" },
+      { "name": "Garlic", "amount": 4, "unit": "clove" },
+      { "name": "Mayonnaise", "amount": 0.5, "unit": "cup" },
+      {
+        "name": "White Wine Vinegar",
+        "amount": 0.3333333333333333,
+        "unit": "cup"
+      },
+      { "name": "Olive Oil", "amount": 0.25, "unit": "cup" },
+      { "name": "Sambal Oelek", "amount": 1, "unit": "teaspoon" },
+      { "name": "Salt", "amount": 0, "unit": "" },
+      { "name": "Black Pepper", "amount": 0, "unit": "" },
+      { "name": "Cornichons", "amount": 0.5, "unit": "cup" },
+      { "name": "Washed", "amount": 1, "unit": "cup" },
+      { "name": "Mustard Greens", "amount": 1, "unit": "cup" }
+    ],
+    "originalIngredient": [
+      "2 ½ pounds Yukon Gold potatoes, peeled and halved",
+      "4 cloves garlic, peeled and sliced",
+      "½ cup mayonnaise",
+      "⅓ cup white wine vinegar",
+      "¼ cup olive oil",
+      "1 teaspoon sambal oelek (Thai chile paste) or plain hot sauce",
+      "salt and freshly ground black pepper to taste",
+      "½ cup chopped cornichons",
+      "1 cup washed and cut mustard greens"
+    ],
+    "additionalInfo": [
+      { "heading": "prep:", "body": "15 mins" },
+      { "heading": "cook:", "body": "15 mins" },
+      { "heading": "total:", "body": "1 hr 30 mins" },
+      { "heading": "additional:", "body": "1 hr" },
+      { "heading": "Servings:", "body": "6" }
+    ],
+    "prepInstructions": [
+      {
+        "step": 1,
+        "instruction": "Boil potatoes and garlic in a large pot of salted water until just tender, 15 to 20 minutes. Drain and let cool to room temperature. Discard the garlic."
+      },
+      {
+        "step": 2,
+        "instruction": "Whisk mayonnaise, vinegar, olive oil, and sambal oelek together in a large bowl. Season with salt and pepper to taste."
+      },
+      {
+        "step": 3,
+        "instruction": "Roughly chop cooled potatoes into a large bowl. Add cornichons, mustard greens, and mayonnaise mixture. Toss to coat. Cover and set aside in the refrigerator for 1 hour. Season with salt and pepper to taste."
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "name": "Red Lentil and Bulgur Soup ",
+    "ratings": "4.55000019073486",
+    "ratingsClass": 10,
+    "reviewCount": "8",
+    "recipeURL": "https://www.allrecipes.com/recipe/222665/red-lentil-and-bulgur-soup/",
+    "recipeImageURL": "https://images.media-allrecipes.com/userphotos/300x300/4994833.jpg",
+    "ingredient": [
+      { "name": "Olive Oil", "amount": 1, "unit": "tablespoon" },
+      { "name": "Yellow Onion", "amount": 1, "unit": "" },
+      { "name": "Garlic", "amount": 1, "unit": "teaspoon" },
+      { "name": "Roma Tomatoes", "amount": 2, "unit": "" },
+      { "name": "Za'atar", "amount": 2, "unit": "teaspoon" },
+      { "name": "Paprika", "amount": 1, "unit": "teaspoon" },
+      { "name": "Cumin", "amount": 1, "unit": "teaspoon" },
+      { "name": "Garlic Powder", "amount": 1, "unit": "teaspoon" },
+      { "name": "Black Pepper", "amount": 0.5, "unit": "teaspoon" },
+      { "name": "Cayenne Pepper", "amount": 0.125, "unit": "teaspoon" },
+      { "name": "Carrot Juice", "amount": 1, "unit": "cup" },
+      { "name": "Water", "amount": 4, "unit": "cup" },
+      { "name": "Cube Chicken Bouillon", "amount": 1, "unit": "" },
+      { "name": "Cube Tomato Flavored Bouillon", "amount": 1, "unit": "" },
+      { "name": "Red Lentils", "amount": 1, "unit": "cup" },
+      { "name": "Bulgur", "amount": 0.25, "unit": "cup" },
+      { "name": "Lemon Juice", "amount": 1, "unit": "tablespoon" },
+      { "name": "Cilantro", "amount": 1, "unit": "tablespoon" },
+      { "name": "Sour Cream", "amount": 6, "unit": "tablespoon" }
+    ],
+    "originalIngredient": [
+      "1 tablespoon olive oil",
+      "1  yellow onion, diced",
+      "1 teaspoon minced garlic",
+      "2   roma (plum) tomatoes, diced",
+      "2 teaspoons za'atar",
+      "1 teaspoon paprika",
+      "1 teaspoon ground cumin",
+      "1 teaspoon garlic powder",
+      "½ teaspoon black pepper",
+      "⅛ teaspoon cayenne pepper",
+      "1 cup carrot juice",
+      "4 cups water",
+      "1 cube chicken bouillon",
+      "1 cube tomato-flavored bouillon",
+      "1 cup red lentils",
+      "¼ cup bulgur",
+      "1 tablespoon lemon juice",
+      "1 tablespoon minced fresh cilantro",
+      "6 tablespoons sour cream"
+    ],
+    "additionalInfo": [
+      { "heading": "prep:", "body": "15 mins" },
+      { "heading": "cook:", "body": "40 mins" },
+      { "heading": "total:", "body": "55 mins" },
+      { "heading": "Servings:", "body": "6" },
+      { "heading": "Yield:", "body": "6 servings" }
+    ],
+    "prepInstructions": [
+      {
+        "step": 1,
+        "instruction": "Heat olive oil in a stockpot over low heat; cook and stir onion in the hot oil until softened, 3 to 5 minutes. Add garlic and cook until fragrant, about 1 minute."
+      },
+      {
+        "step": 2,
+        "instruction": "Cook and stir tomatoes, za'atar, paprika, cumin, garlic powder, black pepper, and cayenne pepper into onion mixture; stir to coat. Add carrot juice, water, chicken bouillon cube, tomato-flavored bouillon cube, lentils, and bulgur; cook over low heat until lentils are tender and bulgur has absorbed liquid, 30 to 40 minutes."
+      },
+      {
+        "step": 3,
+        "instruction": "Ladle about 2/3 the lentil mixture into a blender and puree until smooth. Return puree to stockpot and stir. Simmer over low heat for about 5 more minutes to blend flavors. Remove from heat; stir lemon juice and cilantro into soup. Top individual servings with a dollop of sour cream."
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "name": "Chicken Salad with Mango Chutney ",
+    "ratings": "5",
+    "ratingsClass": 10,
+    "reviewCount": "9",
+    "recipeURL": "https://www.allrecipes.com/recipe/222328/chicken-salad-with-mango-chutney/",
+    "recipeImageURL": "https://images.media-allrecipes.com/userphotos/300x300/968152.jpg",
+    "ingredient": [
+      { "name": "Rosemary", "amount": 1, "unit": "tablespoon" },
+      { "name": "Skinless Boneless Chicken Thighs", "amount": 3, "unit": "" },
+      { "name": "Apple", "amount": 0.5, "unit": "" },
+      { "name": "Celery", "amount": 0.25, "unit": "cup" },
+      { "name": "Red Onion", "amount": 2, "unit": "tablespoon" },
+      { "name": "Mayonnaise", "amount": 5, "unit": "tablespoon" },
+      { "name": "Major Grey Mango Chutney", "amount": 2, "unit": "tablespoon" },
+      { "name": "Lime", "amount": 0.5, "unit": "" },
+      { "name": "Hot Curry Powder", "amount": 1, "unit": "teaspoon" },
+      { "name": "Salt", "amount": 1, "unit": "pinch" },
+      { "name": "Black Pepper", "amount": 1, "unit": "pinch" }
+    ],
+    "originalIngredient": [
+      "1 tablespoon chopped fresh rosemary",
+      "3 eaches skinless, boneless chicken thighs",
+      "½   apple, chopped",
+      "¼ cup chopped celery",
+      "2 tablespoons chopped red onion",
+      "5 tablespoons mayonnaise",
+      "2 tablespoons Major Grey mango chutney",
+      "½   lime, juiced",
+      "1 teaspoon hot curry powder",
+      "1 pinch salt and ground black pepper to taste"
+    ],
+    "additionalInfo": [
+      { "heading": "prep:", "body": "15 mins" },
+      { "heading": "cook:", "body": "10 mins" },
+      { "heading": "total:", "body": "25 mins" },
+      { "heading": "Servings:", "body": "4" },
+      { "heading": "Yield:", "body": "4 servings" }
+    ],
+    "prepInstructions": [
+      {
+        "step": 1,
+        "instruction": "Bring a pot of water to a boil, reduce heat, and simmer; add rosemary. Poach chicken in the hot water until no longer pink in the center, 5 to 10 minutes. An instant-read thermometer inserted into the center should read at least 165 degrees F (74 degrees C). Remove chicken with a slotted spoon and allow to cool. Discard broth. Chop chicken into chunks."
+      },
+      {
+        "step": 2,
+        "instruction": "Mix chicken, apple, celery, red onion, mayonnaise, chutney, lime juice, curry powder, salt, and black pepper in a bowl. Chill in refrigerator to allow flavors to blend, at least 2 hours. Serve cold or at room temperature."
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "name": "Cinco De Mayo Salad ",
+    "ratings": "5",
+    "ratingsClass": 10,
+    "reviewCount": "11",
+    "recipeURL": "https://www.allrecipes.com/recipe/221185/cinco-de-mayo-salad/",
+    "recipeImageURL": "https://images.media-allrecipes.com/userphotos/300x300/1072860.jpg",
+    "ingredient": [
+      { "name": "Cilantro", "amount": 0.6666666666666666, "unit": "cup" },
+      { "name": "Plain Yogurt", "amount": 0.25, "unit": "cup" },
+      { "name": "Red Wine Vinegar", "amount": 0.25, "unit": "cup" },
+      { "name": "Parmesan Cheese", "amount": 0.25, "unit": "cup" },
+      { "name": "Shallots", "amount": 0.25, "unit": "cup" },
+      { "name": "Anchovy Fillets", "amount": 2, "unit": "" },
+      { "name": "Jalapeno Pepper", "amount": 1, "unit": "" },
+      { "name": "Lemon Juice", "amount": 1, "unit": "tablespoon" },
+      { "name": "Olive Oil", "amount": 0.75, "unit": "cup" },
+      { "name": "Salt", "amount": 0, "unit": "" },
+      { "name": "Black Pepper", "amount": 0, "unit": "" },
+      { "name": "Bags Mixed Salad Greens", "amount": 2, "unit": "" },
+      { "name": "Grape Tomatoes", "amount": 1, "unit": "pint" },
+      { "name": "Can Black Beans", "amount": 0.5, "unit": "" },
+      { "name": "Red Bell Pepper", "amount": 1, "unit": "" },
+      { "name": "Ears Corn", "amount": 2, "unit": "" },
+      { "name": "Seasoned Croutons", "amount": 0.25, "unit": "cup" },
+      { "name": "Parmesan Cheese", "amount": 1, "unit": "tablespoon" }
+    ],
+    "originalIngredient": [
+      "⅔ cup chopped fresh cilantro",
+      "¼ cup plain yogurt",
+      "¼ cup red wine vinegar",
+      "¼ cup grated Parmesan cheese",
+      "¼ cup chopped shallots",
+      "2  anchovy fillets, chopped",
+      "1  jalapeno pepper, seeded and minced",
+      "1 tablespoon lemon juice",
+      "¾ cup olive oil",
+      "salt and ground black pepper to taste",
+      "2 (16 ounce) bags mixed salad greens",
+      "1 pint grape tomatoes, halved",
+      "½ (15.5 ounce) can black beans, rinsed and drained",
+      "1  red bell pepper, diced",
+      "2 ears fresh corn, kernels cut from cob",
+      "¼ cup seasoned croutons",
+      "1 tablespoon grated Parmesan cheese, or to taste"
+    ],
+    "additionalInfo": [
+      { "heading": "prep:", "body": "20 mins" },
+      { "heading": "total:", "body": "3 hrs 20 mins" },
+      { "heading": "additional:", "body": "3 hrs" },
+      { "heading": "Servings:", "body": "8" }
+    ],
+    "prepInstructions": [
+      {
+        "step": 1,
+        "instruction": "Place cilantro, yogurt, red wine vinegar, 1/4 cup Parmesan cheese, shallots, anchovies, jalapeno, and lemon juice in a blender; blend until smooth."
+      },
+      {
+        "step": 2,
+        "instruction": "Slowly drizzle olive oil into the yogurt mixture while blending until oil is emulsified; season with salt and black pepper. Cover and refrigerate 3 hours to overnight."
+      },
+      {
+        "step": 3,
+        "instruction": "Toss salad greens, grape tomatoes, black beans, red bell pepper, corn, croutons, and 1 tablespoon Parmesan cheese together in a large bowl."
+      },
+      { "step": 4, "instruction": "Pour dressing over salad and toss to coat." }
+    ]
+  },
+  {
+    "id": 51,
+    "name": "Hummus and Artichoke Wrap ",
+    "ratings": "4.44999980926514",
+    "ratingsClass": 9,
+    "reviewCount": "8",
+    "recipeURL": "https://www.allrecipes.com/recipe/221942/hummus-and-artichoke-wrap/",
+    "recipeImageURL": "https://images.media-allrecipes.com/userphotos/300x300/835215.jpg",
+    "ingredient": [
+      { "name": "Hummus", "amount": 3, "unit": "tablespoon" },
+      { "name": "Large Whole Wheat Sandwich Wrap", "amount": 1, "unit": "" },
+      { "name": "Marinated Artichoke Hearts", "amount": 3, "unit": "" },
+      { "name": "Fat Free Mozzarella Cheese", "amount": 0.25, "unit": "cup" },
+      { "name": "Roasted Red Bell Pepper", "amount": 1, "unit": "" },
+      { "name": "Spinach Leaves", "amount": 1, "unit": "cup" }
+    ],
+    "originalIngredient": [
+      "3 tablespoons hummus",
+      "1 large whole-wheat sandwich wrap",
+      "3 eaches marinated artichoke hearts, cut into small pieces",
+      "¼ cup shredded fat-free mozzarella cheese",
+      "1  roasted red bell pepper, cut into small pieces",
+      "1 cup fresh spinach leaves"
+    ],
+    "additionalInfo": [
+      { "heading": "prep:", "body": "10 mins" },
+      { "heading": "total:", "body": "10 mins" },
+      { "heading": "Servings:", "body": "1" },
+      { "heading": "Yield:", "body": "1 wrap" }
+    ],
+    "prepInstructions": [
+      {
+        "step": 1,
+        "instruction": "Spread hummus onto sandwich wrap. Arrange artichoke hearts and red bell pepper pieces atop the hummus. Scatter mozzarella cheese over artichokes and bell pepper; top with spinach. Roll the sandwich wrap around the ingredients to serve."
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "name": "Avocado Salsa and Sardine Frenchy ",
+    "ratings": "4.44999980926514",
+    "ratingsClass": 9,
+    "reviewCount": "8",
+    "recipeURL": "https://www.allrecipes.com/recipe/228895/avocado-salsa-and-sardine-frenchy/",
+    "recipeImageURL": "https://images.media-allrecipes.com/userphotos/300x300/1041532.jpg",
+    "ingredient": [
+      { "name": "Avocado", "amount": 1, "unit": "" },
+      { "name": "Romaine Lettuce Leaves", "amount": 2, "unit": "" },
+      { "name": "Green Bell Pepper", "amount": 0.25, "unit": "" },
+      { "name": "Lemon Juice", "amount": 1, "unit": "teaspoon" },
+      { "name": "French Bread", "amount": 4, "unit": "slice" },
+      { "name": "Extra Virgin Olive Oil", "amount": 2, "unit": "teaspoon" },
+      { "name": "Can Canned Sardines In Water", "amount": 1, "unit": "" },
+      { "name": "Can Tomatoes With Basil", "amount": 1, "unit": "" }
+    ],
+    "originalIngredient": [
+      "1   avocado, mashed",
+      "2   romaine lettuce leaves, chopped",
+      "¼  green bell pepper, finely chopped",
+      "1 teaspoon lemon juice",
+      "4 slices French bread",
+      "2 teaspoons extra-virgin olive oil",
+      "1 (4.375 ounce) can canned sardines in water, drained",
+      "1 (14.5 ounce) can diced tomatoes with basil, garlic, and oregano - drained"
+    ],
+    "additionalInfo": [
+      { "heading": "prep:", "body": "15 mins" },
+      { "heading": "cook:", "body": "10 mins" },
+      { "heading": "total:", "body": "25 mins" },
+      { "heading": "Servings:", "body": "4" },
+      { "heading": "Yield:", "body": "4 servings" }
+    ],
+    "prepInstructions": [
+      {
+        "step": 1,
+        "instruction": "Preheat oven to 350 degrees F (175 degrees C)."
+      },
+      {
+        "step": 2,
+        "instruction": "Combine avocado, chopped lettuce, chopped green pepper, and lemon juice in a small bowl."
+      },
+      {
+        "step": 3,
+        "instruction": "Brush extra-virgin olive oil on bread slices and toast in the preheated oven until browned, about 5 minutes on each side."
+      },
+      {
+        "step": 4,
+        "instruction": "Remove bread slices from oven. Spread with avocado mixture; top with sardines and canned tomatoes."
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "name": "Lunch Box Pita Pockets ",
+    "ratings": "4.55000019073486",
+    "ratingsClass": 10,
+    "reviewCount": "9",
+    "recipeURL": "https://www.allrecipes.com/recipe/215466/lunch-box-pita-pockets/",
+    "recipeImageURL": "https://images.media-allrecipes.com/userphotos/300x300/5171530.jpg",
+    "ingredient": [
+      { "name": "Deli Ham", "amount": 0.5, "unit": "cup" },
+      { "name": "Lettuce", "amount": 0.5, "unit": "cup" },
+      { "name": "Carrot", "amount": 0.25, "unit": "cup" },
+      { "name": "Ranch Dressing", "amount": 0.25, "unit": "cup" },
+      { "name": "Pita Bread Round", "amount": 1, "unit": "" }
+    ],
+    "originalIngredient": [
+      "½ cup deli ham, chopped",
+      "½ cup shredded lettuce",
+      "¼ cup shredded carrot",
+      "¼ cup Ranch dressing",
+      "1  pita bread round, cut in half"
+    ],
+    "additionalInfo": [
+      { "heading": "prep:", "body": "10 mins" },
+      { "heading": "total:", "body": "10 mins" },
+      { "heading": "Servings:", "body": "1" },
+      { "heading": "Yield:", "body": "1 serving" }
+    ],
+    "prepInstructions": [
+      {
+        "step": 1,
+        "instruction": "Place ham, lettuce, and carrot in a resealable plastic bag. Pour Ranch dressing into a small resealable container. Wrap the pita bread in plastic wrap. Pack the ham mixture, Ranch dressing, and pita bread along with a spoon in a lunch box or bag until lunch time."
+      },
+      {
+        "step": 2,
+        "instruction": "Assemble pita pocket by spooning the ham mixture into each pita half and drizzling the Ranch dressing on top."
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "name": "Pittsburgh Ham Barbecue Sandwich ",
+    "ratings": "4.3600001335144",
+    "ratingsClass": 9,
+    "reviewCount": "9",
+    "recipeURL": "https://www.allrecipes.com/recipe/216685/pittsburgh-ham-barbecue-sandwich/",
+    "recipeImageURL": "https://images.media-allrecipes.com/userphotos/300x300/773813.jpg",
+    "ingredient": [
+      { "name": "Chipped Ham", "amount": 1, "unit": "pound" },
+      { "name": "Tomato Based Chili Sauce", "amount": 2, "unit": "bottle" },
+      { "name": "Can", "amount": 1, "unit": "" },
+      { "name": "Stalk Celery", "amount": 1, "unit": "" },
+      { "name": "Onion", "amount": 0.5, "unit": "" },
+      { "name": "Dill Pickle", "amount": 0.5, "unit": "" },
+      { "name": "Brown Sugar", "amount": 2, "unit": "tablespoon" },
+      { "name": "Hamburger Buns", "amount": 8, "unit": "" }
+    ],
+    "originalIngredient": [
+      "1 pound chipped chopped ham",
+      "2 (12 ounce) bottles tomato-based chili sauce",
+      "1 (12 fluid ounce) can or bottle cola-flavored carbonated beverage",
+      "1 stalk celery, finely chopped",
+      "½  onion, finely chopped",
+      "½  dill pickle, chopped",
+      "2 tablespoons brown sugar",
+      "8   hamburger buns"
+    ],
+    "additionalInfo": [
+      { "heading": "prep:", "body": "15 mins" },
+      { "heading": "cook:", "body": "1 hr 30 mins" },
+      { "heading": "total:", "body": "1 hr 45 mins" },
+      { "heading": "Servings:", "body": "8" },
+      { "heading": "Yield:", "body": "8 servings" }
+    ],
+    "prepInstructions": [
+      {
+        "step": 1,
+        "instruction": "Place the chopped ham, chili sauce, cola, celery, onion, dill pickle, and brown sugar into a slow cooker, and stir to mix."
+      },
+      {
+        "step": 2,
+        "instruction": "Set the cooker to high, and cook for 1 1/2 hours. You may set cooker to low and cook for 3 hours. Serve on buns."
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "name": "Fiesta Pita ",
+    "ratings": "4.55000019073486",
+    "ratingsClass": 10,
+    "reviewCount": "10",
+    "recipeURL": "https://www.allrecipes.com/recipe/216916/fiesta-pita/",
+    "recipeImageURL": "https://images.media-allrecipes.com/userphotos/300x300/856029.jpg",
+    "ingredient": [
+      { "name": "Whole Wheat Pita Bread", "amount": 1, "unit": "" },
+      { "name": "Vegetarian Refried Beans", "amount": 0.5, "unit": "cup" },
+      { "name": "Avocado", "amount": 0.25, "unit": "" },
+      { "name": "Salsa", "amount": 2, "unit": "tablespoon" },
+      { "name": "Crumbled Feta Cheese", "amount": 2, "unit": "tablespoon" },
+      { "name": "Hot Sauce", "amount": 1, "unit": "dash" },
+      { "name": "Cilantro", "amount": 2, "unit": "teaspoon" }
+    ],
+    "originalIngredient": [
+      "1 (6 inch) whole wheat pita bread",
+      "½ cup vegetarian refried beans",
+      "¼   avocado - peeled, pitted and diced",
+      "2 tablespoons fresh salsa, or to taste",
+      "2 tablespoons crumbled feta cheese, divided",
+      "1 dash hot sauce to taste",
+      "2 teaspoons chopped fresh cilantro, or to taste"
+    ],
+    "additionalInfo": [
+      { "heading": "prep:", "body": "10 mins" },
+      { "heading": "cook:", "body": "5 mins" },
+      { "heading": "total:", "body": "15 mins" },
+      { "heading": "Servings:", "body": "1" },
+      { "heading": "Yield:", "body": "1 pita sandwich" }
+    ],
+    "prepInstructions": [
+      {
+        "step": 1,
+        "instruction": "Warm the pita in a toaster oven until fragrant, 1 or 2 minutes; cut in half and open up each half. Heat the beans in a small saucepan over medium heat until hot, and mix in the avocado. Divide the bean mixture in half, and fill each half of the pita with half the bean mixture. Top each pita with 1 tablespoon of feta cheese, and add a dash of hot sauce and a teaspoon of chopped fresh cilantro to each."
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "name": "Sesame Snap Peas ",
+    "ratings": "4.3600001335144",
+    "ratingsClass": 9,
+    "reviewCount": "9",
+    "recipeURL": "https://www.allrecipes.com/recipe/217019/sesame-snap-peas/",
+    "recipeImageURL": "https://images.media-allrecipes.com/userphotos/300x300/1105104.jpg",
+    "ingredient": [
+      { "name": "Asian Sesame Oil", "amount": 1.5, "unit": "teaspoon" },
+      { "name": "Chili Oil", "amount": 1, "unit": "teaspoon" },
+      { "name": "Sugar Snap Peas", "amount": 2, "unit": "cup" },
+      { "name": "Sea Salt", "amount": 1, "unit": "pinch" },
+      { "name": "Cracked Black Pepper", "amount": 1, "unit": "pinch" },
+      { "name": "Sesame Seeds", "amount": 1, "unit": "tablespoon" }
+    ],
+    "originalIngredient": [
+      "1 ½ teaspoons Asian (toasted) sesame oil",
+      "1 teaspoon chili oil",
+      "2 cups sugar snap peas, trimmed",
+      "1 pinch sea salt to taste",
+      "1 pinch freshly cracked black pepper",
+      "1 tablespoon sesame seeds"
+    ],
+    "additionalInfo": [
+      { "heading": "prep:", "body": "10 mins" },
+      { "heading": "cook:", "body": "5 mins" },
+      { "heading": "total:", "body": "15 mins" },
+      { "heading": "Servings:", "body": "4" },
+      { "heading": "Yield:", "body": "4 servings" }
+    ],
+    "prepInstructions": [
+      {
+        "step": 1,
+        "instruction": "Heat the sesame oil and chili oil in a wok or skillet over medium-high heat until the oil shimmers with heat. Cook and stir the snap peas until they turn bright green and start to become tender, about 4 minutes. Sprinkle with salt and black pepper as they cook. Sprinkle peas with sesame seeds, and stir a few times to mix before serving."
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "name": "Spicy Tahini Sauce with Kale, Sea Vegetables, and Soba Noodles ",
+    "ratings": "4.3600001335144",
+    "ratingsClass": 9,
+    "reviewCount": "7",
+    "recipeURL": "https://www.allrecipes.com/recipe/220174/spicy-tahini-sauce-with-kale-sea-vegetables-and-soba-noodles/",
+    "recipeImageURL": "https://images.media-allrecipes.com/userphotos/300x300/811723.jpg",
+    "ingredient": [
+      { "name": "Tahini", "amount": 0.75, "unit": "cup" },
+      { "name": "Rice Vinegar", "amount": 3, "unit": "tablespoon" },
+      { "name": "Soy Sauce", "amount": 2, "unit": "tablespoon" },
+      { "name": "Olive Oil", "amount": 2, "unit": "tablespoon" },
+      { "name": "Chile Garlic Sauce", "amount": 0.5, "unit": "teaspoon" },
+      { "name": "Turmeric", "amount": 0.5, "unit": "teaspoon" },
+      { "name": "Water", "amount": 2, "unit": "tablespoon" },
+      { "name": "Packet Arame Seaweed", "amount": 1, "unit": "" },
+      { "name": "Dried Soba Noodles", "amount": 1, "unit": "package" },
+      { "name": "Olive Oil", "amount": 1, "unit": "tablespoon" },
+      { "name": "Garlic", "amount": 2, "unit": "clove" },
+      { "name": "Ginger", "amount": 2, "unit": "tablespoon" },
+      { "name": "Bunch Kale", "amount": 1, "unit": "" }
+    ],
+    "originalIngredient": [
+      "¾ cup tahini",
+      "3 tablespoons rice vinegar",
+      "2 tablespoons soy sauce",
+      "2 tablespoons olive oil",
+      "½ teaspoon chile-garlic sauce (such as Sriracha®)",
+      "½ teaspoon ground turmeric",
+      "2 tablespoons water, or more as needed",
+      "1 (1.76 ounce) packet arame seaweed",
+      "1 (8 ounce) package dried soba noodles",
+      "1 tablespoon olive oil",
+      "2 cloves garlic, minced",
+      "2 tablespoons minced fresh ginger, or to taste",
+      "1 bunch kale, torn into bite-sized pieces"
+    ],
+    "additionalInfo": [
+      { "heading": "prep:", "body": "20 mins" },
+      { "heading": "cook:", "body": "25 mins" },
+      { "heading": "additional:", "body": "10 mins" },
+      { "heading": "total:", "body": "55 mins" },
+      { "heading": "Servings:", "body": "4" },
+      { "heading": "Yield:", "body": "4 servings" }
+    ],
+    "prepInstructions": [
+      {
+        "step": 1,
+        "instruction": "Blend tahini, rice vinegar, soy sauce, 2 tablespoons olive oil, chile-garlic sauce, turmeric, and 2 tablespoons water together in a large bowl with a fork. Add water as needed to get the dressing to a hummus-like consistency; set aside."
+      },
+      {
+        "step": 2,
+        "instruction": "Soak arame seaweed in a pot of lukewarm water for 10 minutes. Place the pot over medium heat and bring the water to a boil; reduce heat to low and simmer the seaweed for 10 minutes. Drain the seaweed."
+      },
+      {
+        "step": 3,
+        "instruction": "Bring a pot of lightly salted water to a boil. Cook soba noodles at a boil until tender yet firm to the bite, 5 to 7 minutes."
+      },
+      { "step": 4, "instruction": "Drain the noodles; set aside." },
+      {
+        "step": 5,
+        "instruction": "Heat 1 tablespoon olive oil in a large skillet over medium heat. Cook and stir garlic in the olive oil until fragrant, about 1 minute."
+      },
+      {
+        "step": 6,
+        "instruction": "Stir ginger and drained seaweed with the garlic; cook and stir 1 minute more."
+      },
+      {
+        "step": 7,
+        "instruction": "Add kale to the skillet; cook and stir until the kale is coated slightly, about 1 minute more. Reduce heat to low, place a cover on the skillet, and simmer together until the kale wilts, 5 to 10 minutes."
+      },
+      {
+        "step": 8,
+        "instruction": "Toss the drained soba noodles in the tahini sauce until coated. Fold the drained seaweed and the kale mixture into the noodles and sauce and toss to coat. Divide among two or four bowls, and serve."
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "name": "Carrie's Pad Thai Salad ",
+    "ratings": "4.73000001907349",
+    "ratingsClass": 10,
+    "reviewCount": "8",
+    "recipeURL": "https://www.allrecipes.com/recipe/246138/carries-pad-thai-salad/",
+    "recipeImageURL": "https://images.media-allrecipes.com/userphotos/300x300/3403069.jpg",
+    "ingredient": [
+      { "name": "Dried Rice Noodles", "amount": 1, "unit": "package" },
+      { "name": "White Sugar", "amount": 0.5, "unit": "cup" },
+      { "name": "Water", "amount": 0.25, "unit": "cup" },
+      { "name": "Lime", "amount": 0.5, "unit": "" },
+      { "name": "Soy Sauce", "amount": 2, "unit": "tablespoon" },
+      { "name": "Fish Sauce", "amount": 2, "unit": "tablespoon" },
+      { "name": "Tamarind Concentrate", "amount": 1, "unit": "teaspoon" },
+      { "name": "Peanut Oil", "amount": 0.25, "unit": "cup" },
+      { "name": "Garlic", "amount": 1, "unit": "clove" },
+      { "name": "Eggs", "amount": 4, "unit": "" },
+      { "name": "Paprika", "amount": 1, "unit": "tablespoon" },
+      { "name": "Chili Powder", "amount": 0.25, "unit": "teaspoon" },
+      { "name": "Lettuce", "amount": 1, "unit": "head" },
+      { "name": "Flaxseed Oil", "amount": 2, "unit": "tablespoon" },
+      { "name": "Bean Sprouts", "amount": 0.5, "unit": "cup" },
+      { "name": "Green Onion", "amount": 0.5, "unit": "cup" },
+      { "name": "Cilantro", "amount": 0.5, "unit": "cup" },
+      { "name": "Peanuts", "amount": 0.5, "unit": "cup" },
+      { "name": "Lime", "amount": 0.5, "unit": "" }
+    ],
+    "originalIngredient": [
+      "1 (12 ounce) package dried rice noodles",
+      "½ cup white sugar",
+      "¼ cup water",
+      "½   lime, juiced",
+      "2 tablespoons soy sauce",
+      "2 tablespoons fish sauce",
+      "1 teaspoon tamarind concentrate",
+      "¼ cup peanut oil",
+      "1 clove garlic, minced",
+      "4   eggs",
+      "1 tablespoon paprika",
+      "¼ teaspoon chili powder, or to taste",
+      "1 head lettuce, chopped, or as needed",
+      "2 tablespoons flaxseed oil",
+      "½ cup fresh bean sprouts, or to taste",
+      "½ cup chopped green onion",
+      "½ cup chopped fresh cilantro",
+      "½ cup chopped peanuts",
+      "½  lime, cut into wedges"
+    ],
+    "additionalInfo": [
+      { "heading": "prep:", "body": "20 mins" },
+      { "heading": "cook:", "body": "8 mins" },
+      { "heading": "additional:", "body": "10 mins" },
+      { "heading": "total:", "body": "38 mins" },
+      { "heading": "Servings:", "body": "4" },
+      { "heading": "Yield:", "body": "4 main dish servings" }
+    ],
+    "prepInstructions": [
+      {
+        "step": 1,
+        "instruction": "Place noodles in a bowl with enough hot water to cover; soak noodles until soft, about 10 minutes. Strain."
+      },
+      {
+        "step": 2,
+        "instruction": "Combine sugar, water, lime juice, soy sauce, fish sauce, and tamarind in a large saucepan over medium heat. Simmer gently, stirring occasionally, until sauce is slightly thickened, 3 to 5 minutes."
+      },
+      {
+        "step": 3,
+        "instruction": "Heat peanut oil in a skillet over medium heat. Add garlic; stir just until fragrant, 30 seconds to 1 minute. Add eggs; cook and stir until almost set, 2 to 3 minutes. Add strained noodles to egg mixture; stir in 1/2 of the sauce. Continue to cook and stir noodle mixture until hot, adding additional sauce as desired, 2 to 3 minutes more. Sprinkle paprika and chili powder over the noodles."
+      },
+      {
+        "step": 4,
+        "instruction": "Layer lettuce on a serving dish or in individual bowls; drizzle with flaxseed oil. Place noodle mixture on lettuce; garnish with bean sprouts, green onion, cilantro, and peanuts. Serve with lime wedges."
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "name": "Cold Pasta Primavera Salad from Hidden Valley(R) ",
+    "ratings": "4.82000017166138",
+    "ratingsClass": 10,
+    "reviewCount": "10",
+    "recipeURL": "https://www.allrecipes.com/recipe/244726/cold-pasta-primavera-salad-from-hidden-valley/",
+    "recipeImageURL": "https://images.media-allrecipes.com/userphotos/300x300/2497408.jpg",
+    "ingredient": [
+      {
+        "name": "Packet Hidden Valley® Original Ranch® Salad Dressing & Seasoning Mix",
+        "amount": 0.5,
+        "unit": ""
+      },
+      { "name": "Milk", "amount": 0.5, "unit": "cup" },
+      { "name": "Mayonnaise", "amount": 0.5, "unit": "cup" },
+      { "name": "Olive Oil", "amount": 3, "unit": "tablespoon" },
+      { "name": "Zucchini", "amount": 2, "unit": "" },
+      { "name": "Frozen Broccoli Florets", "amount": 1, "unit": "cup" },
+      { "name": "Red Bell Pepper", "amount": 1, "unit": "" },
+      { "name": "Cherry Tomatoes", "amount": 1, "unit": "cup" },
+      { "name": "Medium Radishes", "amount": 4, "unit": "" },
+      { "name": "Green Onions", "amount": 3, "unit": "" },
+      { "name": "Rotini Pasta", "amount": 1, "unit": "package" },
+      { "name": "Drained Capers", "amount": 2, "unit": "tablespoon" }
+    ],
+    "originalIngredient": [
+      "½ (1 ounce) packet Hidden Valley® Original Ranch® Salad Dressing & Seasoning Mix",
+      "½ cup milk",
+      "½ cup mayonnaise",
+      "3 tablespoons olive oil or vegetable oil",
+      "2  zucchini, cut into 1/4-inch slices",
+      "1 cup frozen broccoli florets, steamed",
+      "1  red bell pepper or green bell pepper, cut into small chunks",
+      "1 cup cherry tomatoes, halved",
+      "4 medium radishes, thinly sliced",
+      "3  green onions, chopped",
+      "1 (16 ounce) package rotini (corkscrew) pasta",
+      "2 tablespoons drained capers (optional)"
+    ],
+    "additionalInfo": [
+      { "heading": "prep:", "body": "40 mins" },
+      { "heading": "cook:", "body": "15 mins" },
+      { "heading": "total:", "body": "55 mins" },
+      { "heading": "Servings:", "body": "4" }
+    ],
+    "prepInstructions": [
+      {
+        "step": 1,
+        "instruction": "Cook pasta according to package directions. Rinse with cool water and drain. Combine Hidden Valley® Original Ranch Salad® Dressing & Seasoning Mix with milk and mayonnaise in a bowl, creating 1 cup dressing."
+      },
+      {
+        "step": 2,
+        "instruction": "In a small bowl, whisk the dressing together with the oil until emulsified."
+      },
+      {
+        "step": 3,
+        "instruction": "In a large bowl, add the pasta and the remaining ingredients."
+      },
+      {
+        "step": 4,
+        "instruction": "Add the dressing and toss until well coated."
+      },
+      { "step": 5, "instruction": "Chill covered for 1 hour before serving." }
+    ]
+  },
+  {
+    "id": 60,
+    "name": "Tantalizing Chicken Lettuce Wraps ",
+    "ratings": "4.6399998664856",
+    "ratingsClass": 10,
+    "reviewCount": "8",
+    "recipeURL": "https://www.allrecipes.com/recipe/244758/tantalizing-chicken-lettuce-wraps/",
+    "recipeImageURL": "https://images.media-allrecipes.com/userphotos/300x300/2563282.jpg",
+    "ingredient": [
+      { "name": "Canola Oil", "amount": 3, "unit": "tablespoon" },
+      { "name": "Small Onion", "amount": 1, "unit": "" },
+      { "name": "Mushrooms", "amount": 1, "unit": "cup" },
+      { "name": "Garlic", "amount": 3, "unit": "clove" },
+      { "name": "Ginger", "amount": 2, "unit": "teaspoon" },
+      { "name": "Chicken", "amount": 1, "unit": "pound" },
+      { "name": "Soy Sauce", "amount": 5, "unit": "tablespoon" },
+      { "name": "Rice Vinegar", "amount": 1, "unit": "tablespoon" },
+      { "name": "Can Baby Corn", "amount": 1, "unit": "" },
+      { "name": "Can Water Chestnuts", "amount": 1, "unit": "" },
+      { "name": "Sugar Snap Peas", "amount": 1, "unit": "cup" },
+      { "name": "Sesame Oil", "amount": 1, "unit": "teaspoon" },
+      { "name": "Boston Lettuce", "amount": 2, "unit": "head" }
+    ],
+    "originalIngredient": [
+      "3 tablespoons canola oil",
+      "1 small onion, diced",
+      "1 cup sliced fresh mushrooms",
+      "3 cloves garlic, or to taste, minced",
+      "2 teaspoons minced fresh ginger",
+      "1 pound ground chicken",
+      "5 tablespoons soy sauce",
+      "1 tablespoon rice vinegar",
+      "1 (8 ounce) can baby corn, drained and chopped",
+      "1 (4 ounce) can sliced water chestnuts, drained and finely chopped",
+      "1 cup chopped sugar snap peas",
+      "1 teaspoon sesame oil",
+      "2 heads Boston lettuce, leaves separated"
+    ],
+    "additionalInfo": [
+      { "heading": "prep:", "body": "15 mins" },
+      { "heading": "cook:", "body": "15 mins" },
+      { "heading": "total:", "body": "30 mins" },
+      { "heading": "Servings:", "body": "4" },
+      { "heading": "Yield:", "body": "12 wraps" }
+    ],
+    "prepInstructions": [
+      {
+        "step": 1,
+        "instruction": "Heat canola oil in a large wok or skillet over medium heat; cook and stir onion, mushrooms, garlic, and ginger for 2 minutes. Add ground chicken; cook and stir, breaking chicken into smaller pieces, until chicken is no longer pink, about 5 minutes."
+      },
+      {
+        "step": 2,
+        "instruction": "Pour soy sauce and vinegar over chicken mixture and stir. Add corn and water chestnuts to chicken mixture; cover and cook for 4 minutes. Add snap peas; cover and cook for 2 minutes. Stir sesame oil into chicken mixture."
+      },
+      {
+        "step": 3,
+        "instruction": "Scoop about 1/4 cup chicken mixture into each lettuce leaf. Fold leaf around the filling."
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "name": "Greek Farro Salad ",
+    "ratings": "5",
+    "ratingsClass": 10,
+    "reviewCount": "9",
+    "recipeURL": "https://www.allrecipes.com/recipe/244326/greek-farro-salad/",
+    "recipeImageURL": "https://images.media-allrecipes.com/userphotos/300x300/2406847.jpg",
+    "ingredient": [
+      { "name": "Farro", "amount": 1.5, "unit": "cup" },
+      { "name": "Chicken Broth", "amount": 4, "unit": "cup" },
+      { "name": "Olive Oil", "amount": 1, "unit": "teaspoon" },
+      { "name": "Sea Salt", "amount": 1, "unit": "teaspoon" },
+      { "name": "Extra Virgin Olive Oil", "amount": 0.25, "unit": "cup" },
+      { "name": "Lemon Juice", "amount": 3, "unit": "tablespoon" },
+      { "name": "Greek Seasoning", "amount": 1, "unit": "tablespoon" },
+      { "name": "Garlic", "amount": 1, "unit": "clove" },
+      { "name": "", "amount": 1, "unit": "cup" },
+      { "name": "", "amount": 1, "unit": "cup" },
+      { "name": "Red Bell Pepper", "amount": 1, "unit": "cup" },
+      { "name": "Red Onion", "amount": 0.75, "unit": "cup" },
+      { "name": "Crumbled Feta Cheese", "amount": 1, "unit": "cup" },
+      { "name": "Salt", "amount": 1, "unit": "pinch" },
+      { "name": "Black Pepper", "amount": 1, "unit": "pinch" }
+    ],
+    "originalIngredient": [
+      "1 ½ cups farro",
+      "4 cups chicken broth",
+      "1 teaspoon olive oil",
+      "1 teaspoon sea salt, or to taste",
+      "¼ cup extra-virgin olive oil",
+      "3 tablespoons fresh lemon juice",
+      "1 tablespoon Greek seasoning",
+      "1 clove garlic, minced",
+      "1 cup seeded, diced tomato",
+      "1 cup seeded, diced cucumber",
+      "1 cup chopped red bell pepper",
+      "¾ cup thinly sliced red onion",
+      "1 cup crumbled feta cheese",
+      "1 pinch salt and ground black pepper to taste"
+    ],
+    "additionalInfo": [
+      { "heading": "prep:", "body": "15 mins" },
+      { "heading": "cook:", "body": "35 mins" },
+      { "heading": "additional:", "body": "2 hrs 15 mins" },
+      { "heading": "total:", "body": "3 hrs 5 mins" },
+      { "heading": "Servings:", "body": "6" },
+      { "heading": "Yield:", "body": "8 cups" }
+    ],
+    "prepInstructions": [
+      {
+        "step": 1,
+        "instruction": "Rinse farro with water; drain. Place farro in a pot; pour in chicken broth to cover farro by at least one inch, adding water if needed. Stir in 1 teaspoon olive oil and sea salt."
+      },
+      {
+        "step": 2,
+        "instruction": "Bring liquid to a boil; reduce heat to medium and simmer, uncovered, stirring frequently, until tender, about 35 minutes for whole grain farro or about 20 minutes for pearled farro."
+      },
+      {
+        "step": 3,
+        "instruction": "Drain farro, rinse with cold water, and set aside to cool completely, about 15 minutes."
+      },
+      {
+        "step": 4,
+        "instruction": "Whisk 1/4 cup extra-virgin olive oil, lemon juice, Greek seasoning, and garlic together in a large bowl. Stir in tomato, cucumber, red pepper, red onion, and feta cheese. Stir farro into tomato mixture until completely coated with dressing; season with salt and pepper. Refrigerate salad for about 2 hours before serving."
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "name": "Marinated Chickpeas ",
+    "ratings": "4.73000001907349",
+    "ratingsClass": 10,
+    "reviewCount": "6",
+    "recipeURL": "https://www.allrecipes.com/recipe/244409/marinated-chickpeas/",
+    "recipeImageURL": "https://images.media-allrecipes.com/userphotos/300x300/2495251.jpg",
+    "ingredient": [
+      { "name": "Can Chickpeas", "amount": 1, "unit": "" },
+      { "name": "Olive Oil", "amount": 3, "unit": "tablespoon" },
+      { "name": "Oregano", "amount": 1, "unit": "tablespoon" },
+      { "name": "Lemon Juice", "amount": 1, "unit": "tablespoon" },
+      { "name": "Lemon Zest", "amount": 1, "unit": "tablespoon" },
+      { "name": "Parsley", "amount": 1, "unit": "teaspoon" },
+      { "name": "Garlic", "amount": 0.25, "unit": "teaspoon" },
+      { "name": "Sea Salt", "amount": 1, "unit": "pinch" }
+    ],
+    "originalIngredient": [
+      "1 (15 ounce) can chickpeas (garbanzo beans), drained and rinsed",
+      "3 tablespoons olive oil",
+      "1 tablespoon chopped fresh oregano",
+      "1 tablespoon lemon juice",
+      "1 tablespoon lemon zest",
+      "1 teaspoon chopped fresh parsley",
+      "¼ teaspoon minced garlic",
+      "1 pinch sea salt to taste"
+    ],
+    "additionalInfo": [
+      { "heading": "prep:", "body": "10 mins" },
+      { "heading": "additional:", "body": "8 hrs" },
+      { "heading": "total:", "body": "8 hrs 10 mins" },
+      { "heading": "Servings:", "body": "4" },
+      { "heading": "Yield:", "body": "4 servings" }
+    ],
+    "prepInstructions": [
+      {
+        "step": 1,
+        "instruction": "Place chickpeas in a bowl. Add olive oil, oregano, lemon juice, lemon zest, parsley, garlic, and sea salt and mix well. Marinate chickpeas in the refrigerator, 8 hours to overnight."
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "name": "Buffalo or Barbeque Chicken and Rice Wraps ",
+    "ratings": "4.73000001907349",
+    "ratingsClass": 10,
+    "reviewCount": "6",
+    "recipeURL": "https://www.allrecipes.com/recipe/242478/buffalo-or-barbeque-chicken-and-rice-wraps/",
+    "recipeImageURL": "https://images.media-allrecipes.com/userphotos/300x300/2404258.jpg",
+    "ingredient": [
+      {
+        "name": "UNCLE BEN'S® Ready Rice® Whole Grain Brown",
+        "amount": 1,
+        "unit": "cup"
+      },
+      { "name": "Cooked Chicken Breast", "amount": 1, "unit": "cup" },
+      {
+        "name": "Buffalo Style Hot Pepper Sauce",
+        "amount": 0.25,
+        "unit": "cup"
+      },
+      { "name": "Cheddar Cheese", "amount": 0.5, "unit": "cup" },
+      { "name": "Lettuce", "amount": 0.5, "unit": "cup" },
+      { "name": "Whole Wheat Tortillas", "amount": 4, "unit": "" },
+      { "name": "Baby Carrots", "amount": 1, "unit": "cup" },
+      { "name": "Celery Sticks", "amount": 1, "unit": "cup" },
+      { "name": "Reduced Fat Ranch Dressing", "amount": 1, "unit": "cup" }
+    ],
+    "originalIngredient": [
+      "1 cup UNCLE BEN'S® Ready Rice® Whole Grain Brown",
+      "1 cup shredded cooked chicken breast",
+      "¼ cup Buffalo-style hot pepper sauce (such as Frank's® Red Hot®)",
+      "½ cup shredded Cheddar cheese",
+      "½ cup shredded lettuce",
+      "4 (8 inch) whole-wheat tortillas",
+      "1 cup baby carrots",
+      "1 cup celery sticks",
+      "1 cup reduced fat ranch dressing, divided"
+    ],
+    "additionalInfo": [
+      { "heading": "prep:", "body": "10 mins" },
+      { "heading": "total:", "body": "10 mins" },
+      { "heading": "Servings:", "body": "4" },
+      { "heading": "Yield:", "body": "4 wraps" }
+    ],
+    "prepInstructions": [
+      {
+        "step": 1,
+        "instruction": "Cook rice according to package directions."
+      },
+      {
+        "step": 2,
+        "instruction": "Combine shredded chicken and buffalo sauce in a bowl."
+      },
+      {
+        "step": 3,
+        "instruction": "Microwave tortillas on microwave-safe plate covered with a damp paper towel on High until warm and pliable, about 20 to 30 seconds."
+      },
+      {
+        "step": 4,
+        "instruction": "Evenly divide rice among four tortillas and spreading out to within 1/2 inch of the edges. Top rice with chicken mixture. Sprinkle about 2 tablespoons shredded Cheddar cheese over chicken mixture; top with shredded lettuce."
+      },
+      {
+        "step": 5,
+        "instruction": "Fold in the sides of the tortilla and begin to roll tightly; repeat for each wrap. Cut in half, diagonally. (Or wrap in foil and refrigerate if serving later.)"
+      },
+      {
+        "step": 6,
+        "instruction": "Serve each wrap with baby carrots and celery sticks and about 1/4 cup ranch dressing for dipping."
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "name": "Mini Corn Dog Muffins ",
+    "ratings": "4.3600001335144",
+    "ratingsClass": 9,
+    "reviewCount": "9",
+    "recipeURL": "https://www.allrecipes.com/recipe/241324/mini-corn-dog-muffins/",
+    "recipeImageURL": "https://images.media-allrecipes.com/userphotos/300x300/2081847.jpg",
+    "ingredient": [
+      { "name": "Corn Muffin Mix", "amount": 1, "unit": "package" },
+      { "name": "VELVEETA®", "amount": 2, "unit": "ounce" },
+      { "name": "OSCAR MAYER Beef Franks", "amount": 4, "unit": "" },
+      {
+        "name": "GREY POUPON Savory Honey Mustard",
+        "amount": 0.5,
+        "unit": "cup"
+      }
+    ],
+    "originalIngredient": [
+      "1 (8.5 ounce) package corn muffin mix",
+      "2 ounces VELVEETA®, cut into 24 small cubes",
+      "4 eaches OSCAR MAYER Beef Franks, each cut into 6 pieces",
+      "½ cup GREY POUPON Savory Honey Mustard"
+    ],
+    "additionalInfo": [
+      { "heading": "prep:", "body": "15 mins" },
+      { "heading": "additional:", "body": "12 mins" },
+      { "heading": "total:", "body": "27 mins" },
+      { "heading": "Servings:", "body": "24" },
+      { "heading": "Yield:", "body": "24 servings" }
+    ],
+    "prepInstructions": [
+      { "step": 1, "instruction": "Heat oven to 375 degrees F." },
+      {
+        "step": 2,
+        "instruction": "Prepare muffin batter as directed on package; spoon into 24 mini muffin pan cups sprayed with cooking spray."
+      },
+      {
+        "step": 3,
+        "instruction": "Press 1 each VELVEETA cube and hot dog slice into batter in center of each muffin cup"
+      },
+      {
+        "step": 4,
+        "instruction": "Bake 10 to 12 min. or until golden brown. Cool 5 min. before removing from pans. Serve warm with mustard."
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "name": "Dianne's Lemon-Feta Quinoa Salad ",
+    "ratings": "4.6399998664856",
+    "ratingsClass": 10,
+    "reviewCount": "9",
+    "recipeURL": "https://www.allrecipes.com/recipe/241072/diannes-lemon-feta-quinoa-salad/",
+    "recipeImageURL": "https://images.media-allrecipes.com/userphotos/300x300/5419091.jpg",
+    "ingredient": [
+      { "name": "Water", "amount": 2, "unit": "cup" },
+      { "name": "Quinoa", "amount": 1, "unit": "cup" },
+      { "name": "Sea Salt", "amount": 0.5, "unit": "teaspoon" },
+      {
+        "name": "Halved Grape Tomatoes",
+        "amount": 0.6666666666666666,
+        "unit": "cup"
+      },
+      { "name": "Crumbled Feta Cheese", "amount": 0.5, "unit": "cup" },
+      {
+        "name": "Roasted Unsalted Sunflower Seeds",
+        "amount": 0.25,
+        "unit": "cup"
+      },
+      { "name": "Parsley", "amount": 0.25, "unit": "cup" },
+      { "name": "Can Black Olives", "amount": 1, "unit": "" },
+      { "name": "Shallot", "amount": 1, "unit": "tablespoon" },
+      { "name": "Extra Virgin Olive Oil", "amount": 3, "unit": "tablespoon" },
+      { "name": "Lemon Juice", "amount": 3, "unit": "tablespoon" },
+      { "name": "Dijon Mustard", "amount": 1, "unit": "teaspoon" },
+      { "name": "Garlic", "amount": 1, "unit": "teaspoon" },
+      { "name": "Sea Salt", "amount": 0.25, "unit": "teaspoon" },
+      { "name": "Black Pepper", "amount": 0.25, "unit": "teaspoon" }
+    ],
+    "originalIngredient": [
+      "2 cups water",
+      "1 cup quinoa",
+      "½ teaspoon sea salt",
+      "⅔ cup halved grape tomatoes",
+      "½ cup crumbled feta cheese",
+      "¼ cup roasted unsalted sunflower seeds",
+      "¼ cup chopped fresh parsley",
+      "1 (2.25 ounce) can sliced black olives, drained",
+      "1 tablespoon minced shallot",
+      "3 tablespoons extra-virgin olive oil",
+      "3 tablespoons lemon juice",
+      "1 teaspoon Dijon mustard",
+      "1 teaspoon minced garlic",
+      "¼ teaspoon sea salt",
+      "¼ teaspoon fresh ground black pepper"
+    ],
+    "additionalInfo": [
+      { "heading": "prep:", "body": "15 mins" },
+      { "heading": "cook:", "body": "15 mins" },
+      { "heading": "additional:", "body": "30 mins" },
+      { "heading": "total:", "body": "1 hr" },
+      { "heading": "Servings:", "body": "6" },
+      { "heading": "Yield:", "body": "6 servings" }
+    ],
+    "prepInstructions": [
+      {
+        "step": 1,
+        "instruction": "Bring water, quinoa, and 1/2 teaspoon sea salt to a boil in a saucepan. Reduce heat to medium-low, cover, and simmer until quinoa is tender and water has been absorbed, 15 to 20 minutes. Spread quinoa on a baking sheet and cool, about 30 minutes."
+      },
+      {
+        "step": 2,
+        "instruction": "Mix quinoa, tomatoes, feta cheese, sunflower seeds, parsley, olives, and shallot together in a large bowl."
+      },
+      {
+        "step": 3,
+        "instruction": "Whisk olive oil, lemon juice, mustard, garlic, 1/4 teaspoon sea salt, and pepper together in a bowl; pour over quinoa mixture and toss to coat."
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "name": "Tuna Panini Melt  ",
+    "ratings": "4.73000001907349",
+    "ratingsClass": 10,
+    "reviewCount": "7",
+    "recipeURL": "https://www.allrecipes.com/recipe/254438/tuna-panini-melt/",
+    "recipeImageURL": "https://images.media-allrecipes.com/userphotos/300x300/3761621.jpg",
+    "ingredient": [
+      {
+        "name": "Can Solid White Albacore Tuna In Water",
+        "amount": 1,
+        "unit": ""
+      },
+      { "name": "Mayonnaise", "amount": 1, "unit": "tablespoon" },
+      { "name": "Balsamic Vinegar", "amount": 1, "unit": "tablespoon" },
+      { "name": "Onion", "amount": 1, "unit": "tablespoon" },
+      { "name": "Dill Pickle", "amount": 1, "unit": "" },
+      { "name": "Sourdough Bread", "amount": 4, "unit": "slice" },
+      { "name": "American Cheese", "amount": 2, "unit": "slice" }
+    ],
+    "originalIngredient": [
+      "1 (5 ounce) can solid white albacore tuna in water (such as Bumble Bee®)",
+      "1 tablespoon mayonnaise",
+      "1 tablespoon balsamic vinegar",
+      "1 tablespoon chopped onion",
+      "1  dill pickle, chopped",
+      "4 slices sourdough bread",
+      "2 slices American cheese"
+    ],
+    "additionalInfo": [
+      { "heading": "prep:", "body": "10 mins" },
+      { "heading": "cook:", "body": "3 mins" },
+      { "heading": "total:", "body": "13 mins" },
+      { "heading": "Servings:", "body": "2" },
+      { "heading": "Yield:", "body": "2 sandwiches" }
+    ],
+    "prepInstructions": [
+      {
+        "step": 1,
+        "instruction": "Mix tuna, mayonnaise, balsamic vinegar, onion, and dill pickle together in a bowl."
+      },
+      {
+        "step": 2,
+        "instruction": "Spread tuna mixture over 2 slices of bread. Top with American cheese and remaining 2 slices of bread."
+      },
+      {
+        "step": 3,
+        "instruction": "Cook in a panini press until bread is crispy and cheese is melted, 3 to 4 minutes."
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "name": "Cilantro Lime Cucumber Salad ",
+    "ratings": "4.44999980926514",
+    "ratingsClass": 9,
+    "reviewCount": "7",
+    "recipeURL": "https://www.allrecipes.com/recipe/246677/cilantro-lime-cucumber-salad/",
+    "recipeImageURL": "https://images.media-allrecipes.com/userphotos/300x300/3383511.jpg",
+    "ingredient": [
+      { "name": "Cucumber", "amount": 1, "unit": "" },
+      { "name": "Cilantro", "amount": 2, "unit": "tablespoon" },
+      { "name": "Lime", "amount": 1, "unit": "" },
+      { "name": "Garlic", "amount": 1, "unit": "clove" },
+      { "name": "Sambal Oelek", "amount": 1, "unit": "teaspoon" },
+      { "name": "Red Pepper Flakes", "amount": 1, "unit": "pinch" },
+      { "name": "Salt", "amount": 1, "unit": "pinch" }
+    ],
+    "originalIngredient": [
+      "1  cucumber, sliced into thin strips",
+      "2 tablespoons chopped fresh cilantro",
+      "1   lime, juiced",
+      "1 clove garlic, minced",
+      "1 teaspoon sambal oelek (chile paste)",
+      "1 pinch red pepper flakes, or to taste",
+      "1 pinch salt to taste"
+    ],
+    "additionalInfo": [
+      { "heading": "prep:", "body": "10 mins" },
+      { "heading": "additional:", "body": "10 mins" },
+      { "heading": "total:", "body": "20 mins" },
+      { "heading": "Servings:", "body": "2" },
+      { "heading": "Yield:", "body": "2 servings" }
+    ],
+    "prepInstructions": [
+      {
+        "step": 1,
+        "instruction": "Mix cucumber, cilantro, lime juice, garlic, sambal oelek, red pepper flakes and salt together in a bowl until evenly combined; allow to sit until flavors blend, at least 10 minutes."
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "name": "Rajas Con Crema, Elote Y, Queso (Creamy Poblano Peppers and Sweet Corn) ",
+    "ratings": "4.6399998664856",
+    "ratingsClass": 10,
+    "reviewCount": "9",
+    "recipeURL": "https://www.allrecipes.com/recipe/257536/rajas-con-crema-elote-y-queso-creamy-poblano-peppers-and-sweet-corn/",
+    "recipeImageURL": "https://images.media-allrecipes.com/userphotos/300x300/4498855.jpg",
+    "ingredient": [
+      { "name": "Poblano Peppers", "amount": 4, "unit": "" },
+      { "name": "Vegetable Oil", "amount": 2, "unit": "tablespoon" },
+      { "name": "Ear Corn", "amount": 1, "unit": "" },
+      { "name": "Butter", "amount": 1, "unit": "tablespoon" },
+      { "name": "Small Onion", "amount": 1, "unit": "" },
+      { "name": "Chicken Bouillon Granules", "amount": 2, "unit": "teaspoon" },
+      { "name": "Heavy Whipping Cream", "amount": 0.5, "unit": "cup" },
+      { "name": "Mexican Manchego Cheese", "amount": 4.5, "unit": "ounce" }
+    ],
+    "originalIngredient": [
+      "4 eaches poblano peppers",
+      "2 tablespoons vegetable oil, divided",
+      "1 ear fresh corn, kernels cut off",
+      "1 tablespoon butter",
+      "1 small onion, sliced",
+      "2 teaspoons chicken bouillon granules",
+      "½ cup heavy whipping cream",
+      "4 ½ ounces Mexican manchego cheese, grated"
+    ],
+    "additionalInfo": [
+      { "heading": "prep:", "body": "15 mins" },
+      { "heading": "cook:", "body": "1 hr 8 mins" },
+      { "heading": "additional:", "body": "10 mins" },
+      { "heading": "total:", "body": "1 hr 33 mins" },
+      { "heading": "Servings:", "body": "4" },
+      { "heading": "Yield:", "body": "4 servings" }
+    ],
+    "prepInstructions": [
+      {
+        "step": 1,
+        "instruction": "Preheat oven to 500 degrees F (260 degrees C). Line a baking sheet with aluminum foil and add poblano peppers. Brush peppers with 1 tablespoon vegetable oil."
+      },
+      {
+        "step": 2,
+        "instruction": "Roast poblano peppers in the preheated oven for 20 minutes; flip and continue roasting until skin is charred and flesh is soft, about 20 minutes more."
+      },
+      {
+        "step": 3,
+        "instruction": "Place roasted peppers in a bowl and cover with plastic wrap; let steam for 10 to 15 minutes. Carefully remove plastic wrap and peel the skins from the peppers and remove seeds and stems. Cut peppers into strips."
+      },
+      {
+        "step": 4,
+        "instruction": "Bring a pot of water to a boil; cook corn kernels until soft, about 10 minutes. Drain."
+      },
+      {
+        "step": 5,
+        "instruction": "Heat 1 tablespoon vegetable oil and butter in a saucepan over medium heat; cook and stir onion until soft, 5 to 10 minutes. Add poblano pepper strips and corn; season with chicken bouillon granules and cook for 3 minutes. Reduce heat to medium-low and stir in cream and manchego cheese; simmer until cheese melts, about 5 minutes."
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "name": "Stir Fried Sugar Snap Peas ",
+    "ratings": "4.6399998664856",
+    "ratingsClass": 10,
+    "reviewCount": "7",
+    "recipeURL": "https://www.allrecipes.com/recipe/258836/stir-fried-sugar-snap-peas/",
+    "recipeImageURL": "https://images.media-allrecipes.com/userphotos/300x300/4555010.jpg",
+    "ingredient": [
+      { "name": "Sugar Snap Peas", "amount": 2, "unit": "cup" },
+      { "name": "Olive Oil", "amount": 2, "unit": "tablespoon" },
+      { "name": "Garlic", "amount": 2, "unit": "clove" },
+      { "name": "Soy Sauce", "amount": 2, "unit": "tablespoon" }
+    ],
+    "originalIngredient": [
+      "2 cups sugar snap peas, strings removed",
+      "2 tablespoons olive oil",
+      "2 cloves garlic, minced",
+      "2 tablespoons soy sauce"
+    ],
+    "additionalInfo": [
+      { "heading": "prep:", "body": "10 mins" },
+      { "heading": "cook:", "body": "8 mins" },
+      { "heading": "total:", "body": "18 mins" },
+      { "heading": "Servings:", "body": "4" },
+      { "heading": "Yield:", "body": "4 servings" }
+    ],
+    "prepInstructions": [
+      {
+        "step": 1,
+        "instruction": "Place a steamer insert into a saucepan and fill with water to just below the bottom of the steamer. Bring water to a boil. Add snap peas, cover, and steam until tender, about 2 minutes."
+      },
+      {
+        "step": 2,
+        "instruction": "Heat oil in a non-stick skillet over medium-high heat; saute garlic until nearly brown, about 2 minutes. Pour in snap peas and soy sauce. Cook and stir until snap peas begin to brown, about 4 minutes."
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "name": "Chicken Spinach Meatballs ",
+    "ratings": "4.44999980926514",
+    "ratingsClass": 9,
+    "reviewCount": "11",
+    "recipeURL": "https://www.allrecipes.com/recipe/265549/chicken-spinach-meatballs/",
+    "recipeImageURL": "https://images.media-allrecipes.com/userphotos/300x300/5543989.jpg",
+    "ingredient": [
+      { "name": "Serving Cooking Spray", "amount": 1, "unit": "" },
+      { "name": "Large Onion", "amount": 0.25, "unit": "" },
+      { "name": "Jalapeno Peppers", "amount": 2, "unit": "" },
+      { "name": "Ginger", "amount": 1, "unit": "piece" },
+      { "name": "Garlic Clove Garlic Cloves", "amount": 2, "unit": "" },
+      { "name": "Chicken", "amount": 1, "unit": "pound" },
+      {
+        "name": "Frozen Spinach",
+        "amount": 0.3333333333333333,
+        "unit": "package"
+      },
+      { "name": "Asiago Cheese", "amount": 0.5, "unit": "cup" },
+      { "name": "Crumbled Feta Cheese", "amount": 0.25, "unit": "cup" },
+      { "name": "Salt", "amount": 0.5, "unit": "teaspoon" },
+      { "name": "Dried Basil", "amount": 0.5, "unit": "teaspoon" },
+      { "name": "Turmeric", "amount": 0.25, "unit": "teaspoon" }
+    ],
+    "originalIngredient": [
+      "1  serving cooking spray",
+      "¼ large onion",
+      "2 eaches jalapeno peppers, seeded",
+      "1 (1 inch) piece fresh ginger, peeled",
+      "2 garlic clove (blank)s garlic cloves, peeled",
+      "1 pound ground chicken",
+      "⅓ (10 ounce) package frozen spinach, thawed, not drained",
+      "½ cup grated Asiago cheese",
+      "¼ cup crumbled feta cheese",
+      "½ teaspoon salt",
+      "½ teaspoon dried basil",
+      "¼ teaspoon ground turmeric"
+    ],
+    "additionalInfo": [
+      { "heading": "prep:", "body": "25 mins" },
+      { "heading": "cook:", "body": "15 mins" },
+      { "heading": "total:", "body": "40 mins" },
+      { "heading": "Servings:", "body": "4" },
+      { "heading": "Yield:", "body": "25 meatballs" }
+    ],
+    "prepInstructions": [
+      {
+        "step": 1,
+        "instruction": "Preheat the oven to 375 degrees F (190 degrees C). Grease 2 baking sheets with cooking spray."
+      },
+      {
+        "step": 2,
+        "instruction": "Combine onion, jalapeno peppers, ginger, and garlic in a food processor; pulse until coarsely chopped."
+      },
+      {
+        "step": 3,
+        "instruction": "Place onion mixture, chicken, spinach, Asiago cheese, feta cheese, salt, basil, and turmeric in a large bowl. Mix together gently. Form mixture into balls. Arrange balls about 1/2 inch apart on the baking sheets."
+      },
+      {
+        "step": 4,
+        "instruction": "Bake in the preheated oven until no longer pink in the center, about 15 minutes."
+      }
+    ]
+  }
+]
