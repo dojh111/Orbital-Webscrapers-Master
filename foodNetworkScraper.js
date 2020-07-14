@@ -286,15 +286,18 @@ const webScraper = async () => {
           if (item.includes(specialItems[j])) {
             if (
               specialItems[j] === "skinless" ||
-              specialItems[j] === "boneless"
+              specialItems[j] === "boneless" ||
+              specialItems[j] === "large,"
             ) {
               item = item.replace(",", " ");
               break;
+            } else if (
+              specialItems[j] === "half and half" ||
+              specialItems[j] === "half-and-half"
+            ) {
+              item = item.replace(specialItems[j], "half&half");
             }
           }
-        }
-        if (item.includes("half-and-half")) {
-          item = item.replace("half-and-half", "half&half");
         }
         //Replacing dashes
         if (item.includes("-")) {
@@ -357,20 +360,21 @@ const webScraper = async () => {
         }
         //Skip if item length is only 1
         if (item.length > 1) {
-          //Determine units of ingredient
-          for (let k = 0; k < item.length; k++) {
+          for (let i = item.length - 1; i >= 0; i--) {
+            //Determine units of ingredient
             for (let j = 0; j < cookingUnits.length; j++) {
-              if (item[k].includes(cookingUnits[j])) {
+              if (item[i].includes(cookingUnits[j])) {
                 recipeUnit = cookingUnits[j];
-                item.splice(k, 1);
+                item.splice(i, 1);
                 break;
-              } else {
-                for (let j = 0; j < specificUnits.length; j++) {
-                  if (item[k] === specificUnits[j]) {
-                    recipeUnit = specificUnits[j];
-                    item.splice(k, 1);
-                    break;
-                  }
+              }
+            }
+            if (recipeUnit === "") {
+              for (let j = 0; j < specificUnits.length; j++) {
+                if (item[i] === specificUnits[j]) {
+                  recipeUnit = specificUnits[j];
+                  item.splice(i, 1);
+                  break;
                 }
               }
             }
